@@ -6,13 +6,13 @@
   "main": "out/main/index.cjs",
   "author": "OmO contributors",
   "license": "MIT",
-  "homepage": "https://github.com/alexxxiong/OmO#readme",
+  "homepage": "https://github.com/inspirai-store/OmO#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexxxiong/OmO.git"
+    "url": "https://github.com/inspirai-store/OmO.git"
   },
   "bugs": {
-    "url": "https://github.com/alexxxiong/OmO/issues"
+    "url": "https://github.com/inspirai-store/OmO/issues"
   },
   "packageManager": "pnpm@11.25.0",
   "engines": {

@@ -7,7 +7,7 @@
 使用 Node.js 24.19.0 或更新版本、pnpm 11.25.0：
 
 ```sh
-git clone https://github.com/alexxxiong/OmO.git
+git clone https://github.com/inspirai-store/OmO.git
 cd OmO
 pnpm install --frozen-lockfile
 pnpm dev
