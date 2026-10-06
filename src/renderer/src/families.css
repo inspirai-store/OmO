@@ -1,0 +1,206 @@
+.family-page {
+  min-height: 0;
+  overflow: auto;
+  padding: 30px;
+}
+.family-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+  gap: 16px;
+}
+.family-items .family-panel {
+  margin: 0;
+}
+@media (max-width: 1000px) {
+  .family-items {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.family-toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 12px 0;
+}
+.family-toolbar h3 {
+  margin: 0;
+  margin-right: auto;
+}
+.family-toolbar select {
+  max-width: 560px;
+}
+.family-panel {
+  padding: 22px;
+  margin: 16px 0;
+  border: 1px solid var(--border, var(--skin-border,#d5d8dc));
+  border-radius: 12px;
+  background: var(--panel, var(--skin-surface,#151518));
+}
+.family-form {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
+  gap: 14px;
+}
+.family-panel textarea {
+  width: 100%;
+}
+.family-hint {
+  color: var(--muted, var(--skin-muted,#676d77));
+  font-size: 13px;
+  line-height: 1.8;
+}
+.family-references {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.family-references figure {
+  margin: 0;
+  width: 100px;
+}
+.family-references img {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+}
+.family-references figcaption {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.family-table {
+  overflow: auto;
+  margin-bottom: 16px;
+}
+.family-table table {
+  width: 100%;
+  min-width: 940px;
+  border-collapse: collapse;
+}
+.family-table th {
+  text-align: left;
+  font-size: 13px;
+  padding: 8px;
+}
+.family-table td {
+  padding: 5px;
+}
+.family-table input {
+  width: 100%;
+  min-width: 70px;
+}
+.family-table td:nth-child(3) {
+  width: 27%;
+}
+.family-table td:nth-child(6) {
+  width: 80px;
+}
+.family-candidates {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.family-candidates article {
+  width: 240px;
+  border: 2px solid var(--border, var(--skin-border,#d5d8dc));
+  border-radius: 10px;
+  padding: 10px;
+}
+.family-candidates article.selected {
+  border-color: var(--accent, var(--aw-accent,#c44333));
+}
+.family-candidates article > div {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+.family-picture {
+  display: block;
+  width: 100%;
+  height: 210px;
+  border: 0;
+  cursor: zoom-in;
+  border-radius: 8px;
+  background: repeating-conic-gradient(#eee 0% 25%, #fafafa 0% 50%) 50% / 20px
+    20px;
+}
+.family-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.client-theme .family-picture,
+.client-theme .family-output-picture {
+  background: repeating-conic-gradient(#282b2d 0% 25%, #373b3d 0% 50%) 50% /
+    16px 16px;
+}
+.family-outputs {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 18px;
+}
+.family-outputs figure {
+  margin: 0;
+}
+.family-output-picture {
+  border: 1px solid var(--border);
+  cursor: zoom-in;
+  padding: 0;
+}
+.family-output-picture img {
+  display: block;
+  object-fit: contain;
+}
+.family-outputs figcaption {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 7px;
+}
+.family-selected {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--skin-success,#238469);
+  font-size: 12px;
+}
+.family-error {
+  color: var(--skin-error,#b52727);
+  white-space: pre-wrap;
+}
+.family-full-image {
+  display: block;
+  max-width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+  margin: auto;
+  background: repeating-conic-gradient(#eee 0% 25%, #fafafa 0% 50%) 50% / 20px
+    20px;
+}
+.family-review-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border, var(--skin-border,#ddd));
+}
+.family-review-row strong {
+  min-width: 100px;
+}
+.family-review-row span {
+  margin-left: auto;
+}
+@media (max-width: 1100px) {
+  .family-form {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+  }
+  .family-page {
+    padding: 20px;
+  }
+}

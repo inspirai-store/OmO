@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "date": "2026-10-04T08:38:27.831Z",
+  "packagedExecutable": "release/p5s-client/win-unpacked/素材工坊.exe",
+  "appAsarSHA256": "c1d9e337610b078e8737160383faebd67a0a5675e7549aeb4ea884a2058f84d4",
+  "testsPassed": 7,
+  "checks": [
+    "Entity filtering, grouping, correction and grouped game export",
+    "OBJ conversion and thumbnail cache updates",
+    "Real Kenney FBX groups, thumbnail and GLB conversion",
+    "FBX character animation playback",
+    "Cross-page context menus and batch organization",
+    "Import, project, previews, material variant, export and restart",
+    "Virtual scrolling, pagination and thumbnail update stability"
+  ]
+}

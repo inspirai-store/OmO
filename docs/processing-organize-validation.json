@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-06",
+  "platform": "Windows x64",
+  "status": "passed",
+  "build": {
+    "command": "pnpm package:organize",
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "package": "passed",
+    "executable": "release/processing-organize-client/win-unpacked/素材工坊.exe",
+    "executableSha256": "a986df9803fb608af9da2fad43327c4b40c13f30502f520900b55aa99cdf38ae",
+    "asarSha256": "17244d7b4d0f80c20d88f391ea86824b984a5ea581a141d1e7018a2b9f0a2d07"
+  },
+  "core": {
+    "command": "pnpm test",
+    "passed": 110,
+    "skipped": 1,
+    "skippedReason": "Existing optional Blender conversion check",
+    "newOrganizeTests": 13,
+    "evidence": "tests/processing-organize.test.ts",
+    "coverage": [
+      "Actual dimensions and alpha, PNG filenames and invalid characters",
+      "Concurrent version reservations and stable retry filenames",
+      "Five-image batches, model-aware cache and no automatic replay",
+      "Manual edits survive late AI replies and local fallback",
+      "Source classification and license inheritance, AI alternatives",
+      "Existing-only destinations, current/source context and deletion validation",
+      "Smart collections share asset query filters and selected memberships",
+      "Duplicate, mixed and partially completed acceptance",
+      "Association failure and recovery after importer commit",
+      "Cancellation, artifact protection and shared Codex execution slot",
+      "Backup, restore, database rebuild and portable package round trip"
+    ]
+  },
+  "sourceDesktop": {
+    "command": "pnpm test:e2e",
+    "passed": 11,
+    "finalPanelCheck": {
+      "command": "pnpm test:e2e tests/e2e/processing-organize.spec.ts",
+      "passed": 1,
+      "coverage": "Closing and reopening preserves manual draft fields without another analysis call"
+    }
+  },
+  "packagedDesktop": {
+    "executableEnv": "WORKSHOP_EXE=release/processing-organize-client/win-unpacked/素材工坊.exe",
+    "command": "pnpm test:e2e tests/e2e/processing-organize.spec.ts tests/e2e/processing.spec.ts tests/e2e/processing-inputs.spec.ts",
+    "passed": 3,
+    "coverage": [
+      "Width and height input preserves the editor",
+      "Final result selection, automatic analysis, close/reopen draft, manual field protection, classification, smart/manual collections, idempotent import and navigation",
+      "Generate, crop, masked AI edit, compare, accept derived copy, add to project and export"
+    ],
+    "analysisProvider": "Deterministic mock Codex App Server; no paid image calls",
+    "screenshot": "docs/screenshots/processing-save-organize.png"
+  },
+  "realCodex": {
+    "status": "passed",
+    "calls": 1,
+    "evidence": "docs/processing-organize-codex-qa.json",
+    "title": "粉红药水瓶",
+    "filename": "pink_potion_bottle_64x64_v01.png",
+    "category": "ui",
+    "entityCategory": "pickup",
+    "projectImport": "passed",
+    "isolatedLibrary": true
+  },
+  "delivery": {
+    "launcher": "启动示例工坊.cmd",
+    "guide": "docs/加工结果保存与整理.md",
+    "existingLibraryModifiedByVerification": false,
+    "limits": "Recommendations use existing library projects and collections. No automatic creation or disk-folder recommendations. Analysis failure retains local suggestions."
+  }
+}

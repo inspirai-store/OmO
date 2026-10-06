@@ -1,0 +1,47 @@
+{
+  "createdAt": "2026-10-03T08:34:34.482Z",
+  "platform": "Windows x64",
+  "packaged": true,
+  "appAsarSHA256": "f756a89427c0979fc5cdfb7ab2fe9f5334d557f5c93352270b331fbc39bba9ae",
+  "passed": true,
+  "core": {
+    "passed": 47,
+    "skipped": 1,
+    "tests": [
+      "tests/core.test.ts",
+      "tests/reliability.test.ts",
+      "tests/commands.test.ts",
+      "tests/fbx.test.ts"
+    ]
+  },
+  "desktop": {
+    "startTime": "2026-10-03T08:32:51.351Z",
+    "duration": 38048.632,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0,
+    "report": "docs/desktop-validation.json"
+  },
+  "verified": [
+    "single/multiple/mixed and blank selection contexts",
+    "all-filter selection beyond 200 items",
+    "one-transaction organization and rejection before writes",
+    "auxiliary filtering/counts/dependency export/ZIP roundtrip/backup restore",
+    "manual and smart collection contexts",
+    "keyboard navigation/edge bounds/focus/native editing/clipboard",
+    "model right drag and short-click menus",
+    "matching textures and saved variant copy/rename/delete/reference protection",
+    "project-bound selected variant quick export after Electron restart",
+    "actual output conflict inspection without overwrite",
+    "OBJ conversion keeps original material after display mode change",
+    "forced 3D thumbnail rebuild changes only cache",
+    "20 distinct thumbnail updates during scrolling without card removal/reset",
+    "12 thumbnail updates with context menu open keep target and scroll",
+    "project/source/task/settings contexts"
+  ],
+  "limitations": [
+    "macOS/Linux platform validation pending",
+    "Blender conversion UI integrated; real Blender run not repeated"
+  ]
+}

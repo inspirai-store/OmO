@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-05T14:50:20.266Z",
+  "issue": "Processing editor disappears during dimension editing",
+  "reproduced": {
+    "gesture": "pointer starts in number field and releases outside dialog",
+    "reason": "retargeted click reached the backdrop dismissal handler",
+    "numericDraft": "clearing number field immediately inserted zero"
+  },
+  "fix": {
+    "dialog": "backdrop clicks require pointer-down to start on backdrop",
+    "processingEditor": "backdrop dismissal disabled; close button and Escape remain",
+    "numericInput": "empty focused draft does not replace committed numeric parameter"
+  },
+  "verification": {
+    "build": "passed",
+    "typecheck": "passed",
+    "sourceDesktopRegressionPassed": 10,
+    "packagedProcessingTestsPassed": 2,
+    "output": "64x64 PNG",
+    "gestures": [
+      "click",
+      "Ctrl+A",
+      "Backspace",
+      "type 6 then 4",
+      "Tab",
+      "ArrowUp/Down",
+      "Enter",
+      "drag outside and release",
+      "click backdrop"
+    ],
+    "regularDialogBackdropClose": "passed",
+    "rendererErrors": 0
+  },
+  "package": {
+    "executable": "release/processing-input-fix/win-unpacked/素材工坊.exe",
+    "executableSHA256": "e9dc0027d1792ecd7435c4ce138c8e76f3711e0f794cd1e0ea0eb993083da9bb",
+    "asarSHA256": "c8a23800116ffa90041938c8c09285079748e1704ab78978ad06004f13139b5d"
+  },
+  "launcher": "启动示例工坊.cmd",
+  "screenshot": "screenshots/processing-size-input-64.png"
+}

@@ -1,0 +1,14 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.awskin binary
+*.fbx binary
+*.glb binary
+*.bin binary
+*.zip binary
+resources/licenses/** -text -whitespace
+tests/fixtures/** -text -whitespace

@@ -1,0 +1,644 @@
+{
+  "date": "2026-10-02T21:00:52.102Z",
+  "cpu": "AMD Ryzen 7 5825U with Radeon Graphics         ",
+  "ramGiB": 59.924434661865234,
+  "firstScreenMs": 830.7977,
+  "iterations": 100,
+  "resource": "Poly Haven wooden_crate_02 2K glTF",
+  "method": "Electron process metrics; renderer JS heap after explicit GC; existing OS caches",
+  "samples": [
+    {
+      "step": 0,
+      "jsHeapMiB": 6.133441925048828,
+      "backingStorageMiB": 2.9639816284179688,
+      "processes": [
+        {
+          "type": "Browser",
+          "memory": {
+            "workingSetSize": 129672,
+            "peakWorkingSetSize": 131580,
+            "privateBytes": 89100
+          },
+          "cpu": 0
+        },
+        {
+          "type": "GPU",
+          "memory": {
+            "workingSetSize": 159112,
+            "peakWorkingSetSize": 160456,
+            "privateBytes": 151276
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 48376,
+            "peakWorkingSetSize": 48376,
+            "privateBytes": 11852
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 89648,
+            "peakWorkingSetSize": 90872,
+            "privateBytes": 83312
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Tab",
+          "memory": {
+            "workingSetSize": 121552,
+            "peakWorkingSetSize": 128824,
+            "privateBytes": 52600
+          },
+          "cpu": 0
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "jsHeapMiB": 9.512725830078125,
+      "backingStorageMiB": 3.121273994445801,
+      "processes": [
+        {
+          "type": "Browser",
+          "memory": {
+            "workingSetSize": 190008,
+            "peakWorkingSetSize": 209208,
+            "privateBytes": 148608
+          },
+          "cpu": 1.4093500437077815
+        },
+        {
+          "type": "GPU",
+          "memory": {
+            "workingSetSize": 225044,
+            "peakWorkingSetSize": 242408,
+            "privateBytes": 630628
+          },
+          "cpu": 3.9373883170315387
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 48376,
+            "peakWorkingSetSize": 48376,
+            "privateBytes": 11852
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 89772,
+            "peakWorkingSetSize": 90872,
+            "privateBytes": 83412
+          },
+          "cpu": 0.03730166751416266
+        },
+        {
+          "type": "Tab",
+          "memory": {
+            "workingSetSize": 207644,
+            "peakWorkingSetSize": 311484,
+            "privateBytes": 117800
+          },
+          "cpu": 6.490142084944253
+        }
+      ]
+    },
+    {
+      "step": 20,
+      "jsHeapMiB": 9.765766143798828,
+      "backingStorageMiB": 3.121273994445801,
+      "processes": [
+        {
+          "type": "Browser",
+          "memory": {
+            "workingSetSize": 242760,
+            "peakWorkingSetSize": 254016,
+            "privateBytes": 201888
+          },
+          "cpu": 1.5193791053023165
+        },
+        {
+          "type": "GPU",
+          "memory": {
+            "workingSetSize": 259140,
+            "peakWorkingSetSize": 275628,
+            "privateBytes": 688832
+          },
+          "cpu": 3.7024707245695283
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 48376,
+            "peakWorkingSetSize": 48376,
+            "privateBytes": 11852
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 89772,
+            "peakWorkingSetSize": 90872,
+            "privateBytes": 83412
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Tab",
+          "memory": {
+            "workingSetSize": 213872,
+            "peakWorkingSetSize": 315232,
+            "privateBytes": 124360
+          },
+          "cpu": 6.616763025802835
+        }
+      ]
+    },
+    {
+      "step": 30,
+      "jsHeapMiB": 9.849605560302734,
+      "backingStorageMiB": 3.121273994445801,
+      "processes": [
+        {
+          "type": "Browser",
+          "memory": {
+            "workingSetSize": 291600,
+            "peakWorkingSetSize": 302856,
+            "privateBytes": 251064
+          },
+          "cpu": 1.5219116452981623
+        },
+        {
+          "type": "GPU",
+          "memory": {
+            "workingSetSize": 260084,
+            "peakWorkingSetSize": 276852,
+            "privateBytes": 689512
+          },
+          "cpu": 3.896862245635745
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 48384,
+            "peakWorkingSetSize": 48384,
+            "privateBytes": 11856
+          },
+          "cpu": 0.0001287218132094215
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 89772,
+            "peakWorkingSetSize": 90872,
+            "privateBytes": 83412
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Tab",
+          "memory": {
+            "workingSetSize": 216880,
+            "peakWorkingSetSize": 317324,
+            "privateBytes": 127016
+          },
+          "cpu": 6.935739072477384
+        }
+      ]
+    },
+    {
+      "step": 40,
+      "jsHeapMiB": 10.012203216552734,
+      "backingStorageMiB": 3.121273994445801,
+      "processes": [
+        {
+          "type": "Browser",
+          "memory": {
+            "workingSetSize": 340432,
+            "peakWorkingSetSize": 351684,
+            "privateBytes": 300008
+          },
+          "cpu": 1.4999179784608134
+        },
+        {
+          "type": "GPU",
+          "memory": {
+            "workingSetSize": 258832,
+            "peakWorkingSetSize": 276940,
+            "privateBytes": 663296
+          },
+          "cpu": 3.8135535840187496
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 48384,
+            "peakWorkingSetSize": 48384,
+            "privateBytes": 11856
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 89772,
+            "peakWorkingSetSize": 90872,
+            "privateBytes": 83412
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Tab",
+          "memory": {
+            "workingSetSize": 218380,
+            "peakWorkingSetSize": 319792,
+            "privateBytes": 128468
+          },
+          "cpu": 6.735106127183514
+        }
+      ]
+    },
+    {
+      "step": 50,
+      "jsHeapMiB": 10.062644958496094,
+      "backingStorageMiB": 3.121273994445801,
+      "processes": [
+        {
+          "type": "Browser",
+          "memory": {
+            "workingSetSize": 392388,
+            "peakWorkingSetSize": 403684,
+            "privateBytes": 352476
+          },
+          "cpu": 1.4879910603213824
+        },
+        {
+          "type": "GPU",
+          "memory": {
+            "workingSetSize": 260028,
+            "peakWorkingSetSize": 277296,
+            "privateBytes": 680648
+          },
+          "cpu": 3.7908346102303905
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 48384,
+            "peakWorkingSetSize": 48384,
+            "privateBytes": 11856
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 89772,
+            "peakWorkingSetSize": 90872,
+            "privateBytes": 83412
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Tab",
+          "memory": {
+            "workingSetSize": 220812,
+            "peakWorkingSetSize": 320252,
+            "privateBytes": 131016
+          },
+          "cpu": 6.683730964064169
+        }
+      ]
+    },
+    {
+      "step": 60,
+      "jsHeapMiB": 10.219181060791016,
+      "backingStorageMiB": 3.121273994445801,
+      "processes": [
+        {
+          "type": "Browser",
+          "memory": {
+            "workingSetSize": 442272,
+            "peakWorkingSetSize": 451436,
+            "privateBytes": 402564
+          },
+          "cpu": 1.505919977594115
+        },
+        {
+          "type": "GPU",
+          "memory": {
+            "workingSetSize": 260468,
+            "peakWorkingSetSize": 277720,
+            "privateBytes": 680648
+          },
+          "cpu": 3.886096925815814
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 48384,
+            "peakWorkingSetSize": 48384,
+            "privateBytes": 11856
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 89772,
+            "peakWorkingSetSize": 90872,
+            "privateBytes": 83412
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Tab",
+          "memory": {
+            "workingSetSize": 225476,
+            "peakWorkingSetSize": 322488,
+            "privateBytes": 136480
+          },
+          "cpu": 6.9429074907771735
+        }
+      ]
+    },
+    {
+      "step": 70,
+      "jsHeapMiB": 10.428852081298828,
+      "backingStorageMiB": 3.121273994445801,
+      "processes": [
+        {
+          "type": "Browser",
+          "memory": {
+            "workingSetSize": 495880,
+            "peakWorkingSetSize": 507152,
+            "privateBytes": 457112
+          },
+          "cpu": 1.4644960715648045
+        },
+        {
+          "type": "GPU",
+          "memory": {
+            "workingSetSize": 259300,
+            "peakWorkingSetSize": 277720,
+            "privateBytes": 680188
+          },
+          "cpu": 3.8561442062321745
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 48384,
+            "peakWorkingSetSize": 48384,
+            "privateBytes": 11856
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 89772,
+            "peakWorkingSetSize": 90872,
+            "privateBytes": 83412
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Tab",
+          "memory": {
+            "workingSetSize": 228220,
+            "peakWorkingSetSize": 324616,
+            "privateBytes": 139584
+          },
+          "cpu": 6.768656433069333
+        }
+      ]
+    },
+    {
+      "step": 80,
+      "jsHeapMiB": 10.470230102539062,
+      "backingStorageMiB": 3.121273994445801,
+      "processes": [
+        {
+          "type": "Browser",
+          "memory": {
+            "workingSetSize": 544532,
+            "peakWorkingSetSize": 555792,
+            "privateBytes": 505696
+          },
+          "cpu": 1.4904106591418944
+        },
+        {
+          "type": "GPU",
+          "memory": {
+            "workingSetSize": 259892,
+            "peakWorkingSetSize": 277720,
+            "privateBytes": 680596
+          },
+          "cpu": 3.8447392168504555
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 48384,
+            "peakWorkingSetSize": 48384,
+            "privateBytes": 11856
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 89772,
+            "peakWorkingSetSize": 90872,
+            "privateBytes": 83412
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Tab",
+          "memory": {
+            "workingSetSize": 230588,
+            "peakWorkingSetSize": 331424,
+            "privateBytes": 141532
+          },
+          "cpu": 6.815210766598082
+        }
+      ]
+    },
+    {
+      "step": 90,
+      "jsHeapMiB": 10.576480865478516,
+      "backingStorageMiB": 3.121273994445801,
+      "processes": [
+        {
+          "type": "Browser",
+          "memory": {
+            "workingSetSize": 593588,
+            "peakWorkingSetSize": 604836,
+            "privateBytes": 555192
+          },
+          "cpu": 1.5038691555302324
+        },
+        {
+          "type": "GPU",
+          "memory": {
+            "workingSetSize": 259420,
+            "peakWorkingSetSize": 277720,
+            "privateBytes": 679860
+          },
+          "cpu": 3.8392613569163645
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 48384,
+            "peakWorkingSetSize": 48384,
+            "privateBytes": 11856
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 89772,
+            "peakWorkingSetSize": 90872,
+            "privateBytes": 83412
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Tab",
+          "memory": {
+            "workingSetSize": 232276,
+            "peakWorkingSetSize": 331424,
+            "privateBytes": 143600
+          },
+          "cpu": 6.901790308266601
+        }
+      ]
+    },
+    {
+      "step": 100,
+      "jsHeapMiB": 10.63216781616211,
+      "backingStorageMiB": 3.121273994445801,
+      "processes": [
+        {
+          "type": "Browser",
+          "memory": {
+            "workingSetSize": 638336,
+            "peakWorkingSetSize": 649124,
+            "privateBytes": 599628
+          },
+          "cpu": 1.587434299600384
+        },
+        {
+          "type": "GPU",
+          "memory": {
+            "workingSetSize": 259556,
+            "peakWorkingSetSize": 277720,
+            "privateBytes": 679956
+          },
+          "cpu": 3.9056221825109527
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 48384,
+            "peakWorkingSetSize": 48384,
+            "privateBytes": 11856
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 89772,
+            "peakWorkingSetSize": 90872,
+            "privateBytes": 83412
+          },
+          "cpu": 0
+        },
+        {
+          "type": "Tab",
+          "memory": {
+            "workingSetSize": 235392,
+            "peakWorkingSetSize": 336968,
+            "privateBytes": 146528
+          },
+          "cpu": 6.79558494729304
+        }
+      ]
+    },
+    {
+      "step": 101,
+      "jsHeapMiB": 10.63216781616211,
+      "backingStorageMiB": 3.121273994445801,
+      "processes": [
+        {
+          "type": "Browser",
+          "memory": {
+            "workingSetSize": 127080,
+            "peakWorkingSetSize": 649124,
+            "privateBytes": 83816
+          },
+          "cpu": 0.17049706549496646
+        },
+        {
+          "type": "GPU",
+          "memory": {
+            "workingSetSize": 258728,
+            "peakWorkingSetSize": 277720,
+            "privateBytes": 638716
+          },
+          "cpu": 0.009978701042348022
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 48292,
+            "peakWorkingSetSize": 48384,
+            "privateBytes": 11716
+          },
+          "cpu": 0.001746421867823492
+        },
+        {
+          "type": "Utility",
+          "memory": {
+            "workingSetSize": 81008,
+            "peakWorkingSetSize": 91308,
+            "privateBytes": 73720
+          },
+          "cpu": 0.0686203485259941
+        },
+        {
+          "type": "Tab",
+          "memory": {
+            "workingSetSize": 235432,
+            "peakWorkingSetSize": 336968,
+            "privateBytes": 146520
+          },
+          "cpu": 0.09052695540380755
+        }
+      ]
+    }
+  ],
+  "idleCPUSumPercent": [
+    0.008734574976126123,
+    0.016202309763730143,
+    0.009827409941695583,
+    0.0071677358951315745,
+    0.00708322967631368
+  ],
+  "errors": [],
+  "heapGrowthMiB": 1.1194419860839844
+}

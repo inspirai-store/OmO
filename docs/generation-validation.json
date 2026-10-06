@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04T14:49:14.2775331Z",
+  "build": "passed",
+  "typecheck": "passed",
+  "unitTests": {
+    "skippedPressureTest": 1,
+    "passed": 72,
+    "generationTests": 19
+  },
+  "desktopTests": {
+    "passed": 8,
+    "generationFlow": "connection -> candidates -> compare -> mask edit -> accept -> project -> export",
+    "target": "packaged Windows x64"
+  },
+  "liveCodex": {
+    "actualImageDecoded": true,
+    "acceptedWithProvenance": true,
+    "report": "generation-codex-qa.json",
+    "assistantDoesNotSubmit": true,
+    "status": "passed"
+  },
+  "openai": {
+    "mockIntegration": "passed",
+    "liveGeneration": "pending credentials"
+  },
+  "runninghub": {
+    "mockIntegration": "passed",
+    "liveGeneration": "pending key and authorized image workflow"
+  },
+  "package": {
+    "asarSHA256": "52399BDFEB9EA255AE438A024F052D9818C8A4CBEAD99D6D2E49544EE458C9D4",
+    "executableSHA256": "40724576F9A22C7FFD10FF758500778AF6334034EF32DB3B7F33ACFC053E70AC",
+    "executable": "release/generation-client/win-unpacked/素材工坊.exe"
+  },
+  "screenshot": "screenshots/generation-workbench.png"
+}

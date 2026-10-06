@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-03T10:23:45.149Z",
+  "passed": true,
+  "entityCounts": {
+    "character": 46,
+    "enemy": 353,
+    "animal": 128,
+    "equipment": 178,
+    "pickup": 760,
+    "interactive": 325,
+    "architecture": 1001,
+    "furniture": 1074,
+    "production": 583,
+    "vehicle": 152,
+    "nature": 2519
+  },
+  "groups": {
+    "entity": 10749,
+    "package": 23,
+    "assets": 13059,
+    "firstMs": 476,
+    "cachedMs": 104
+  },
+  "samples": 22,
+  "delivery": {
+    "title": "blaster-a",
+    "assets": 2,
+    "files": 2,
+    "uniqueFiles": true,
+    "oneDirectory": true,
+    "target": "WORKSPACE\\.data\\aggregation-validation\\run-1791023014462\\source-project\\assets\\workshop"
+  },
+  "engines": [
+    {
+      "version": "4.7.2",
+      "passed": true,
+      "imports": {
+        "code": 0,
+        "log": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\r\n\r\n[   0% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | Started 项目初始化 (5 steps)\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | 正在扫描文件结构……\u001b[39m\u001b[0m\r\n[  16% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | 正在加载全局类名……\u001b[39m\u001b[0m\r\n[  33% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | 正在校验 GDExtension……\u001b[39m\u001b[0m\r\n[  50% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | 正在创建自动加载脚本……\u001b[39m\u001b[0m\r\n[  66% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | 正在初始化插件……\u001b[39m\u001b[0m\r\n[  83% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | 正在启动文件扫描……\u001b[39m\u001b[0m\r\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mfirst_scan_filesystem\u001b[22m\r\n\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | Started 正在扫描动作…… (2 steps)\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | colormap.png\u001b[39m\u001b[0m\r\n[  33% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | blaster-a.glb\u001b[39m\u001b[0m\r\n\u001b[92m[ DONE ]\u001b[39m \u001b[1m_update_scan_actions\u001b[22m\r\n\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | Started 正在导入或重新导入资产 (2 steps)\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | 正在准备重新导入文件……\u001b[39m\u001b[0m\r\n[  33% ] \u001b[90m\u001b[1mreimport\u001b[22m | 正在准备重新导入文件……\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | 正在执行重新导入的前置操作……\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | colormap.png\u001b[39m\u001b[0m\r\n[  33% ] \u001b[90m\u001b[1mreimport\u001b[22m | blaster-a.glb\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Started 导入场景 (104 steps)\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | 导入场景中...\u001b[39m\u001b[0m\r\n[   1% ] \u001b[90m\u001b[1mimport\u001b[22m | 执行自定义脚本...\u001b[39m\u001b[0m\r\n[  99% ] \u001b[90m\u001b[1mimport\u001b[22m | 保存中...\u001b[39m\u001b[0m\r\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mimport\u001b[22m\r\n\u001b[0m\r\n[  66% ] \u001b[90m\u001b[1mreimport\u001b[22m | 正在结束资产导入……\u001b[39m\u001b[0m\r\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mreimport\u001b[22m\r\n\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | Started 正在导入或重新导入资产 (2 steps)\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | 正在执行重新导入的后置操作……\u001b[39m\u001b[0m\r\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mreimport\u001b[22m\r\n\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Started 正在加载编辑器 (5 steps)\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | 正在加载编辑器布局……\u001b[39m\u001b[0m\r\n[  16% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | 正在加载停靠面板……\u001b[39m\u001b[0m\r\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mloading_editor_layout\u001b[22m\r\n\u001b[0m\r\n"
+      },
+      "verify": {
+        "code": 0,
+        "log": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\r\n\r\nAGGREGATION_VERIFIED\r\n"
+      }
+    },
+    {
+      "version": "4.6.3",
+      "passed": true,
+      "imports": {
+        "code": 0,
+        "log": "Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org\r\n\r\n[   0% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | Started 项目初始化 (5 steps)\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | 正在扫描文件结构……\u001b[39m\u001b[0m\r\n[  16% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | 正在加载全局类名……\u001b[39m\u001b[0m\r\n[  33% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | 正在校验 GDExtension……\u001b[39m\u001b[0m\r\n[  50% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | 正在创建自动加载脚本……\u001b[39m\u001b[0m\r\n[  66% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | 正在初始化插件……\u001b[39m\u001b[0m\r\n[  83% ] \u001b[90m\u001b[1mfirst_scan_filesystem\u001b[22m | 正在启动文件扫描……\u001b[39m\u001b[0m\r\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mfirst_scan_filesystem\u001b[22m\r\n\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | Started 正在扫描动作…… (2 steps)\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | colormap.png\u001b[39m\u001b[0m\r\n[  33% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | blaster-a.glb\u001b[39m\u001b[0m\r\n\u001b[92m[ DONE ]\u001b[39m \u001b[1m_update_scan_actions\u001b[22m\r\n\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | Started 正在导入或重新导入资产 (2 steps)\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | 正在准备重新导入文件……\u001b[39m\u001b[0m\r\n[  33% ] \u001b[90m\u001b[1mreimport\u001b[22m | 正在准备重新导入文件……\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | 正在执行重新导入的前置操作……\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | colormap.png\u001b[39m\u001b[0m\r\n[  33% ] \u001b[90m\u001b[1mreimport\u001b[22m | blaster-a.glb\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Started 导入场景 (104 steps)\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | 导入场景中...\u001b[39m\u001b[0m\r\n[   1% ] \u001b[90m\u001b[1mimport\u001b[22m | 执行自定义脚本...\u001b[39m\u001b[0m\r\n[  99% ] \u001b[90m\u001b[1mimport\u001b[22m | 保存中...\u001b[39m\u001b[0m\r\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mimport\u001b[22m\r\n\u001b[0m\r\n[  66% ] \u001b[90m\u001b[1mreimport\u001b[22m | 正在结束资产导入……\u001b[39m\u001b[0m\r\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mreimport\u001b[22m\r\n\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | Started 正在导入或重新导入资产 (2 steps)\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | 正在执行重新导入的后置操作……\u001b[39m\u001b[0m\r\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mreimport\u001b[22m\r\n\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Started 正在加载编辑器 (5 steps)\u001b[39m\u001b[0m\r\n[   0% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | 正在加载编辑器布局……\u001b[39m\u001b[0m\r\n[  16% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | 正在加载停靠面板……\u001b[39m\u001b[0m\r\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mloading_editor_layout\u001b[22m\r\n\u001b[0m\r\n"
+      },
+      "verify": {
+        "code": 0,
+        "log": "Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org\r\n\r\nAGGREGATION_VERIFIED\r\n"
+      }
+    }
+  ]
+}

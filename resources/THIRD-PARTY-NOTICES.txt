@@ -1,0 +1,26 @@
+素材工坊 / OmO 0.1.0
+
+The application source is licensed under MIT (LICENSE.txt).
+Production dependency names, locked versions and license identifiers are listed
+in THIRD-PARTY-LICENSES.json. Original package license files are in licenses/.
+Electron and Chromium license notices accompany the desktop executable.
+
+Three.js: MIT, https://github.com/mrdoob/three.js
+Draco decoder: Apache-2.0, https://github.com/google/draco
+Basis Universal transcoder: Apache-2.0, https://github.com/BinomialLLC/basis_universal
+Meshoptimizer decoder: MIT, https://github.com/zeux/meshoptimizer
+Sharp: Apache-2.0, https://github.com/lovell/sharp
+libvips shared library: LGPL-3.0-or-later,
+https://github.com/libvips/libvips and https://github.com/lovell/sharp-libvips
+The decoder files originate from the locked Three.js distribution and run
+locally; no external CDN is required. Upstream license texts are retained.
+
+Downloaded example assets have separate licenses. Each imported package stores
+its original license documents, source URL and verification evidence.
+Kenney, the selected OpenGameArt entry, ambientCG and Poly Haven examples are
+CC0-1.0. Their asset licenses are not the license of this application.
+Poly Haven API service terms are separate from its CC0 asset license:
+https://github.com/Poly-Haven/Public-API/blob/master/ToS.md
+
+React Image Crop: ISC, https://github.com/dominictobias/react-image-crop
+Used for the image processing crop selection interface. Original license retained in licenses/react-image-crop/LICENSE.md.

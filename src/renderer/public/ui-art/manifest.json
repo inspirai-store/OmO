@@ -1,0 +1,245 @@
+[
+  {
+    "id": "cube-burst-red",
+    "family": "cube-burst",
+    "label": "立方体星芒标识",
+    "accent": "red",
+    "width": 160,
+    "height": 160,
+    "filename": "cube-burst-red.svg"
+  },
+  {
+    "id": "cube-burst-cyan",
+    "family": "cube-burst",
+    "label": "立方体星芒标识",
+    "accent": "cyan",
+    "width": 160,
+    "height": 160,
+    "filename": "cube-burst-cyan.svg"
+  },
+  {
+    "id": "cube-burst-violet",
+    "family": "cube-burst",
+    "label": "立方体星芒标识",
+    "accent": "violet",
+    "width": 160,
+    "height": 160,
+    "filename": "cube-burst-violet.svg"
+  },
+  {
+    "id": "starburst-red",
+    "family": "starburst",
+    "label": "爆裂星芒",
+    "accent": "red",
+    "width": 160,
+    "height": 160,
+    "filename": "starburst-red.svg"
+  },
+  {
+    "id": "starburst-cyan",
+    "family": "starburst",
+    "label": "爆裂星芒",
+    "accent": "cyan",
+    "width": 160,
+    "height": 160,
+    "filename": "starburst-cyan.svg"
+  },
+  {
+    "id": "starburst-violet",
+    "family": "starburst",
+    "label": "爆裂星芒",
+    "accent": "violet",
+    "width": 160,
+    "height": 160,
+    "filename": "starburst-violet.svg"
+  },
+  {
+    "id": "lightning-red",
+    "family": "lightning",
+    "label": "折线闪电",
+    "accent": "red",
+    "width": 96,
+    "height": 160,
+    "filename": "lightning-red.svg"
+  },
+  {
+    "id": "lightning-cyan",
+    "family": "lightning",
+    "label": "折线闪电",
+    "accent": "cyan",
+    "width": 96,
+    "height": 160,
+    "filename": "lightning-cyan.svg"
+  },
+  {
+    "id": "lightning-violet",
+    "family": "lightning",
+    "label": "折线闪电",
+    "accent": "violet",
+    "width": 96,
+    "height": 160,
+    "filename": "lightning-violet.svg"
+  },
+  {
+    "id": "arrow-red",
+    "family": "arrow",
+    "label": "推进箭头",
+    "accent": "red",
+    "width": 160,
+    "height": 80,
+    "filename": "arrow-red.svg"
+  },
+  {
+    "id": "arrow-cyan",
+    "family": "arrow",
+    "label": "推进箭头",
+    "accent": "cyan",
+    "width": 160,
+    "height": 80,
+    "filename": "arrow-cyan.svg"
+  },
+  {
+    "id": "arrow-violet",
+    "family": "arrow",
+    "label": "推进箭头",
+    "accent": "violet",
+    "width": 160,
+    "height": 80,
+    "filename": "arrow-violet.svg"
+  },
+  {
+    "id": "torn-frame-red",
+    "family": "torn-frame",
+    "label": "撕纸边框",
+    "accent": "red",
+    "width": 360,
+    "height": 220,
+    "filename": "torn-frame-red.svg"
+  },
+  {
+    "id": "torn-frame-cyan",
+    "family": "torn-frame",
+    "label": "撕纸边框",
+    "accent": "cyan",
+    "width": 360,
+    "height": 220,
+    "filename": "torn-frame-cyan.svg"
+  },
+  {
+    "id": "torn-frame-violet",
+    "family": "torn-frame",
+    "label": "撕纸边框",
+    "accent": "violet",
+    "width": 360,
+    "height": 220,
+    "filename": "torn-frame-violet.svg"
+  },
+  {
+    "id": "title-plate-red",
+    "family": "title-plate",
+    "label": "斜切标题底板",
+    "accent": "red",
+    "width": 360,
+    "height": 100,
+    "filename": "title-plate-red.svg"
+  },
+  {
+    "id": "title-plate-cyan",
+    "family": "title-plate",
+    "label": "斜切标题底板",
+    "accent": "cyan",
+    "width": 360,
+    "height": 100,
+    "filename": "title-plate-cyan.svg"
+  },
+  {
+    "id": "title-plate-violet",
+    "family": "title-plate",
+    "label": "斜切标题底板",
+    "accent": "violet",
+    "width": 360,
+    "height": 100,
+    "filename": "title-plate-violet.svg"
+  },
+  {
+    "id": "sticker-plate-red",
+    "family": "sticker-plate",
+    "label": "错位贴纸底板",
+    "accent": "red",
+    "width": 200,
+    "height": 90,
+    "filename": "sticker-plate-red.svg"
+  },
+  {
+    "id": "sticker-plate-cyan",
+    "family": "sticker-plate",
+    "label": "错位贴纸底板",
+    "accent": "cyan",
+    "width": 200,
+    "height": 90,
+    "filename": "sticker-plate-cyan.svg"
+  },
+  {
+    "id": "sticker-plate-violet",
+    "family": "sticker-plate",
+    "label": "错位贴纸底板",
+    "accent": "violet",
+    "width": 200,
+    "height": 90,
+    "filename": "sticker-plate-violet.svg"
+  },
+  {
+    "id": "halftone-red",
+    "family": "halftone",
+    "label": "可平铺网点纹理",
+    "accent": "red",
+    "width": 256,
+    "height": 256,
+    "filename": "halftone-red.svg"
+  },
+  {
+    "id": "halftone-cyan",
+    "family": "halftone",
+    "label": "可平铺网点纹理",
+    "accent": "cyan",
+    "width": 256,
+    "height": 256,
+    "filename": "halftone-cyan.svg"
+  },
+  {
+    "id": "halftone-violet",
+    "family": "halftone",
+    "label": "可平铺网点纹理",
+    "accent": "violet",
+    "width": 256,
+    "height": 256,
+    "filename": "halftone-violet.svg"
+  },
+  {
+    "id": "scratches-red",
+    "family": "scratches",
+    "label": "可平铺划痕纹理",
+    "accent": "red",
+    "width": 256,
+    "height": 256,
+    "filename": "scratches-red.svg"
+  },
+  {
+    "id": "scratches-cyan",
+    "family": "scratches",
+    "label": "可平铺划痕纹理",
+    "accent": "cyan",
+    "width": 256,
+    "height": 256,
+    "filename": "scratches-cyan.svg"
+  },
+  {
+    "id": "scratches-violet",
+    "family": "scratches",
+    "label": "可平铺划痕纹理",
+    "accent": "violet",
+    "width": 256,
+    "height": 256,
+    "filename": "scratches-violet.svg"
+  }
+]

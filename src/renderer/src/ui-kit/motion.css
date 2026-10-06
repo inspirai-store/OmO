@@ -1,0 +1,702 @@
+/* Motion tokens are mirrored by MOTION_TOKENS for lifecycle timing. */
+.aw-ui,
+.aw-ui [data-motion="system"] {
+  --aw-press: 80ms;
+  --aw-hover: 140ms;
+  --aw-select: 220ms;
+  --aw-reveal: 280ms;
+  --aw-dialog-enter: 320ms;
+  --aw-exit: 140ms;
+  --aw-opacity: 280ms;
+  --aw-delay: 35ms;
+  --aw-stagger-factor: 1;
+  --aw-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --aw-spring: cubic-bezier(0.22, 1.35, 0.36, 1);
+  --aw-pop: aw-mark-pop;
+  --aw-plate-in: aw-plate-in;
+  --aw-shadow-in: aw-shadow-in;
+  --aw-fade-in: aw-fade-in;
+  --aw-fade-out: aw-fade-out;
+  --aw-swipe: aw-swipe;
+  --aw-spin-animation: aw-spin;
+  --aw-progress-animation: aw-progress;
+  --aw-hover-angle: -4deg;
+  --aw-hover-lift: -1px;
+  --aw-press-scale: 0.97;
+  --aw-preview-scale: 1.035;
+}
+.aw-ui .aw-button {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  transform: none;
+  color: var(--aw-button-ink, var(--aw-paper));
+  --aw-button-fill: var(--aw-black);
+  --aw-button-edge: var(--aw-paper);
+  --aw-button-shadow: var(--aw-black);
+  transition: color var(--aw-hover) var(--aw-ease);
+}
+.aw-ui .aw-button::before,
+.aw-ui .aw-button::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  pointer-events: none;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  clip-path: polygon(3% 0, 100% 0, 100% 72%, 94% 100%, 0 100%, 0 19%);
+  background: var(--aw-button-fill);
+  border: 2px solid var(--aw-button-edge);
+  transform: skewX(-3deg);
+  transform-origin: 50% 50%;
+  transition:
+    transform var(--aw-hover) var(--aw-spring),
+    background var(--aw-hover),
+    border-color var(--aw-hover);
+}
+.aw-ui .aw-button::after {
+  z-index: -2;
+  border: 0;
+  background: var(--aw-button-shadow);
+  transform: translate(6px, 6px) skewX(-3deg);
+  transition-delay: var(--aw-delay);
+}
+.aw-ui .aw-button--primary {
+  --aw-button-fill: var(--aw-accent);
+  --aw-button-edge: var(--aw-accent);
+  --aw-button-ink: var(--aw-black);
+}
+.aw-ui .aw-button--danger {
+  --aw-button-edge: var(--aw-red);
+  --aw-button-ink: #ff7685;
+}
+.aw-ui .aw-button--ghost {
+  --aw-button-fill: transparent;
+  --aw-button-edge: transparent;
+  --aw-button-shadow: transparent;
+}
+.aw-ui .aw-button:not(:disabled):is(:hover, :focus-visible),
+.aw-ui .aw-button[data-preview-state="hover"] {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  transform: none;
+  --aw-button-edge: var(--aw-accent);
+  --aw-button-shadow: var(--aw-accent);
+}
+.aw-ui .aw-button:not(:disabled):is(:hover, :focus-visible)::before,
+.aw-ui .aw-button[data-preview-state="hover"]::before {
+  transform: translateY(var(--aw-hover-lift)) skewX(var(--aw-hover-angle));
+}
+.aw-ui .aw-button:not(:disabled):is(:hover, :focus-visible)::after,
+.aw-ui .aw-button[data-preview-state="hover"]::after {
+  transform: translate(7px, 7px) skewX(var(--aw-hover-angle));
+}
+.aw-ui .aw-button--primary:not(:disabled):is(:hover, :focus-visible),
+.aw-ui .aw-button--primary[data-preview-state="hover"] {
+  --aw-button-fill: var(--aw-paper);
+  background: transparent;
+  color: var(--skin-inverse-text, var(--aw-black));
+}
+.aw-ui .aw-button:not(:disabled):active,
+.aw-ui .aw-button[data-preview-state="pressed"] {
+  transform: none;
+  box-shadow: none;
+}
+.aw-ui .aw-button:not(:disabled):active::before,
+.aw-ui .aw-button[data-preview-state="pressed"]::before {
+  transform: scale(var(--aw-press-scale));
+  transition-duration: var(--aw-press);
+}
+.aw-ui .aw-button:not(:disabled):active::after,
+.aw-ui .aw-button[data-preview-state="pressed"]::after {
+  transform: translate(2px, 2px) skewX(-3deg);
+  transition-duration: var(--aw-press);
+  transition-delay: 0ms;
+}
+.aw-ui .aw-button.is-selected {
+  --aw-button-fill: var(--aw-paper);
+  --aw-button-ink: var(--aw-black);
+  --aw-button-edge: var(--aw-accent);
+  background: transparent;
+  border-color: transparent;
+}
+.aw-ui .aw-button > svg:not(.aw-spin) {
+  transition: transform var(--aw-select) var(--aw-spring);
+  pointer-events: none;
+}
+.aw-ui
+  .aw-button:not(:disabled):is(:hover, :focus-visible)
+  > svg:not(.aw-spin) {
+  transform: rotate(var(--aw-hover-angle));
+}
+.aw-ui .aw-nav-item {
+  --aw-button-fill: transparent;
+  --aw-button-edge: transparent;
+  --aw-button-shadow: transparent;
+}
+.aw-ui .aw-nav-item.is-selected {
+  --aw-button-fill: var(--aw-accent);
+  --aw-button-edge: var(--aw-paper);
+}
+.aw-ui .aw-nav-item.is-selected::before {
+  inset: -2px;
+  width: auto;
+  background: var(--aw-button-fill);
+  clip-path: polygon(0 0, 96% 0, 100% 50%, 96% 100%, 0 100%, 3% 50%);
+  animation: var(--aw-plate-in) var(--aw-select) var(--aw-spring);
+}
+.aw-ui .aw-nav-item.is-selected > svg:last-child {
+  animation: var(--aw-pop) var(--aw-select) var(--aw-spring) var(--aw-delay)
+    backwards;
+}
+.aw-ui .aw-tabs,
+.aw-ui .aw-segmented {
+  position: relative;
+  isolation: isolate;
+}
+.aw-ui .aw-selection-plate {
+  position: absolute;
+  display: block;
+  pointer-events: none;
+  z-index: -1;
+  background: var(--aw-accent);
+  clip-path: polygon(3% 0, 100% 0, 97% 100%, 0 100%);
+  transition:
+    left var(--aw-select) var(--aw-spring),
+    top var(--aw-select) var(--aw-spring),
+    width var(--aw-select) var(--aw-spring),
+    height var(--aw-select) var(--aw-ease);
+}
+.aw-ui .aw-tabs .aw-selection-plate {
+  background: var(--skin-inverse-surface, var(--aw-paper));
+  border-top: 4px solid var(--aw-accent);
+}
+.aw-ui .aw-tabs > button {
+  position: relative;
+  background: transparent;
+  transition: color var(--aw-hover);
+}
+.aw-ui .aw-tabs > button[aria-selected="true"] {
+  background: transparent;
+  box-shadow: none;
+  border-color: transparent;
+}
+.aw-ui .aw-tabs > button[aria-selected="true"] > span {
+  animation: var(--aw-fade-in) var(--aw-select) var(--aw-ease);
+}
+.aw-ui .aw-segmented .aw-button,
+.aw-ui .aw-segmented .aw-button.is-selected {
+  background: transparent;
+  --aw-button-fill: transparent;
+  --aw-button-edge: transparent;
+  --aw-button-shadow: transparent;
+}
+.aw-ui .aw-segmented .aw-button::before,
+.aw-ui .aw-segmented .aw-button::after {
+  display: none;
+}
+.aw-ui .aw-segmented .aw-button.is-selected {
+  color: var(--skin-inverse-text, var(--aw-black));
+}
+.aw-ui .aw-segmented .aw-button:not(.is-selected):is(:hover, :focus-visible) {
+  color: var(--aw-accent);
+}
+.aw-ui .aw-field-label::before {
+  transition: width var(--aw-hover) var(--aw-spring);
+}
+.aw-ui .aw-field:focus-within .aw-field-label::before {
+  width: 12px;
+}
+.aw-ui .aw-input {
+  transition:
+    border-color var(--aw-hover),
+    box-shadow var(--aw-hover);
+}
+.aw-ui .aw-input:focus {
+  box-shadow: inset 0 -2px 0 var(--aw-accent);
+}
+.aw-ui .aw-search {
+  transition:
+    border-color var(--aw-hover),
+    box-shadow var(--aw-hover);
+}
+.aw-ui .aw-search:focus-within {
+  box-shadow: inset 0 -2px 0 var(--aw-accent);
+}
+.aw-ui .has-error .aw-field-hint {
+  border-left: 3px solid var(--aw-red);
+  padding-left: 7px;
+  animation: var(--aw-fade-in) var(--aw-select) var(--aw-ease);
+}
+.aw-ui .aw-choice-mark {
+  position: relative;
+  box-shadow: 3px 3px 0 var(--aw-black);
+  transition:
+    background var(--aw-hover),
+    border-color var(--aw-hover);
+}
+.aw-ui .aw-choice input:checked + .aw-choice-mark > svg,
+.aw-ui .aw-choice input:checked + .aw-choice-mark::after,
+.aw-ui
+  .aw-choice
+  input[type="checkbox"]:indeterminate
+  + .aw-choice-mark
+  > .aw-minus {
+  animation: var(--aw-pop) var(--aw-select) var(--aw-spring);
+}
+.aw-ui .aw-range input {
+  accent-color: var(--aw-accent);
+}
+.aw-ui .aw-badge {
+  transform: skewX(-5deg);
+  box-shadow: 3px 3px 0 var(--aw-accent);
+}
+.aw-ui .aw-tag {
+  border-left: 3px solid var(--aw-accent);
+}
+.aw-ui .aw-stamp {
+  position: relative;
+  box-shadow: 3px 3px 0 var(--aw-black);
+}
+.aw-ui .aw-stamp > svg {
+  animation: var(--aw-pop) var(--aw-select) var(--aw-spring) var(--aw-delay)
+    backwards;
+}
+.aw-ui .aw-progress-track {
+  transform: skewX(-7deg);
+}
+.aw-ui .aw-progress-track > span {
+  transition: width var(--aw-select) var(--aw-ease);
+}
+.aw-ui .aw-progress-track > .is-indeterminate {
+  animation-name: var(--aw-progress-animation);
+}
+.aw-ui .aw-stat::after,
+.aw-ui .aw-panel::after,
+.aw-ui .aw-toolbar::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 20px;
+  height: 20px;
+  background: var(--aw-accent);
+  clip-path: polygon(100% 0, 100% 100%, 0 0);
+  pointer-events: none;
+}
+.aw-ui .aw-toolbar {
+  position: relative;
+}
+.aw-ui .aw-panel {
+  border-top-width: 3px;
+}
+.aw-ui .aw-panel-title {
+  background-image: repeating-linear-gradient(
+    -55deg,
+    transparent 0 20px,
+    #ffffff04 20px 22px
+  );
+}
+.aw-ui .aw-section-title :is(h1, h2, h3)::before {
+  animation: var(--aw-plate-in) var(--aw-reveal) var(--aw-spring);
+}
+.aw-ui .aw-section-title :is(h1, h2, h3) > span {
+  animation: var(--aw-fade-in) var(--aw-reveal) var(--aw-ease) var(--aw-delay)
+    backwards;
+}
+.aw-ui .aw-asset-card {
+  isolation: isolate;
+  box-shadow: none;
+  transition: border-color var(--aw-hover);
+}
+.aw-ui .aw-asset-card::before {
+  content: "";
+  position: absolute;
+  inset: 4px -6px -6px 4px;
+  z-index: -1;
+  background: var(--aw-black);
+  clip-path: polygon(0 0, 96% 0, 100% 14%, 97% 87%, 100% 91%, 92% 100%, 0 98%);
+  pointer-events: none;
+  transition:
+    background var(--aw-hover),
+    transform var(--aw-select) var(--aw-spring) var(--aw-delay);
+}
+.aw-ui .aw-asset-card:not(:disabled):is(:hover, :focus-visible),
+.aw-ui .aw-asset-card[data-preview-state="hover"],
+.aw-ui .aw-asset-card.is-selected {
+  box-shadow: none;
+}
+.aw-ui .aw-asset-card:not(:disabled):is(:hover, :focus-visible)::before,
+.aw-ui .aw-asset-card.is-selected::before {
+  background: var(--aw-accent);
+  transform: rotate(-1deg);
+}
+.aw-ui .aw-asset-preview {
+  background:
+    radial-gradient(ellipse at 50% 80%, #ffffff14, transparent 65%), #222;
+}
+.aw-ui .aw-asset-preview > img {
+  transition: transform var(--aw-select) var(--aw-spring);
+}
+.aw-ui
+  .aw-asset-card:not(:disabled):is(:hover, :focus-visible)
+  .aw-asset-preview
+  > img {
+  transform: scale(var(--aw-preview-scale));
+}
+.aw-ui .aw-card-check {
+  animation: var(--aw-pop) var(--aw-select) var(--aw-spring) var(--aw-delay)
+    backwards;
+}
+.aw-ui .aw-asset-caption {
+  border-top: 2px solid #ffffff13;
+}
+.aw-ui .aw-group-card::before,
+.aw-ui .aw-group-card::after {
+  transition: transform var(--aw-select) var(--aw-spring);
+}
+.aw-ui
+  .aw-group-card:has(
+    .aw-asset-card:not(:disabled):is(:hover, :focus-visible)
+  )::before {
+  transform: rotate(var(--aw-hover-angle));
+}
+.aw-ui .aw-texture-slot {
+  position: relative;
+  border-left: 5px solid var(--aw-accent);
+  transition: border-color var(--aw-hover);
+}
+.aw-ui .aw-texture-slot:focus-within {
+  border-color: var(--aw-accent);
+}
+.aw-ui .aw-texture-pick {
+  overflow: hidden;
+}
+.aw-ui .aw-texture-pick > :is(img, svg) {
+  animation: var(--aw-fade-in) var(--aw-select) var(--aw-ease);
+}
+.aw-ui.aw-menu,
+.aw-ui.aw-tooltip {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  animation: none;
+  padding: 8px;
+}
+.aw-ui .aw-layer-surface {
+  position: relative;
+  isolation: isolate;
+  padding: 6px;
+  border: 2px solid transparent;
+}
+.aw-ui .aw-layer-surface::before,
+.aw-ui .aw-layer-surface::after,
+.aw-ui .aw-dialog-box::before,
+.aw-ui .aw-toast::before,
+.aw-ui .aw-toast::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: var(--aw-black);
+  border: 2px solid var(--aw-paper);
+  z-index: -1;
+  pointer-events: none;
+}
+.aw-ui .aw-layer-surface::after {
+  z-index: -2;
+  background: var(--aw-accent);
+  border: 0;
+  transform: translate(6px, 6px);
+}
+.aw-ui.aw-menu .aw-layer-surface::before {
+  clip-path: polygon(0 0, 95% 0, 100% 7%, 100% 100%, 4% 100%, 0 92%);
+}
+.aw-ui.aw-tooltip .aw-layer-surface {
+  padding: 6px 10px;
+}
+.aw-ui.aw-tooltip .aw-layer-surface::before {
+  border-left: 5px solid var(--aw-accent);
+}
+.aw-ui[data-presence="enter"] .aw-layer-surface::before {
+  animation: var(--aw-plate-in) var(--aw-select) var(--aw-spring);
+}
+.aw-ui[data-presence="enter"] .aw-layer-surface::after {
+  animation: var(--aw-shadow-in) var(--aw-select) var(--aw-spring)
+    var(--aw-delay) backwards;
+}
+.aw-ui.aw-menu[data-presence="enter"] button {
+  animation: var(--aw-fade-in) var(--aw-opacity) var(--aw-ease)
+    calc(var(--aw-item-delay, 0ms) * var(--aw-stagger-factor)) backwards;
+}
+.aw-ui.aw-menu button {
+  position: relative;
+  isolation: isolate;
+}
+.aw-ui.aw-menu button::before {
+  content: "";
+  position: absolute;
+  inset: 2px -2px;
+  z-index: -1;
+  background: var(--aw-accent);
+  transform: skewX(-6deg) scaleX(0.8);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform var(--aw-hover) var(--aw-spring),
+    opacity var(--aw-hover);
+}
+.aw-ui.aw-menu button:not(:disabled):is(:hover, :focus) {
+  background: transparent;
+}
+.aw-ui.aw-menu button:not(:disabled):is(:hover, :focus)::before {
+  transform: skewX(-6deg) scaleX(1);
+  opacity: 1;
+}
+.aw-ui.aw-tooltip[data-presence="enter"] .aw-layer-surface {
+  animation: var(--aw-fade-in) var(--aw-opacity) var(--aw-ease);
+}
+.aw-ui[data-presence="exit"] {
+  pointer-events: none;
+}
+.aw-ui[data-presence="exit"] .aw-layer-surface {
+  animation: var(--aw-fade-out) var(--aw-exit) ease-in forwards;
+}
+.aw-ui .aw-dialog-box {
+  position: relative;
+  isolation: isolate;
+  background: transparent;
+  border-color: transparent;
+}
+.aw-ui .aw-dialog-box::before {
+  background: var(--aw-surface);
+  clip-path: polygon(0 2%, 96% 0, 100% 5%, 100% 98%, 3% 100%, 0 95%);
+}
+.aw-ui.aw-dialog[open] .aw-dialog-box {
+  animation: none;
+}
+.aw-ui.aw-dialog[open][data-presence="enter"] .aw-dialog-box::before {
+  animation: var(--aw-plate-in) var(--aw-dialog-enter) var(--aw-spring);
+}
+.aw-ui.aw-dialog[open][data-presence="enter"] .aw-dialog-box > header {
+  animation: var(--aw-fade-in) var(--aw-opacity) var(--aw-ease) var(--aw-delay)
+    backwards;
+}
+.aw-ui.aw-dialog[open][data-presence="enter"] .aw-dialog-body,
+.aw-ui.aw-dialog[open][data-presence="enter"] .aw-dialog-box > footer {
+  animation: var(--aw-fade-in) var(--aw-opacity) var(--aw-ease)
+    calc(var(--aw-delay) * 2) backwards;
+}
+.aw-ui.aw-dialog[open][data-presence="exit"] .aw-dialog-box {
+  animation: var(--aw-fade-out) var(--aw-exit) ease-in forwards;
+}
+.aw-ui .aw-toast {
+  position: relative;
+  isolation: isolate;
+  background: transparent;
+  border-color: transparent;
+}
+.aw-ui .aw-toast::before {
+  background: var(--skin-inverse-surface, var(--aw-paper));
+  border-color: var(--skin-inverse-text, var(--aw-black));
+  clip-path: polygon(0 0, 98% 0, 100% 15%, 97% 100%, 0 100%, 2% 78%);
+  animation: var(--aw-swipe) var(--aw-reveal) var(--aw-spring);
+}
+.aw-ui .aw-toast::after {
+  z-index: -2;
+  background: var(--aw-accent);
+  border: 0;
+  transform: translate(6px, 6px);
+  animation: var(--aw-shadow-in) var(--aw-reveal) var(--aw-spring)
+    var(--aw-delay) backwards;
+}
+.aw-ui .aw-toast > svg {
+  animation: var(--aw-pop) var(--aw-select) var(--aw-spring)
+    calc(var(--aw-delay) * 2) backwards;
+}
+.aw-ui .aw-toast.aw-tone-error::before {
+  border-left: 6px solid var(--aw-red);
+}
+.aw-ui .aw-spin {
+  animation-name: var(--aw-spin-animation);
+}
+.aw-ui .aw-reveal {
+  position: relative;
+  isolation: isolate;
+  min-width: 0;
+}
+.aw-ui .aw-reveal-ink {
+  position: absolute;
+  inset: -3px;
+  z-index: 1;
+  background: var(--aw-accent);
+  opacity: 0;
+  pointer-events: none;
+  clip-path: polygon(3% 0, 100% 3%, 97% 100%, 0 97%);
+}
+.aw-ui .aw-reveal--title .aw-reveal-ink {
+  clip-path: polygon(0 25%, 100% 0, 96% 85%, 3% 100%);
+}
+.aw-ui .aw-reveal--stamp .aw-reveal-ink {
+  border: 4px solid var(--aw-accent);
+  background: transparent;
+}
+.aw-ui .aw-reveal-content {
+  min-width: 0;
+}
+.aw-ui .aw-presence {
+  min-width: 0;
+}
+.aw-ui .aw-presence[data-presence="enter"] > .aw-presence-content {
+  animation: var(--aw-fade-in) var(--aw-opacity) var(--aw-ease);
+}
+.aw-ui .aw-presence[data-presence="exit"] > .aw-presence-content {
+  animation: var(--aw-fade-out) var(--aw-exit) ease-in forwards;
+}
+.aw-ui .aw-presence[data-presence="exit"] {
+  pointer-events: none;
+}
+@keyframes aw-mark-pop {
+  0% {
+    opacity: 0.1;
+    transform: scale(1.35) rotate(-12deg);
+  }
+  55% {
+    opacity: 1;
+    transform: scale(0.94) rotate(3deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+  }
+}
+@keyframes aw-plate-in {
+  0% {
+    opacity: 0.2;
+    transform: translateX(-8px) skewX(-7deg) scaleX(0.94);
+  }
+  65% {
+    opacity: 1;
+    transform: translateX(2px) skewX(1deg) scaleX(1.01);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) skewX(0) scaleX(1);
+  }
+}
+@keyframes aw-shadow-in {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  65% {
+    opacity: 1;
+    transform: translate(8px, 8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(6px, 6px);
+  }
+}
+@keyframes aw-swipe {
+  0% {
+    opacity: 0;
+    transform: translateX(16px) skewX(-7deg);
+  }
+  65% {
+    opacity: 1;
+    transform: translateX(-2px) skewX(1deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) skewX(0);
+  }
+}
+@keyframes aw-fade-in {
+  from {
+    opacity: 0.25;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes aw-fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* These inherited values also reach portaled layers through their resolved Theme. */
+.aw-ui[data-motion="reduced"],
+.aw-ui [data-motion="reduced"] {
+  --aw-press: 0ms;
+  --aw-hover: 0ms;
+  --aw-select: 0ms;
+  --aw-reveal: 0ms;
+  --aw-dialog-enter: 0ms;
+  --aw-exit: 80ms;
+  --aw-opacity: 80ms;
+  --aw-delay: 0ms;
+  --aw-stagger-factor: 0;
+  --aw-fade-in: aw-fade-in;
+  --aw-fade-out: aw-fade-out;
+  --aw-pop: none;
+  --aw-plate-in: none;
+  --aw-shadow-in: none;
+  --aw-swipe: none;
+  --aw-spin-animation: none;
+  --aw-progress-animation: none;
+  --aw-hover-angle: 0deg;
+  --aw-hover-lift: 0px;
+  --aw-press-scale: 1;
+  --aw-preview-scale: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .aw-ui,
+  .aw-ui [data-motion="system"] {
+    --aw-press: 0ms;
+    --aw-hover: 0ms;
+    --aw-select: 0ms;
+    --aw-reveal: 0ms;
+    --aw-dialog-enter: 0ms;
+    --aw-exit: 80ms;
+    --aw-opacity: 80ms;
+    --aw-delay: 0ms;
+    --aw-stagger-factor: 0;
+    --aw-fade-in: aw-fade-in;
+    --aw-fade-out: aw-fade-out;
+    --aw-pop: none;
+    --aw-plate-in: none;
+    --aw-shadow-in: none;
+    --aw-swipe: none;
+    --aw-spin-animation: none;
+    --aw-progress-animation: none;
+    --aw-hover-angle: 0deg;
+    --aw-hover-lift: 0px;
+    --aw-press-scale: 1;
+    --aw-preview-scale: 1;
+  }
+}
+.aw-ui[data-motion="none"],
+.aw-ui [data-motion="none"] {
+  --aw-press: 0ms;
+  --aw-hover: 0ms;
+  --aw-select: 0ms;
+  --aw-reveal: 0ms;
+  --aw-dialog-enter: 0ms;
+  --aw-exit: 0ms;
+  --aw-opacity: 0ms;
+  --aw-delay: 0ms;
+  --aw-stagger-factor: 0;
+  --aw-pop: none;
+  --aw-plate-in: none;
+  --aw-shadow-in: none;
+  --aw-swipe: none;
+  --aw-fade-in: none;
+  --aw-fade-out: none;
+  --aw-spin-animation: none;
+  --aw-progress-animation: none;
+}

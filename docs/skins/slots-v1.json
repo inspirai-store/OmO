@@ -1,0 +1,993 @@
+[
+  {
+    "id": "primary-button",
+    "label": "主按钮",
+    "selector": ".aw-button--primary",
+    "width": 210,
+    "height": 36,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration",
+      "icon"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "pressed",
+      "focus",
+      "selected",
+      "disabled",
+      "loading",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 36,
+      "compact": 28
+    }
+  },
+  {
+    "id": "secondary-button",
+    "label": "次按钮",
+    "selector": ".aw-button--secondary:not(.aw-nav-item):not(.aw-icon-button)",
+    "width": 210,
+    "height": 36,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration",
+      "icon"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "pressed",
+      "focus",
+      "selected",
+      "disabled",
+      "loading",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 36,
+      "compact": 28
+    }
+  },
+  {
+    "id": "danger-button",
+    "label": "危险按钮",
+    "selector": ".aw-button--danger",
+    "width": 210,
+    "height": 36,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration",
+      "icon"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "pressed",
+      "focus",
+      "selected",
+      "disabled",
+      "loading",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 36,
+      "compact": 28
+    }
+  },
+  {
+    "id": "icon-button",
+    "label": "图标按钮",
+    "selector": ".aw-icon-button",
+    "width": 36,
+    "height": 36,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration",
+      "icon"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "pressed",
+      "focus",
+      "selected",
+      "disabled",
+      "loading",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 9,
+      "bottom": 4,
+      "left": 9
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 36,
+      "compact": 28
+    }
+  },
+  {
+    "id": "nav-item",
+    "label": "导航项",
+    "selector": ".aw-nav-item",
+    "width": 220,
+    "height": 36,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration",
+      "icon"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "pressed",
+      "focus",
+      "selected",
+      "disabled",
+      "loading",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 36,
+      "compact": 28
+    }
+  },
+  {
+    "id": "tabs",
+    "label": "页签",
+    "selector": ".aw-tabs",
+    "width": 290,
+    "height": 36,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "pressed",
+      "focus",
+      "selected",
+      "disabled",
+      "loading",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 36,
+      "compact": 28
+    }
+  },
+  {
+    "id": "segmented",
+    "label": "分段选择",
+    "selector": ".aw-segmented",
+    "width": 260,
+    "height": 36,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "pressed",
+      "focus",
+      "selected",
+      "disabled",
+      "loading",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 36,
+      "compact": 28
+    }
+  },
+  {
+    "id": "text-field",
+    "label": "输入框",
+    "selector": ".aw-field:not(:has(.aw-search,.aw-select,textarea)) .aw-input,.field input:not([type=checkbox],[type=radio],[type=range],[type=color])",
+    "width": 290,
+    "height": 36,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "disabled",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 36,
+      "compact": 28
+    }
+  },
+  {
+    "id": "search-field",
+    "label": "搜索框",
+    "selector": ".aw-search,.search-box",
+    "width": 290,
+    "height": 36,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration",
+      "icon"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "disabled",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 36,
+      "compact": 28
+    }
+  },
+  {
+    "id": "select-field",
+    "label": "下拉选择",
+    "selector": ".aw-select,select",
+    "width": 290,
+    "height": 36,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "disabled",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 36,
+      "compact": 28
+    }
+  },
+  {
+    "id": "text-area",
+    "label": "文本域",
+    "selector": "textarea.aw-input,textarea",
+    "width": 290,
+    "height": 96,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "disabled",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 96,
+      "compact": 96
+    }
+  },
+  {
+    "id": "checkbox",
+    "label": "复选框",
+    "selector": ".aw-choice:not(.aw-radio) .aw-choice-mark",
+    "width": 20,
+    "height": 20,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "selected",
+      "partial",
+      "disabled",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 5,
+      "bottom": 4,
+      "left": 5
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 20,
+      "compact": 20
+    }
+  },
+  {
+    "id": "radio",
+    "label": "单选框",
+    "selector": ".aw-radio .aw-choice-mark",
+    "width": 20,
+    "height": 20,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "selected",
+      "disabled",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 5,
+      "bottom": 4,
+      "left": 5
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 20,
+      "compact": 20
+    }
+  },
+  {
+    "id": "range",
+    "label": "滑块",
+    "selector": ".aw-range input[type=range]",
+    "width": 290,
+    "height": 20,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "pressed",
+      "focus",
+      "disabled"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 20,
+      "compact": 20
+    }
+  },
+  {
+    "id": "badge",
+    "label": "格式徽章",
+    "selector": ".aw-badge,.format-badge",
+    "width": 64,
+    "height": 24,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 24,
+      "compact": 24
+    }
+  },
+  {
+    "id": "tag",
+    "label": "标签",
+    "selector": ".aw-tag",
+    "width": 100,
+    "height": 28,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "removable"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 28,
+      "compact": 28
+    }
+  },
+  {
+    "id": "status-stamp",
+    "label": "状态印章",
+    "selector": ".aw-stamp",
+    "width": 150,
+    "height": 28,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "working",
+      "warning",
+      "error",
+      "success"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 28,
+      "compact": 28
+    }
+  },
+  {
+    "id": "progress",
+    "label": "进度条",
+    "selector": ".aw-progress-track",
+    "width": 290,
+    "height": 10,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "empty",
+      "complete",
+      "loading"
+    ],
+    "contentInsets": {
+      "top": 2,
+      "right": 12,
+      "bottom": 2,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 10,
+      "compact": 10
+    }
+  },
+  {
+    "id": "hint",
+    "label": "提示条",
+    "selector": ".aw-hint,.license-banner,.warning,.success-note",
+    "width": 310,
+    "height": 64,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "success",
+      "warning",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 64,
+      "compact": 64
+    }
+  },
+  {
+    "id": "stat-card",
+    "label": "统计卡",
+    "selector": ".aw-stat,.stat-card",
+    "width": 260,
+    "height": 130,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 130,
+      "compact": 130
+    }
+  },
+  {
+    "id": "section-title",
+    "label": "标题底板",
+    "selector": ".aw-section-title h1,.aw-section-title h2,.aw-section-title h3",
+    "width": 330,
+    "height": 44,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "long"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 44,
+      "compact": 44
+    }
+  },
+  {
+    "id": "panel",
+    "label": "面板",
+    "selector": ".aw-panel,.settings-section,.inspector-section,.workbench-panel",
+    "width": 310,
+    "height": 180,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "paper"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 180,
+      "compact": 180
+    }
+  },
+  {
+    "id": "toolbar",
+    "label": "工具栏",
+    "selector": ".aw-toolbar,.toolbar,.material-actions",
+    "width": 330,
+    "height": 48,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 48,
+      "compact": 48
+    }
+  },
+  {
+    "id": "asset-card",
+    "label": "素材卡",
+    "selector": ".aw-asset-card,.asset-card",
+    "width": 220,
+    "height": 210,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "pressed",
+      "focus",
+      "selected",
+      "disabled",
+      "loading",
+      "error",
+      "long"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 210,
+      "compact": 210
+    }
+  },
+  {
+    "id": "group-card",
+    "label": "聚合卡",
+    "selector": ".aw-group-card,.group-card",
+    "width": 240,
+    "height": 220,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "focus",
+      "selected",
+      "partial",
+      "disabled",
+      "long"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 220,
+      "compact": 220
+    }
+  },
+  {
+    "id": "texture-slot",
+    "label": "贴图槽位",
+    "selector": ".aw-texture-slot,.texture-slot",
+    "width": 310,
+    "height": 72,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "selected",
+      "empty",
+      "disabled",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 72,
+      "compact": 72
+    }
+  },
+  {
+    "id": "menu",
+    "label": "操作菜单",
+    "selector": ".aw-menu,.context-menu",
+    "width": 240,
+    "height": 160,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "open",
+      "hover",
+      "focus",
+      "disabled"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 160,
+      "compact": 160
+    }
+  },
+  {
+    "id": "tooltip",
+    "label": "提示浮层",
+    "selector": ".aw-tooltip",
+    "width": 240,
+    "height": 42,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "open"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 42,
+      "compact": 42
+    }
+  },
+  {
+    "id": "dialog",
+    "label": "弹窗",
+    "selector": ".aw-dialog-box",
+    "width": 480,
+    "height": 300,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "open"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 300,
+      "compact": 300
+    }
+  },
+  {
+    "id": "toast",
+    "label": "通知",
+    "selector": ".aw-toast",
+    "width": 310,
+    "height": 56,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default",
+      "success",
+      "warning",
+      "error"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 56,
+      "compact": 56
+    }
+  },
+  {
+    "id": "loading-state",
+    "label": "加载状态",
+    "selector": ".aw-loading",
+    "width": 300,
+    "height": 60,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 60,
+      "compact": 60
+    }
+  },
+  {
+    "id": "empty-state",
+    "label": "空状态",
+    "selector": ".aw-empty",
+    "width": 310,
+    "height": 180,
+    "slots": [
+      "background",
+      "border",
+      "mark",
+      "decoration"
+    ],
+    "states": [
+      "default"
+    ],
+    "contentInsets": {
+      "top": 4,
+      "right": 12,
+      "bottom": 4,
+      "left": 12
+    },
+    "decorationBleed": 8,
+    "densities": {
+      "regular": 180,
+      "compact": 180
+    }
+  }
+]

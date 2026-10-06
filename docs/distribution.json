@@ -1,0 +1,73 @@
+{
+  "createdAt": "2026-10-03T11:23:07.509Z",
+  "version": "0.1.0",
+  "files": [
+    {
+      "path": "release/素材工坊 Setup 0.1.0.exe",
+      "bytes": 136131255,
+      "sha256": "334dc5f818ddf8823e16f691ff62598e865322b97f5ef0aafdc6278371df87c2"
+    },
+    {
+      "path": "release/素材工坊 Setup 0.1.0.exe.blockmap",
+      "bytes": 143148,
+      "sha256": "b878ab68d1139dfdc669c52727be73bad1afa6ffffdedb71d46c42b8c0650a0a"
+    },
+    {
+      "path": "release/win-unpacked/素材工坊.exe",
+      "bytes": 245726208,
+      "sha256": "f88708ea5f2c5ae54be39fa84e447f6dfab85599664aef9c734b5fed10b53e2c"
+    },
+    {
+      "path": "release/win-unpacked/resources/app.asar",
+      "bytes": 72544686,
+      "sha256": "5b8fffb37c7a97e7d5b8b56a05cb0be8a656982f157230c91454ee2c3fafa9a6"
+    },
+    {
+      "path": "启动示例工坊.cmd",
+      "bytes": 122,
+      "sha256": "c989b00cdf2e4a5ca9a0fadd125c572707e48708b4dc92da68eb423088de68d3"
+    },
+    {
+      "path": "examples/godot-2d/project.godot",
+      "bytes": 298,
+      "sha256": "86f0957139f3e2890c37d5338306815803d4f47ab1acd916b05a42a0c2bb3435"
+    },
+    {
+      "path": "examples/godot-3d/project.godot",
+      "bytes": 298,
+      "sha256": "4d1535914e152a923afcee5d29fa7be1614b114b190f3bbf2e6ee372a7de6e97"
+    },
+    {
+      "path": "release/win-unpacked/resources/resources/licenses/draco/LICENSE",
+      "bytes": 13898,
+      "sha256": "d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4"
+    },
+    {
+      "path": "release/win-unpacked/resources/resources/licenses/basis-universal/LICENSE",
+      "bytes": 11347,
+      "sha256": "065fcf48d6af21c0b75e23be5ed5753aee75c892e1c2cf178fa6736305614a5c"
+    }
+  ],
+  "unpacked": {
+    "bytes": 507176465,
+    "files": 2778
+  },
+  "library": {
+    "path": ".data/library",
+    "sourceGroups": 22,
+    "assets": 13059,
+    "files": 15322,
+    "originalBytes": 282391979,
+    "projects": 2,
+    "variants": 3,
+    "separateFromInstaller": true
+  },
+  "verification": {
+    "windowsX64PackagedFlow": "passed",
+    "desktopReport": "docs/desktop-validation.json",
+    "godotReport": "docs/godot-validation.json",
+    "macOS": "configured; awaiting platform build and desktop verification",
+    "linux": "configured; awaiting platform build and desktop verification",
+    "signed": false
+  }
+}

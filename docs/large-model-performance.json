@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-02T21:02:47.801Z",
+  "cpu": "AMD Ryzen 7 5825U with Radeon Graphics         ",
+  "ramGiB": 59.924434661865234,
+  "triangles": 250000,
+  "texture": "ambientCG WoodFloor051 2K PNG",
+  "method": "rAF scheduling rate during continuously rendered model animation; desktop Chromium, two viewer contexts",
+  "result": {
+    "frames": 718,
+    "elapsedMs": 5004.700000095368,
+    "fps": 143.46514276306632
+  },
+  "errors": []
+}

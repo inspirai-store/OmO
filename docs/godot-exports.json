@@ -1,0 +1,232 @@
+{
+  "two": {
+    "target": "WORKSPACE\\examples\\godot-2d\\assets\\workshop",
+    "entries": [
+      {
+        "assetId": "50ee7a98-13d1-4494-9abf-26c9499168c9",
+        "revisionId": "8e146f78-a998-4e89-86c6-63871051e351",
+        "title": "tilemap",
+        "entry": "tilemap-50ee7a98/8e146f78/Tilemap/tilemap.png",
+        "variants": [],
+        "source": {
+          "provider": "kenney",
+          "assetId": "tiny-dungeon",
+          "pageUrl": "https://kenney.nl/assets/tiny-dungeon",
+          "author": "Kenney",
+          "license": "CC0-1.0",
+          "checkedAt": "2026-10-02T19:59:32.310Z",
+          "evidence": "官方素材页标明 Creative Commons CC0；免费 ZIP 入口由当前页面解析。",
+          "tags": [
+            "像素",
+            "地牢",
+            "pixel",
+            "dungeon"
+          ]
+        }
+      },
+      {
+        "assetId": "0a89f2ac-d3d2-482b-9004-8a1712b0b717",
+        "revisionId": "584e94db-6cea-4117-afc4-58f7fa5fcdd3",
+        "title": "button_rectangle_border",
+        "entry": "button_rectangle_border-0a89f2ac/584e94db/PNG/Yellow/Default/button_rectangle_border.png",
+        "variants": [],
+        "source": {
+          "provider": "kenney",
+          "assetId": "ui-pack",
+          "pageUrl": "https://kenney.nl/assets/ui-pack",
+          "author": "Kenney",
+          "license": "CC0-1.0",
+          "checkedAt": "2026-10-02T19:59:14.029Z",
+          "evidence": "官方素材页标明 Creative Commons CC0；免费 ZIP 入口由当前页面解析。",
+          "tags": [
+            "界面",
+            "按钮",
+            "ui",
+            "button"
+          ]
+        }
+      }
+    ]
+  },
+  "three": {
+    "target": "WORKSPACE\\examples\\godot-3d\\assets\\workshop",
+    "entries": [
+      {
+        "assetId": "f82841e9-a5e2-4356-9378-238795e2e338",
+        "revisionId": "b254b435-51d8-4c7a-9822-35d1961e05fc",
+        "title": "wooden_crate_02_2k",
+        "entry": "wooden_crate_02_2k-f82841e9/b254b435/wooden_crate_02_2k.gltf",
+        "variants": [
+          {
+            "id": "2917a1f7-2615-4d30-aeca-65f8c3842ea3",
+            "name": "秋季木箱 · 暖木色",
+            "path": "wooden_crate_02_2k-f82841e9/b254b435/wooden_crate_02_2k-秋季木箱 · 暖木色-2917a1f7-2615-4d30-aeca-65f8c3842ea3-e6d5fe3ee8.gltf"
+          },
+          {
+            "id": "4769a7d0-8326-4b88-a84e-382016354e60",
+            "name": "旧木箱 · 哑光",
+            "path": "wooden_crate_02_2k-f82841e9/b254b435/wooden_crate_02_2k-旧木箱 · 哑光-4769a7d0-8326-4b88-a84e-382016354e60-a257239240.gltf"
+          }
+        ],
+        "source": {
+          "provider": "polyhaven",
+          "assetId": "wooden_crate_02",
+          "pageUrl": "https://polyhaven.com/a/wooden_crate_02",
+          "author": "James Ray Cock / Jurita Burger",
+          "license": "CC0-1.0",
+          "checkedAt": "2026-10-02T20:00:25.568Z",
+          "evidence": "https://polyhaven.com/license：资产采用 CC0；使用 API 时以本应用 User-Agent 标识并显示 Poly Haven 来源。",
+          "tags": [
+            "木箱",
+            "道具",
+            "crate",
+            "wood",
+            "PBR"
+          ]
+        }
+      },
+      {
+        "assetId": "1a211b48-6a2d-4cdb-ab54-ff89514b459f",
+        "revisionId": "ecb4111a-961b-4f98-8c38-9594b32afb6e",
+        "title": "WoodFloor051_2K-PNG",
+        "entry": "WoodFloor051_2K-PNG-1a211b48/ecb4111a/WoodFloor051_2K-PNG_Color.png",
+        "variants": [
+          {
+            "id": "db6ed577-5423-411e-a178-210788262653",
+            "name": "木地板 · 平铺材质",
+            "path": "WoodFloor051_2K-PNG-1a211b48/ecb4111a/variants/db6ed577-5423-411e-a178-210788262653-5725e9888e/material.tres"
+          }
+        ],
+        "source": {
+          "provider": "ambientcg",
+          "assetId": "WoodFloor051",
+          "pageUrl": "https://ambientcg.com/view?id=WoodFloor051",
+          "author": "ambientCG",
+          "license": "CC0-1.0",
+          "checkedAt": "2026-10-02T20:00:16.266Z",
+          "evidence": "https://docs.ambientcg.com/license/：全部 downloadable assets 采用 CC0 1.0。",
+          "tags": [
+            "木材",
+            "地板",
+            "wood",
+            "floor",
+            "PBR"
+          ]
+        }
+      },
+      {
+        "assetId": "c3403d85-2338-4f53-a920-52b29cbe4577",
+        "revisionId": "73141fe0-2d99-416a-bd43-5cfaa9fad57d",
+        "title": "characterMedium-preview",
+        "entry": "characterMedium-preview-c3403d85/73141fe0/characterMedium-preview.glb",
+        "variants": [],
+        "source": {
+          "provider": "kenney",
+          "assetId": "animated-characters-protagonists",
+          "pageUrl": "https://kenney.nl/assets/animated-characters-protagonists",
+          "author": "Kenney",
+          "license": "CC0-1.0",
+          "checkedAt": "2026-10-02T20:00:12.442Z",
+          "evidence": "官方素材页标明 Creative Commons CC0；免费 ZIP 入口由当前页面解析。",
+          "tags": [
+            "角色",
+            "动画",
+            "character",
+            "animation"
+          ]
+        }
+      },
+      {
+        "assetId": "40fd85da-0cf7-4ea9-a4a4-bc898df42bd8",
+        "revisionId": "426d5a8e-a8a7-4a83-8451-7cf94f7f4135",
+        "title": "studio_small_09_2k",
+        "entry": "studio_small_09_2k-40fd85da/426d5a8e/studio_small_09_2k.hdr",
+        "variants": [],
+        "source": {
+          "provider": "polyhaven",
+          "assetId": "studio_small_09",
+          "pageUrl": "https://polyhaven.com/a/studio_small_09",
+          "author": "Sergej Majboroda",
+          "license": "CC0-1.0",
+          "checkedAt": "2026-10-02T20:00:29.104Z",
+          "evidence": "https://polyhaven.com/license：资产采用 CC0；使用 API 时以本应用 User-Agent 标识并显示 Poly Haven 来源。",
+          "tags": [
+            "环境",
+            "摄影棚",
+            "hdri",
+            "studio"
+          ]
+        }
+      },
+      {
+        "assetId": "7ef05f44-1e8d-42cb-9c38-b507a4740521",
+        "revisionId": "ecb4111a-961b-4f98-8c38-9594b32afb6e",
+        "title": "WoodFloor051_2K-PNG_NormalGL",
+        "entry": "WoodFloor051_2K-PNG_NormalGL-7ef05f44/ecb4111a/WoodFloor051_2K-PNG_NormalGL.png",
+        "variants": [],
+        "source": {
+          "provider": "ambientcg",
+          "assetId": "WoodFloor051",
+          "pageUrl": "https://ambientcg.com/view?id=WoodFloor051",
+          "author": "ambientCG",
+          "license": "CC0-1.0",
+          "checkedAt": "2026-10-02T20:00:16.266Z",
+          "evidence": "https://docs.ambientcg.com/license/：全部 downloadable assets 采用 CC0 1.0。",
+          "tags": [
+            "木材",
+            "地板",
+            "wood",
+            "floor",
+            "PBR"
+          ]
+        }
+      },
+      {
+        "assetId": "4d2e33b1-0be6-494b-a4db-282c293fccaa",
+        "revisionId": "ecb4111a-961b-4f98-8c38-9594b32afb6e",
+        "title": "WoodFloor051_2K-PNG_Roughness",
+        "entry": "WoodFloor051_2K-PNG_Roughness-4d2e33b1/ecb4111a/WoodFloor051_2K-PNG_Roughness.png",
+        "variants": [],
+        "source": {
+          "provider": "ambientcg",
+          "assetId": "WoodFloor051",
+          "pageUrl": "https://ambientcg.com/view?id=WoodFloor051",
+          "author": "ambientCG",
+          "license": "CC0-1.0",
+          "checkedAt": "2026-10-02T20:00:16.266Z",
+          "evidence": "https://docs.ambientcg.com/license/：全部 downloadable assets 采用 CC0 1.0。",
+          "tags": [
+            "木材",
+            "地板",
+            "wood",
+            "floor",
+            "PBR"
+          ]
+        }
+      },
+      {
+        "assetId": "eb18bb4f-b5ee-431d-99a5-ac275219890f",
+        "revisionId": "ecb4111a-961b-4f98-8c38-9594b32afb6e",
+        "title": "WoodFloor051_2K-PNG_AmbientOcclusion",
+        "entry": "WoodFloor051_2K-PNG_AmbientOcclusion-eb18bb4f/ecb4111a/WoodFloor051_2K-PNG_AmbientOcclusion.png",
+        "variants": [],
+        "source": {
+          "provider": "ambientcg",
+          "assetId": "WoodFloor051",
+          "pageUrl": "https://ambientcg.com/view?id=WoodFloor051",
+          "author": "ambientCG",
+          "license": "CC0-1.0",
+          "checkedAt": "2026-10-02T20:00:16.266Z",
+          "evidence": "https://docs.ambientcg.com/license/：全部 downloadable assets 采用 CC0 1.0。",
+          "tags": [
+            "木材",
+            "地板",
+            "wood",
+            "floor",
+            "PBR"
+          ]
+        }
+      }
+    ]
+  }
+}

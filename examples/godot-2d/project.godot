@@ -1,0 +1,13 @@
+config_version=5
+
+[application]
+config/name="素材工坊 2D 地牢示例"
+run/main_scene="res://main.tscn"
+
+[display]
+window/size/viewport_width=1152
+window/size/viewport_height=720
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false

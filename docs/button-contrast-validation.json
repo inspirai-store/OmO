@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-04T16:57:59.324Z",
+  "target": "WORKSPACE\\release\\readability-client\\win-unpacked\\素材工坊.exe",
+  "rows": [
+    {
+      "mode": "Godot 工程",
+      "state": "selected",
+      "color": "rgb(9, 9, 9)",
+      "fill": "rgb(245, 242, 235)",
+      "ratio": 17.809936133166328
+    },
+    {
+      "mode": "Godot 工程",
+      "state": "hover",
+      "color": "rgb(9, 9, 9)",
+      "fill": "rgb(245, 242, 235)",
+      "ratio": 17.809936133166328
+    },
+    {
+      "mode": "Godot 工程",
+      "state": "focus",
+      "color": "rgb(9, 9, 9)",
+      "fill": "rgb(245, 242, 235)",
+      "ratio": 17.809936133166328
+    },
+    {
+      "mode": "通用资源包",
+      "state": "selected",
+      "color": "rgb(9, 9, 9)",
+      "fill": "rgb(245, 242, 235)",
+      "ratio": 17.809936133166328
+    },
+    {
+      "mode": "通用资源包",
+      "state": "hover",
+      "color": "rgb(9, 9, 9)",
+      "fill": "rgb(245, 242, 235)",
+      "ratio": 17.809936133166328
+    },
+    {
+      "mode": "通用资源包",
+      "state": "focus",
+      "color": "rgb(9, 9, 9)",
+      "fill": "rgb(245, 242, 235)",
+      "ratio": 17.809936133166328
+    }
+  ]
+}

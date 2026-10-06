@@ -1,0 +1,49 @@
+{
+  "createdAt": "2026-10-03T08:34:34.482Z",
+  "platform": "Windows x64",
+  "packaged": true,
+  "passed": true,
+  "appAsarSHA256": "f756a89427c0979fc5cdfb7ab2fe9f5334d557f5c93352270b331fbc39bba9ae",
+  "reportedAsset": "bridge_center_wood.fbx",
+  "reportedError": "Cannot read properties of undefined (reading 'a')",
+  "causes": [
+    "ASCII FBX UV array closing-line indentation prevents UVIndex being parsed",
+    "terminal material array comma leaves material indices as text"
+  ],
+  "implementation": "In-memory text structure normalization shared by all FBX previews and thumbnails; binary FBX and hosted originals unchanged",
+  "parser": {
+    "total": 329,
+    "passed": 329,
+    "failed": 0,
+    "report": "docs/fbx-parser-validation.json"
+  },
+  "desktop": {
+    "startTime": "2026-10-03T08:32:51.351Z",
+    "duration": 38048.632,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0,
+    "report": "docs/desktop-validation.json"
+  },
+  "core": {
+    "passed": 47,
+    "skipped": 1,
+    "command": "pnpm test"
+  },
+  "verified": [
+    "compact and expanded real bridge preview",
+    "52 triangles, 156 source vertices, UV0 and three complete material groups",
+    "source SHA-256 unchanged",
+    "automatic thumbnail generation",
+    "GLB conversion preserves three groups and all 52 triangles; converted model opens",
+    "old failed FBX thumbnail automatically retried after restart without a direct preview request",
+    "real binary skinned character and separate idle animation loads and plays",
+    "scrolling/card/menu stability regressions"
+  ],
+  "screenshot": "docs/screenshots/fbx-bridge-fixed.png",
+  "limitations": [
+    "The 329-file test checks parsing and geometry/material validity; it is not 329 visual renders",
+    "macOS/Linux runtime validation pending; other FBX exporter compatibility remains best effort"
+  ]
+}

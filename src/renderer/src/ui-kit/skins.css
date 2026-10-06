@@ -1,0 +1,377 @@
+@scope (.aw-ui[data-skin]) to (.aw-ui[data-skin]) {
+  /* Semantic surfaces sit above the original comic styles; asset pixels are untouched. */
+  :scope {
+    --aw-red: var(--skin-accent);
+    --aw-cyan: var(--skin-cyan);
+    --aw-violet: var(--skin-violet);
+    --aw-ink: var(--skin-text);
+    --aw-muted: var(--skin-muted);
+    --bg: var(--skin-canvas);
+    --panel: var(--skin-surface);
+    --border: var(--skin-border);
+    --muted: var(--skin-muted);
+    color: var(--skin-text);
+  }
+  :scope {
+    --aw-paper: var(--skin-text);
+    --aw-surface: var(--skin-surface);
+  }
+  :scope:not([data-skin="comic"]) {
+    --skin-rest-angle: 0deg;
+    --skin-rest-shadow-x: 2px;
+    --skin-rest-shadow-y: 3px;
+    --aw-black: var(--skin-canvas);
+    --aw-hover-angle: 0deg;
+    --aw-preview-scale: 1.015;
+    --aw-spring: cubic-bezier(0.2, 0.85, 0.3, 1);
+    --aw-plate-in: aw-skin-enter;
+    --aw-swipe: aw-skin-enter;
+    --aw-pop: aw-skin-mark;
+    color-scheme: light;
+    background: var(--skin-canvas);
+  }
+  :scope[data-skin="fresh"] {
+    --skin-radius: 6px;
+    --skin-heading-angle: 0deg;
+    --skin-plate-shadow: 0 3px 8px var(--skin-shadow);
+  }
+  :scope[data-skin="paper"] {
+    --skin-radius: 2px;
+    --skin-heading-angle: -1deg;
+    --skin-plate-shadow: 2px 3px 0 var(--skin-shadow);
+  }
+  :scope:not([data-skin="comic"]) :is(.aw-button, .client-button) {
+    color: var(--skin-text);
+    --aw-button-fill: var(--skin-surface);
+    --aw-button-edge: var(--skin-border);
+    --aw-button-shadow: var(--skin-shadow);
+    --aw-button-ink: var(--skin-text);
+  }
+  :scope:not([data-skin="comic"]) .aw-button::before {
+    clip-path: none;
+    transform: none;
+    border-radius: var(--skin-radius);
+    border-width: 1px;
+    inset: 0;
+  }
+  :scope:not([data-skin="comic"]) .aw-button::after {
+    clip-path: none;
+    border-radius: var(--skin-radius);
+    transform: translate(2px, 3px);
+    inset: 0;
+    opacity: 0.45;
+  }
+  :scope:not([data-skin="comic"])
+    .aw-button:not(:disabled):is(
+      :hover,
+      :focus-visible,
+      [data-preview-state="hover"],
+      [data-preview-state="focus"]
+    )::before {
+    transform: translateY(-1px);
+  }
+  :scope:not([data-skin="comic"])
+    .aw-button:not(:disabled):is(
+      :hover,
+      :focus-visible,
+      [data-preview-state="hover"],
+      [data-preview-state="focus"]
+    )::after {
+    transform: translate(2px, 4px);
+  }
+  :scope:not([data-skin="comic"])
+    .aw-button:not(:disabled):is(
+      :active,
+      [data-preview-state="pressed"]
+    )::before {
+    transform: scale(0.985);
+  }
+  :scope:not([data-skin="comic"])
+    .aw-button:not(:disabled):is(
+      :active,
+      [data-preview-state="pressed"]
+    )::after {
+    transform: translate(1px, 1px);
+  }
+  :scope:not([data-skin="comic"])
+    .aw-button:is(.aw-button--primary, .primary, .is-selected, .active) {
+    --aw-button-fill: var(--aw-accent);
+    --aw-button-edge: var(--aw-accent);
+    --aw-button-ink: var(--skin-onAccent);
+    color: var(--skin-onAccent);
+  }
+  :scope:not([data-skin="comic"]) .aw-button--danger {
+    --aw-button-edge: var(--skin-error);
+    --aw-button-ink: var(--skin-error);
+    color: var(--skin-error);
+  }
+  :scope:not([data-skin="comic"]) .aw-button--ghost {
+    --aw-button-fill: transparent;
+    --aw-button-edge: transparent;
+    --aw-button-shadow: transparent;
+  }
+  :scope:not([data-skin="comic"])
+    :is(.aw-nav-item, .aw-tabs button, .aw-segmented button):is(
+      .is-selected,
+      [aria-selected="true"],
+      [aria-pressed="true"]
+    ) {
+    color: var(--skin-onAccent);
+  }
+  :scope:not([data-skin="comic"])
+    :is(.aw-selection-plate, .aw-card-check, .aw-group-count) {
+    background: var(--aw-accent);
+    clip-path: none;
+    border-radius: var(--skin-radius);
+    transform: none;
+    color: var(--skin-onAccent);
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      input:not(
+        [type="color"],
+        [type="checkbox"],
+        [type="radio"],
+        [type="range"]
+      ),
+      select,
+      textarea,
+      .aw-search,
+      .aw-choice-mark
+    ) {
+    background: var(--skin-surface);
+    color: var(--skin-text);
+    border: 1px solid var(--skin-border);
+    border-radius: var(--skin-radius);
+    box-shadow: none;
+  }
+  :scope:not([data-skin="comic"]) :is(input, select, textarea):focus {
+    border-color: var(--skin-focus);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--skin-focus) 18%, transparent);
+  }
+  :scope:not([data-skin="comic"])
+    :is(input, button, select, textarea, [tabindex]):focus-visible {
+    outline-color: var(--skin-focus);
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .aw-field-label,
+      .aw-field-hint,
+      .aw-range label,
+      .aw-range output,
+      .aw-asset-caption,
+      .aw-texture-slot strong
+    ) {
+    color: var(--skin-text);
+  }
+  :scope:not([data-skin="comic"]) input:checked + .aw-choice-mark {
+    background: var(--aw-accent);
+    color: var(--skin-onAccent);
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .aw-panel,
+      .aw-toolbar,
+      .aw-stat,
+      .aw-asset-card,
+      .aw-texture-slot,
+      .aw-menu,
+      .aw-tooltip,
+      .aw-dialog-box,
+      .aw-toast,
+      .aw-hint,
+      .aw-stamp,
+      .aw-tag,
+      .aw-badge
+    ) {
+    background: var(--skin-surface);
+    color: var(--skin-text);
+    border-color: var(--skin-border);
+    border-radius: var(--skin-radius);
+    clip-path: none;
+    box-shadow: var(--skin-plate-shadow);
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .aw-dialog-box > header,
+      .aw-menu button,
+      .aw-asset-caption,
+      .aw-panel-title,
+      .aw-panel-footer
+    ) {
+    background: var(--skin-surface);
+    color: var(--skin-text);
+    border-color: var(--skin-border);
+  }
+  :scope:not([data-skin="comic"]) .aw-menu button:is(:hover, :focus-visible) {
+    background: var(--skin-raised);
+    color: var(--skin-text);
+  }
+  :scope:not([data-skin="comic"])
+    :is(.aw-section-title h1, .aw-section-title h2, .aw-section-title h3) {
+    color: var(--skin-onAccent);
+    transform: none;
+    text-shadow: none;
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .aw-section-title h1,
+      .aw-section-title h2,
+      .aw-section-title h3
+    )::before {
+    clip-path: none;
+    border-radius: var(--skin-radius);
+    transform: rotate(var(--skin-heading-angle));
+    border: 0;
+    box-shadow: var(--skin-plate-shadow);
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .aw-section-title h1,
+      .aw-section-title h2,
+      .aw-section-title h3
+    )::after {
+    display: none;
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .aw-panel,
+      .aw-stat,
+      .aw-group-card,
+      .aw-toolbar,
+      .aw-dialog-box
+    )::before {
+    clip-path: none;
+    border-color: var(--skin-border);
+    transform: none;
+  }
+  :scope:not([data-skin="comic"])
+    :is(.aw-panel, .aw-stat, .aw-group-card, .aw-toolbar)::after {
+    opacity: 0.2;
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .aw-badge,
+      .aw-tag,
+      .aw-stamp,
+      .aw-hint,
+      .aw-toast,
+      .aw-menu,
+      .aw-tooltip
+    )::before {
+    clip-path: none;
+    border-radius: var(--skin-radius);
+    transform: none;
+    background: var(--skin-surface);
+    border-color: var(--skin-border);
+  }
+  :scope:not([data-skin="comic"]) :is(.aw-toast, .aw-stamp, .aw-badge)::after {
+    clip-path: none;
+    border-radius: var(--skin-radius);
+    background: var(--skin-shadow);
+    transform: translate(2px, 3px);
+  }
+  :scope:not([data-skin="comic"])
+    :is(.aw-tone-error, .has-error .aw-field-hint, .aw-menu .is-danger) {
+    color: var(--skin-error);
+  }
+  :scope:not([data-skin="comic"]) .aw-tone-success {
+    color: var(--skin-success);
+  }
+  :scope:not([data-skin="comic"]) .aw-tone-warning {
+    color: var(--skin-warning);
+  }
+  :scope:not([data-skin="comic"]) .aw-tone-info {
+    color: var(--skin-cyan);
+  }
+  :scope:not([data-skin="comic"]) .aw-progress-track {
+    background: var(--skin-raised);
+    border-color: var(--skin-border);
+  }
+  :scope:not([data-skin="comic"])
+    :is(.aw-menu, .aw-tooltip, .aw-dialog, .client-menu-theme, .client-modal) {
+    background: transparent;
+  }
+  :scope[data-skin="paper"]
+    :is(.aw-panel, .aw-dialog-box, .settings-section, .sidebar, .skin-preview) {
+    background-image:
+      radial-gradient(#91765312 0.6px, transparent 0.8px),
+      linear-gradient(92deg, #aa89530a, transparent 35%, #aa895306);
+    background-size:
+      5px 5px,
+      100% 100%;
+  }
+  :scope:is([data-motion="reduced"], [data-motion="none"]),
+  :scope [data-motion="reduced"],
+  :scope [data-motion="none"] {
+    --aw-pop: none;
+    --aw-plate-in: none;
+    --aw-shadow-in: none;
+    --aw-swipe: none;
+    --aw-hover-angle: 0deg;
+    --aw-hover-lift: 0px;
+    --aw-preview-scale: 1;
+    --aw-press-scale: 1;
+  }
+  :scope:is([data-motion="reduced"], [data-motion="none"])
+    .aw-button:not([data-motion="system"])::before,
+  :scope .aw-button:is([data-motion="reduced"], [data-motion="none"])::before {
+    transform: skewX(var(--skin-rest-angle, -3deg)) !important;
+  }
+  :scope:is([data-motion="reduced"], [data-motion="none"])
+    .aw-button:not([data-motion="system"])::after,
+  :scope .aw-button:is([data-motion="reduced"], [data-motion="none"])::after {
+    transform: translate(
+        var(--skin-rest-shadow-x, 6px),
+        var(--skin-rest-shadow-y, 6px)
+      )
+      skewX(var(--skin-rest-angle, -3deg)) !important;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    :scope,
+    :scope [data-motion="system"] {
+      --aw-pop: none;
+      --aw-plate-in: none;
+      --aw-shadow-in: none;
+      --aw-swipe: none;
+      --aw-hover-angle: 0deg;
+      --aw-hover-lift: 0px;
+      --aw-preview-scale: 1;
+      --aw-press-scale: 1;
+    }
+    :scope .aw-button::before {
+      transform: skewX(var(--skin-rest-angle, -3deg)) !important;
+    }
+    :scope .aw-button::after {
+      transform: translate(
+          var(--skin-rest-shadow-x, 6px),
+          var(--skin-rest-shadow-y, 6px)
+        )
+        skewX(var(--skin-rest-angle, -3deg)) !important;
+    }
+  }
+}
+@keyframes aw-skin-enter {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes aw-skin-mark {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.aw-skin-export-surface {
+  position: relative;
+  background: transparent;
+}

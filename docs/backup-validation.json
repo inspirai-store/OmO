@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-02T20:41:30.833Z",
+  "passed": true,
+  "backup": "WORKSPACE\\.data\\backups\\素材工坊备份-2026-10-02T20-40-44-078Z-0282ffed",
+  "restored": {
+    "target": "WORKSPACE\\.data\\restored-1790973665439",
+    "verified": 9837
+  },
+  "before": {
+    "assets": 8663,
+    "projects": 2,
+    "variants": 3
+  },
+  "after": {
+    "assets": 8663,
+    "projects": 2,
+    "variants": 3
+  }
+}

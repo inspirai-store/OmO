@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "all themes update chrome and preserve input",
+    "settings previews, native dialogs, density and motion",
+    "theme screenshots at both supported sizes",
+    "native package export and reimport",
+    "restart, source removal and switching libraries preserve installed appearance",
+    "slot wizard creates a reusable skin asset and applies it",
+    "all navigation pages and image editor inherit appearance",
+    "rapid preferences keep the latest intent and reduced motion keeps hit visuals stable"
+  ],
+  "errors": [],
+  "date": "2026-10-06T07:37:31.379Z"
+}

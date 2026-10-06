@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-02T20:42:49.146Z",
+  "results": [
+    {
+      "provider": "ambientcg",
+      "total": 295,
+      "first": 30,
+      "next": 30,
+      "firstId": "Wood096",
+      "passed": true
+    },
+    {
+      "provider": "polyhaven",
+      "total": 370,
+      "first": 30,
+      "next": 30,
+      "firstId": "ArmChair_01",
+      "passed": true
+    }
+  ]
+}

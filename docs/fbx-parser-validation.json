@@ -1,0 +1,2644 @@
+{
+  "date": "2026-10-03T08:27:22.078Z",
+  "previewParserVersion": 2,
+  "source": "Kenney Nature Kit — CC0-1.0",
+  "sourcePage": "https://kenney.nl/assets/nature-kit",
+  "scope": "ASCII FBX parsing; finite attributes; valid complete material groups; originals unchanged. Desktop rendering is verified separately.",
+  "total": 329,
+  "passed": 329,
+  "failed": 0,
+  "results": [
+    {
+      "file": "bed.fbx",
+      "passed": true,
+      "sha256": "e9aef02e36826c42187e39aa389aa7ffe09064e14d55eb09ef54266bb6f93aab",
+      "meshes": 1,
+      "triangles": 268,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bed_floor.fbx",
+      "passed": true,
+      "sha256": "248cffad8564cb0584cd693f283589fb4a5ca3d499397683627c32886ef1289b",
+      "meshes": 1,
+      "triangles": 124,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_center_stone.fbx",
+      "passed": true,
+      "sha256": "819c2c5f40f322c3cd20f39d6c20497739f404b8ba449c7569c3a60bcf269ebb",
+      "meshes": 1,
+      "triangles": 52,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_center_stoneRound.fbx",
+      "passed": true,
+      "sha256": "915b58b8e3ee133c72621589ca3f8be3bea492b051a2fd75111d7927d7a39c8b",
+      "meshes": 1,
+      "triangles": 52,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_center_wood.fbx",
+      "passed": true,
+      "sha256": "151913fe34883d73f90f9975a8860940486476b3037296348db34ec0b61eb305",
+      "meshes": 1,
+      "triangles": 52,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_center_woodRound.fbx",
+      "passed": true,
+      "sha256": "b838e6637f8a8759d6b8368f07ddac33cc2a198bd05641bdc3aa1c6cac5e76a9",
+      "meshes": 1,
+      "triangles": 60,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_side_stone.fbx",
+      "passed": true,
+      "sha256": "179c4f954059f47081b3aa5c68671e7deb104f39438ffc229a446d7869f47c27",
+      "meshes": 1,
+      "triangles": 152,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_side_stoneRound.fbx",
+      "passed": true,
+      "sha256": "db1bffa3bdb054d0038ea0d4fb8a26c25f412cf1cb71804a2da20f28516c5906",
+      "meshes": 1,
+      "triangles": 198,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_side_wood.fbx",
+      "passed": true,
+      "sha256": "38a23718e7607858dfadd6b4d357c6cdb9601409fddf911f8c48d113e6f92247",
+      "meshes": 1,
+      "triangles": 136,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_side_woodRound.fbx",
+      "passed": true,
+      "sha256": "d1e081d2c618430e118cc8ba314c21ad96a223ccdb0dc04916944e28d2aca46a",
+      "meshes": 1,
+      "triangles": 190,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_stone.fbx",
+      "passed": true,
+      "sha256": "3c14d3d19cc0bc8aa57d188acb2ea2d88ad552b17cbfb5a9959092ad234ec62d",
+      "meshes": 1,
+      "triangles": 252,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_stoneNarrow.fbx",
+      "passed": true,
+      "sha256": "ba296ed234f5a994d6a458d7fdc58ef01bbe10bc269043f9dd0d5add41ad7e19",
+      "meshes": 1,
+      "triangles": 252,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_stoneRound.fbx",
+      "passed": true,
+      "sha256": "0e725d83ffb942935caceeebe36119dde9f0ae84c23542a01047a03a2924f166",
+      "meshes": 1,
+      "triangles": 360,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_stoneRoundNarrow.fbx",
+      "passed": true,
+      "sha256": "60bd6ee5052f2604da0ccb892cae9b7678bbcf471088bb545931cf3d0787c456",
+      "meshes": 1,
+      "triangles": 360,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_wood.fbx",
+      "passed": true,
+      "sha256": "e57a4624055bf016ac5fca20ba30c5ab366e46c79e408f5ba61b02087d3c93fd",
+      "meshes": 1,
+      "triangles": 220,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_woodNarrow.fbx",
+      "passed": true,
+      "sha256": "037d047cf6ba47e19089598ac987e5a0ce03abbf8aaa700372464a580905669f",
+      "meshes": 1,
+      "triangles": 220,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_woodRound.fbx",
+      "passed": true,
+      "sha256": "ca62279b4c598e11e7be8a3ee396d341634a8c0374da69228a461ba5c9a77f67",
+      "meshes": 1,
+      "triangles": 336,
+      "uvMeshes": 1
+    },
+    {
+      "file": "bridge_woodRoundNarrow.fbx",
+      "passed": true,
+      "sha256": "20939da9eeb9b39328fe17c9009384cd85aff880408c717c1eaf74121575b2a6",
+      "meshes": 1,
+      "triangles": 336,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cactus_short.fbx",
+      "passed": true,
+      "sha256": "baf73ec9a2f0b7e634b281731a8efe237040511c707ba4d8baf02f30a544381d",
+      "meshes": 1,
+      "triangles": 116,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cactus_tall.fbx",
+      "passed": true,
+      "sha256": "68ba2ef2f64dbd032870e99e72ebd2bfe222178c92181df2a10536ff68936ecf",
+      "meshes": 1,
+      "triangles": 122,
+      "uvMeshes": 1
+    },
+    {
+      "file": "campfire_bricks.fbx",
+      "passed": true,
+      "sha256": "b32884bac3fa47654802241005694bbffd49578c5fa0ab4223ddf0719c2ab033",
+      "meshes": 1,
+      "triangles": 120,
+      "uvMeshes": 1
+    },
+    {
+      "file": "campfire_logs.fbx",
+      "passed": true,
+      "sha256": "ec317286a7959256431cd44a7ad7ab7efc570b350edf07dc81027f89ae6b56c4",
+      "meshes": 1,
+      "triangles": 112,
+      "uvMeshes": 1
+    },
+    {
+      "file": "campfire_planks.fbx",
+      "passed": true,
+      "sha256": "aec6f0a621001d9830e789472cd102e9393c2c8167c6f887732fe2ca9147dbab",
+      "meshes": 1,
+      "triangles": 108,
+      "uvMeshes": 1
+    },
+    {
+      "file": "campfire_stones.fbx",
+      "passed": true,
+      "sha256": "e4af071d4e837a344b982d4aabdba651a36ca78354c8f4c1c04dee83a4c0ac18",
+      "meshes": 1,
+      "triangles": 264,
+      "uvMeshes": 1
+    },
+    {
+      "file": "canoe.fbx",
+      "passed": true,
+      "sha256": "57a970147054b4aa5d19e98ddb8cab337b716b81f16228ad6ea0c90ec4010739",
+      "meshes": 1,
+      "triangles": 200,
+      "uvMeshes": 1
+    },
+    {
+      "file": "canoe_paddle.fbx",
+      "passed": true,
+      "sha256": "635ded8a40c7b1919ce938a685b0a45a1c1dff5006384853ff200ad354800f2e",
+      "meshes": 1,
+      "triangles": 32,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_blockCave_rock.fbx",
+      "passed": true,
+      "sha256": "e8620eba8f589031150633dc0be547c93bb0b6ab8e47a129316dbbe855aa0e59",
+      "meshes": 1,
+      "triangles": 56,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_blockCave_stone.fbx",
+      "passed": true,
+      "sha256": "c38f1bd70517242b038b144b81381733ab6ed11e111262cf7594ac94b51cb541",
+      "meshes": 1,
+      "triangles": 56,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_blockDiagonal_rock.fbx",
+      "passed": true,
+      "sha256": "9652a58977f41db73ef0a721d6413cba8291354e250b6dd6df2b8b0649db6660",
+      "meshes": 1,
+      "triangles": 8,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_blockDiagonal_stone.fbx",
+      "passed": true,
+      "sha256": "34d4a76ed6da51af0133be8c547dfddc44230bf3bf8e9810f1825c8d2a0ac7b7",
+      "meshes": 1,
+      "triangles": 8,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_blockHalf_rock.fbx",
+      "passed": true,
+      "sha256": "50ee89e0f1c75bb41fcc5c789ae4b0fe3951cfeca768e356abc957a9649cded0",
+      "meshes": 1,
+      "triangles": 12,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_blockHalf_stone.fbx",
+      "passed": true,
+      "sha256": "c3c9579d4bf78a03c1708a04da88c21b62aa272dbb21a386a4261dbd1c62105d",
+      "meshes": 1,
+      "triangles": 12,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_blockQuarter_rock.fbx",
+      "passed": true,
+      "sha256": "2a8ceae3d2cc3358bc84e179e37c639d29ac7b70d3b3a2ce6145c594fbc48079",
+      "meshes": 1,
+      "triangles": 12,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_blockQuarter_stone.fbx",
+      "passed": true,
+      "sha256": "55abb4871a42e4f2bdac2928338299fc4d5d22543fcd43b8daccf5b71c30adff",
+      "meshes": 1,
+      "triangles": 12,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_blockSlopeHalfWalls_rock.fbx",
+      "passed": true,
+      "sha256": "869847242a6fd08ddd6f7e9941e0b5d7c5797f132794657bc00a421cb71933b2",
+      "meshes": 1,
+      "triangles": 106,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_blockSlopeHalfWalls_stone.fbx",
+      "passed": true,
+      "sha256": "3441471ecb5e812e3034cd52257ae3ebe6c90ee011b990dabde02110dff85690",
+      "meshes": 1,
+      "triangles": 106,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_blockSlopeWalls_rock.fbx",
+      "passed": true,
+      "sha256": "3057580748f10c0707215fbcfa6571db4269c049bfccd5750baae12397e4c3c9",
+      "meshes": 1,
+      "triangles": 106,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_blockSlopeWalls_stone.fbx",
+      "passed": true,
+      "sha256": "958b2a80ad98979cd4669abd76fd79c8e11b09825f70dcb14a4dc5951f0d6b2d",
+      "meshes": 1,
+      "triangles": 106,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_blockSlope_rock.fbx",
+      "passed": true,
+      "sha256": "b9cca870deb0ef2fd9f0bd2ea616909c7eb9d8e01ee67ac05fba04817403807a",
+      "meshes": 1,
+      "triangles": 70,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_blockSlope_stone.fbx",
+      "passed": true,
+      "sha256": "7412010429dbc16be11ec6e1e9777b0c6167dd006d936eb016d7695bde5fe098",
+      "meshes": 1,
+      "triangles": 70,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_block_rock.fbx",
+      "passed": true,
+      "sha256": "cab387bf1bebe62816f14eea116f3717c964df08fb12695dc27ca6c5f8ad0aed",
+      "meshes": 1,
+      "triangles": 12,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_block_stone.fbx",
+      "passed": true,
+      "sha256": "0c2e16c789b7c392dfcc33bd8ceb6bb0674e78d727dd038e2866a3ec94ff07a3",
+      "meshes": 1,
+      "triangles": 12,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_cave_rock.fbx",
+      "passed": true,
+      "sha256": "6e65ab99f533603ffd40298da559199ec9962d722767956036eac352938761a4",
+      "meshes": 1,
+      "triangles": 64,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_cave_stone.fbx",
+      "passed": true,
+      "sha256": "30d6faa43548e3d2b472e904f3acfc15d0c21752fb41fa6e2210056a7a6b168b",
+      "meshes": 1,
+      "triangles": 64,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_cornerInnerLarge_rock.fbx",
+      "passed": true,
+      "sha256": "ae34a225f299bec87676c8c20bbb463d3ab689ba12bac7088f1f0f48c7108e43",
+      "meshes": 1,
+      "triangles": 44,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_cornerInnerLarge_stone.fbx",
+      "passed": true,
+      "sha256": "882b521ae51832c3eda4feea332fd00cd49fb32a1d9cba24c32822247ecfd377",
+      "meshes": 1,
+      "triangles": 44,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_cornerInnerTop_rock.fbx",
+      "passed": true,
+      "sha256": "e518fce8f0348243e3d05f980a08cd3302b2814e88a7498016a4a2e539ca4aa9",
+      "meshes": 1,
+      "triangles": 89,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_cornerInnerTop_stone.fbx",
+      "passed": true,
+      "sha256": "5c2db930b5ab8cb78501f342d36e8252ab657ee2603c7c3ef3338c3555f9beb8",
+      "meshes": 1,
+      "triangles": 89,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_cornerInner_rock.fbx",
+      "passed": true,
+      "sha256": "1aa3c04fa3e27a874e3c75cec9542fbd85a85275a36d4a7a60296a5c6cbb4276",
+      "meshes": 1,
+      "triangles": 56,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_cornerInner_stone.fbx",
+      "passed": true,
+      "sha256": "af2a9ad913d3aed0d7f81e1e2b4832eae22c751c4caf705155deca0864804c61",
+      "meshes": 1,
+      "triangles": 112,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_cornerLarge_rock.fbx",
+      "passed": true,
+      "sha256": "37c5567f51eb84b5062652449698a0bf7bea5e41c1fe6d8e8c2fb6ab1ee0dd49",
+      "meshes": 1,
+      "triangles": 12,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_cornerLarge_stone.fbx",
+      "passed": true,
+      "sha256": "753e30de02cfacf8b8f76e60a63320f1feec1f8849215a500252ec2094340bc7",
+      "meshes": 1,
+      "triangles": 24,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_cornerTop_rock.fbx",
+      "passed": true,
+      "sha256": "8eee67801d1e0774c11bc941c01f9f2f781fa2ac1576589c71637aeace62de5c",
+      "meshes": 1,
+      "triangles": 16,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_cornerTop_stone.fbx",
+      "passed": true,
+      "sha256": "0743ab3c863a4d64ee57c9461fb4be87f2587fe6f75fe9ed899aab5f7668fdb5",
+      "meshes": 1,
+      "triangles": 16,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_corner_rock.fbx",
+      "passed": true,
+      "sha256": "f869fa19accfb443f12c38904db72e14821c7732d5662eca50d2f2fd4a370b5a",
+      "meshes": 1,
+      "triangles": 12,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_corner_stone.fbx",
+      "passed": true,
+      "sha256": "d1aebec18d4aff17ba8253c0ed99d8d30a267bda8d6cc043aadbd02da836c8cb",
+      "meshes": 1,
+      "triangles": 12,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_diagonal_rock.fbx",
+      "passed": true,
+      "sha256": "96859fabd93d1ac28a1c1634a83228bc2a5a8979e9cd933e4ceef403b4e584cf",
+      "meshes": 1,
+      "triangles": 44,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_diagonal_stone.fbx",
+      "passed": true,
+      "sha256": "373854fb38305e6ae3eadc9bb9a94bcd1fbd9b535eb66aabfd4669f44b593757",
+      "meshes": 1,
+      "triangles": 44,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_halfCornerInner_rock.fbx",
+      "passed": true,
+      "sha256": "34715fe3e403178875d4f456a99bc5ee8cc812547f15f0082b91b8d93ad00969",
+      "meshes": 1,
+      "triangles": 89,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_halfCornerInner_stone.fbx",
+      "passed": true,
+      "sha256": "0ace82ab7d4bccfa8dd394fdfc6279ba8859478f41cfedea27eebbf0f0479d7e",
+      "meshes": 1,
+      "triangles": 89,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_halfCorner_rock.fbx",
+      "passed": true,
+      "sha256": "ef53eb31df3f512a998076bc5938a6a982680d0c2ce488525bc8233420a2a594",
+      "meshes": 1,
+      "triangles": 16,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_halfCorner_stone.fbx",
+      "passed": true,
+      "sha256": "45a5024078256ae34108c7b65ccf94aa450d3da12cc554982bfd3f9c2454ccd5",
+      "meshes": 1,
+      "triangles": 16,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_half_rock.fbx",
+      "passed": true,
+      "sha256": "f5704c51bea439572692b9f70c6a4607d03ae8099ae3a50055494d0f690d6939",
+      "meshes": 1,
+      "triangles": 53,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_half_stone.fbx",
+      "passed": true,
+      "sha256": "e80b9b1f4cd3776841ae4a3a8f80846a0c1e2005b9f4059afded724580feba2a",
+      "meshes": 1,
+      "triangles": 53,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_large_rock.fbx",
+      "passed": true,
+      "sha256": "b0669e2186507fe7a4a12640c064b1670b80a4303944794726890b8ee07c3d7b",
+      "meshes": 1,
+      "triangles": 32,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_large_stone.fbx",
+      "passed": true,
+      "sha256": "56b4157ea70fc8a7b34f7156aa3ac42bed2c7a73ae6dfefbb1eeb693bc3d091e",
+      "meshes": 1,
+      "triangles": 32,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_rock.fbx",
+      "passed": true,
+      "sha256": "7903d0a99ffeb91ed80de720382fc2abb8668fa976311d43ee37977a556cbb58",
+      "meshes": 1,
+      "triangles": 32,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_stepsCornerInner_rock.fbx",
+      "passed": true,
+      "sha256": "52bd3b37043d522ab641ee9c403822620c5e9be8bd2474193e6d31b485c9cf0a",
+      "meshes": 1,
+      "triangles": 213,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_stepsCornerInner_stone.fbx",
+      "passed": true,
+      "sha256": "964aca5be709118f5021be09c605a8bde37afdb86d8648dc04a69768e74ee317",
+      "meshes": 1,
+      "triangles": 213,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_stepsCorner_rock.fbx",
+      "passed": true,
+      "sha256": "ef8be887e6ba644f367cd41987df4625ee78ab53111ba74771410919b321ef62",
+      "meshes": 1,
+      "triangles": 245,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_stepsCorner_stone.fbx",
+      "passed": true,
+      "sha256": "caf45476effc0e547c28938a403c5cbf844ff3eb0948ebf497fc8de9d8a715ea",
+      "meshes": 1,
+      "triangles": 245,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_steps_rock.fbx",
+      "passed": true,
+      "sha256": "cb5b33604920625ced9bf264b504ce8446ce527c66e7500083de775616a14f1b",
+      "meshes": 1,
+      "triangles": 219,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_steps_stone.fbx",
+      "passed": true,
+      "sha256": "ef3df9549ca45079eddf2f76a6e81ea44615b371676e9c99b1f81fa5d2f841b2",
+      "meshes": 1,
+      "triangles": 219,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_stone.fbx",
+      "passed": true,
+      "sha256": "a369289a3681afbe0f9c3a2f51c4c080951e8f5152bba4dce8c31d501ac8024d",
+      "meshes": 1,
+      "triangles": 32,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_topDiagonal_rock.fbx",
+      "passed": true,
+      "sha256": "b15cd677881a4a56c9f3b4d4be5f78345c17ae7cd3074839573cbf450fd00420",
+      "meshes": 1,
+      "triangles": 66,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_topDiagonal_stone.fbx",
+      "passed": true,
+      "sha256": "d79ffa5537faad0359a6d572e5a82945e6f697480404b5908f7774bfbf665bae",
+      "meshes": 1,
+      "triangles": 132,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_top_rock.fbx",
+      "passed": true,
+      "sha256": "4212a79be4e115d53d2c3968faf9304b93c82d913b8a7ac2e4c8f8df74290321",
+      "meshes": 1,
+      "triangles": 53,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_top_stone.fbx",
+      "passed": true,
+      "sha256": "558cf90ca7fc1ffec92a1e5b5f6caec4689c0a1cfcede8c26713e2f9ed39f38e",
+      "meshes": 1,
+      "triangles": 53,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_waterfallTop_rock.fbx",
+      "passed": true,
+      "sha256": "4c886a1998d99d4aadb7f5ac130b6db303a2039b423cd5cf35bd52586aac1f62",
+      "meshes": 1,
+      "triangles": 60,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_waterfallTop_stone.fbx",
+      "passed": true,
+      "sha256": "f7d86142ff6f399ae0ac775c5d78909a8707324e0dbe81129d6bd688da528026",
+      "meshes": 1,
+      "triangles": 60,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_waterfall_rock.fbx",
+      "passed": true,
+      "sha256": "011d55ef98236078c3d1d1239e12a8682cf843e6e9d215f174847db2a3e86f44",
+      "meshes": 1,
+      "triangles": 34,
+      "uvMeshes": 1
+    },
+    {
+      "file": "cliff_waterfall_stone.fbx",
+      "passed": true,
+      "sha256": "fb72c0f7243e5a4945126452bd37b4ba8982750d6e238df16e62d059d554ac33",
+      "meshes": 1,
+      "triangles": 68,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crop_carrot.fbx",
+      "passed": true,
+      "sha256": "4f631f3df9b9203fe2206797589e64557e8d034868b17328c1281e6d2bdcfbe9",
+      "meshes": 1,
+      "triangles": 148,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crop_melon.fbx",
+      "passed": true,
+      "sha256": "bd13ece083bcc0f2fe8309216319ec40bea0ddba78774ab9f56ea90c360e2509",
+      "meshes": 1,
+      "triangles": 236,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crop_pumpkin.fbx",
+      "passed": true,
+      "sha256": "560a57db07b76657f25100cf60f4b62b09e831e54fcfa410c9740127c8ea1faf",
+      "meshes": 1,
+      "triangles": 120,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crop_turnip.fbx",
+      "passed": true,
+      "sha256": "a31cecd5b5d2edce011b3bb3cade4b699fd52a98610b6bfbfa34b350648a18bf",
+      "meshes": 1,
+      "triangles": 168,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_bambooStageA.fbx",
+      "passed": true,
+      "sha256": "780674f245d0543d2273f5da7dd7d558bf970e547a0fff6c38b0025f8a45f815",
+      "meshes": 1,
+      "triangles": 276,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_bambooStageB.fbx",
+      "passed": true,
+      "sha256": "c6a08c4a7d57bc0d0d589711e78b5235862196d5332f06e7b90ece034b8e6aba",
+      "meshes": 1,
+      "triangles": 564,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_cornStageA.fbx",
+      "passed": true,
+      "sha256": "b3e5e17b848bc55df33b41c24554edfcc63dda151dde91bcdaf94fe44744c8d3",
+      "meshes": 1,
+      "triangles": 100,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_cornStageB.fbx",
+      "passed": true,
+      "sha256": "2c8a8c6b9537dfb86f7b8737e1f47282bf56d44dfef1246174f69b4a1a587a91",
+      "meshes": 1,
+      "triangles": 116,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_cornStageC.fbx",
+      "passed": true,
+      "sha256": "c88515b6ffc4052a4b8b2ca0ae6b3ea0c1dd9d9c22503aa9c9e0f8cf7d212cb4",
+      "meshes": 1,
+      "triangles": 148,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_cornStageD.fbx",
+      "passed": true,
+      "sha256": "28bea2f76aa50fcede53a92fabc7aa6cf90a9a44af55bb57ac232779e7c11961",
+      "meshes": 5,
+      "triangles": 300,
+      "uvMeshes": 5
+    },
+    {
+      "file": "crops_dirtDoubleRow.fbx",
+      "passed": true,
+      "sha256": "b5ef715a680792606b4d74cb54f30a4ddfd144a271bca49dfa8a2c2740a5a992",
+      "meshes": 1,
+      "triangles": 88,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_dirtDoubleRowCorner.fbx",
+      "passed": true,
+      "sha256": "f9215f07e8c162010bb15adb063dbe91dcd6cc6e1a22f44369298c48dbc26fe5",
+      "meshes": 1,
+      "triangles": 50,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_dirtDoubleRowEnd.fbx",
+      "passed": true,
+      "sha256": "74e27ddd72534f26232bad6d8797907b27dfb51f0778d89bd3a2ff378ccee52d",
+      "meshes": 1,
+      "triangles": 64,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_dirtRow.fbx",
+      "passed": true,
+      "sha256": "ae6cd676afd7ba8d39899aef2278dca9a98ffb9df58a94b09c19caf70f99a26c",
+      "meshes": 1,
+      "triangles": 44,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_dirtRowCorner.fbx",
+      "passed": true,
+      "sha256": "72e2ec2397204d039ee4bc09694e4f06adcb1590e23cbe7b1f3db485c0dce671",
+      "meshes": 1,
+      "triangles": 19,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_dirtRowEnd.fbx",
+      "passed": true,
+      "sha256": "74c01539cf42898f44853a3214a28f5e5dfe3b1309be655350c14f5fae1b17a3",
+      "meshes": 1,
+      "triangles": 32,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_dirtSingle.fbx",
+      "passed": true,
+      "sha256": "0fbb2ddca5101eff2ea8a5090ed68cf64bc8dcec503e5619907a2c497ec4f26b",
+      "meshes": 1,
+      "triangles": 32,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_leafsStageA.fbx",
+      "passed": true,
+      "sha256": "d24d52784458dfc507e99d3829822850d2dba7f4d07bbc2808dbb2a5e2331c9e",
+      "meshes": 1,
+      "triangles": 76,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_leafsStageB.fbx",
+      "passed": true,
+      "sha256": "903f621a29561806b5f4e06c4b37e6f936252c03b5e228b3209ef2069c3d02aa",
+      "meshes": 1,
+      "triangles": 84,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_wheatStageA.fbx",
+      "passed": true,
+      "sha256": "9691a204eaff21e718a8ac211df4f234414b8884dee3ed5e9951f13c915fb083",
+      "meshes": 1,
+      "triangles": 720,
+      "uvMeshes": 1
+    },
+    {
+      "file": "crops_wheatStageB.fbx",
+      "passed": true,
+      "sha256": "4b939a0fdd558184758ec83445faeaf5eda9e248311509162bc85227eb68bd79",
+      "meshes": 1,
+      "triangles": 360,
+      "uvMeshes": 1
+    },
+    {
+      "file": "fence_bend.fbx",
+      "passed": true,
+      "sha256": "d9d2f4d4bf1b3093085aa559e9bb0b21686fd50ccecd127adbeede2a4473c877",
+      "meshes": 1,
+      "triangles": 240,
+      "uvMeshes": 1
+    },
+    {
+      "file": "fence_bendCenter.fbx",
+      "passed": true,
+      "sha256": "c4fe1c8e8b5aa7eccbad3604ce5a6bb0b9e58b9ddff32aed0b8dd4ca55f8251d",
+      "meshes": 1,
+      "triangles": 298,
+      "uvMeshes": 1
+    },
+    {
+      "file": "fence_corner.fbx",
+      "passed": true,
+      "sha256": "e492353f944e47fdac309d6170457bc662957ff7ef9de77ce1edfccc3e971809",
+      "meshes": 1,
+      "triangles": 116,
+      "uvMeshes": 1
+    },
+    {
+      "file": "fence_gate.fbx",
+      "passed": true,
+      "sha256": "aed942752ef6c94fd8e677330e7c73c5d6f98dd1a3ab1d1abe6b8c6cdc5d7c91",
+      "meshes": 2,
+      "triangles": 524,
+      "uvMeshes": 2
+    },
+    {
+      "file": "fence_planks.fbx",
+      "passed": true,
+      "sha256": "28ce16106d1abf67acfc122403d073e466ba78eb440fc0e23ab93aec8f8fe108",
+      "meshes": 1,
+      "triangles": 96,
+      "uvMeshes": 1
+    },
+    {
+      "file": "fence_planksDouble.fbx",
+      "passed": true,
+      "sha256": "c6a7d85ee9c20a19c0f0b7dccf61cf004cda2dbcd2febd2f83cd4ad476a275d6",
+      "meshes": 1,
+      "triangles": 152,
+      "uvMeshes": 1
+    },
+    {
+      "file": "fence_simple.fbx",
+      "passed": true,
+      "sha256": "da2730f7311c83b3d2026d7f636c19950075ece9395c675d00ff67772e09b30d",
+      "meshes": 1,
+      "triangles": 64,
+      "uvMeshes": 1
+    },
+    {
+      "file": "fence_simpleCenter.fbx",
+      "passed": true,
+      "sha256": "893de234ee91758e8a857574ae106b716957c1adfe0404ffeb5c788957043c01",
+      "meshes": 1,
+      "triangles": 116,
+      "uvMeshes": 1
+    },
+    {
+      "file": "fence_simpleDiagonal.fbx",
+      "passed": true,
+      "sha256": "313d7f9010bd4dc694b0a1cd581168232f0c4dc61ca38fec630b7aa0f39b02fc",
+      "meshes": 1,
+      "triangles": 80,
+      "uvMeshes": 1
+    },
+    {
+      "file": "fence_simpleDiagonalCenter.fbx",
+      "passed": true,
+      "sha256": "3f62f4765f49204d3b2d3db3dcaa26bd1f2a612971ebacc439aef3f82c2fa36b",
+      "meshes": 1,
+      "triangles": 148,
+      "uvMeshes": 1
+    },
+    {
+      "file": "fence_simpleHigh.fbx",
+      "passed": true,
+      "sha256": "1cfc101c0b4d66bbda93579823c347a667edb17dd44a92895e0cdc752fcf9da4",
+      "meshes": 1,
+      "triangles": 44,
+      "uvMeshes": 1
+    },
+    {
+      "file": "fence_simpleLow.fbx",
+      "passed": true,
+      "sha256": "2f1e488e4e0a95c7f4f5c2e9986bc64cff61b3e940535734f9a9640bb0f19876",
+      "meshes": 1,
+      "triangles": 44,
+      "uvMeshes": 1
+    },
+    {
+      "file": "flower_purpleA.fbx",
+      "passed": true,
+      "sha256": "d95109e8d69177743b2eb14a39a0a5e5ebbceeed0d49956a36a97a3eb4e05f23",
+      "meshes": 1,
+      "triangles": 76,
+      "uvMeshes": 1
+    },
+    {
+      "file": "flower_purpleB.fbx",
+      "passed": true,
+      "sha256": "1093cbd33697e1f08afef9d7487efea5764b4a38a7c37e6fd7fdfc85e267522d",
+      "meshes": 1,
+      "triangles": 98,
+      "uvMeshes": 1
+    },
+    {
+      "file": "flower_purpleC.fbx",
+      "passed": true,
+      "sha256": "9fa624d4ca31f1f6753873fb2f364a38b69ecb0c65935350e74ae4880bfdb786",
+      "meshes": 1,
+      "triangles": 78,
+      "uvMeshes": 1
+    },
+    {
+      "file": "flower_redA.fbx",
+      "passed": true,
+      "sha256": "5e4152d8988d7f1d9889bc75d5f330790a08cd6ea0cb06c18cf333e262aa52c4",
+      "meshes": 1,
+      "triangles": 76,
+      "uvMeshes": 1
+    },
+    {
+      "file": "flower_redB.fbx",
+      "passed": true,
+      "sha256": "ea455cd7290d79ee592cb4c0bbd2b4d58ac2f5c5a0baf8641c8af886572556aa",
+      "meshes": 1,
+      "triangles": 98,
+      "uvMeshes": 1
+    },
+    {
+      "file": "flower_redC.fbx",
+      "passed": true,
+      "sha256": "1b5ea6f3cacd52ca25efaa23c12df3573698bd9582fcc6ba3c4f3615d4879e3b",
+      "meshes": 1,
+      "triangles": 78,
+      "uvMeshes": 1
+    },
+    {
+      "file": "flower_yellowA.fbx",
+      "passed": true,
+      "sha256": "ae47d1d93a42e736622d62c71fa0b333e03667cfff624b98bb89bc5d4a3aca0c",
+      "meshes": 1,
+      "triangles": 76,
+      "uvMeshes": 1
+    },
+    {
+      "file": "flower_yellowB.fbx",
+      "passed": true,
+      "sha256": "2083f240f07d4811820d578476fda5c27a22fae74eef1388a2cfd7e79a6f0365",
+      "meshes": 1,
+      "triangles": 154,
+      "uvMeshes": 1
+    },
+    {
+      "file": "flower_yellowC.fbx",
+      "passed": true,
+      "sha256": "08aeca8699b464e05e24bd01206e669a13f0cb6d7dcf9cb111cb61493596bfc2",
+      "meshes": 1,
+      "triangles": 78,
+      "uvMeshes": 1
+    },
+    {
+      "file": "grass.fbx",
+      "passed": true,
+      "sha256": "37cd62671bdf862752762bf339a0667d26bfacca6f8fd8fe8c0117e9fc5492c8",
+      "meshes": 1,
+      "triangles": 132,
+      "uvMeshes": 1
+    },
+    {
+      "file": "grass_large.fbx",
+      "passed": true,
+      "sha256": "4a8af0f51a7d4121bf33cda97b75e222c33756b302e2d598e66246309cfaff62",
+      "meshes": 1,
+      "triangles": 224,
+      "uvMeshes": 1
+    },
+    {
+      "file": "grass_leafs.fbx",
+      "passed": true,
+      "sha256": "329907edeb5fa73703f0a63e47a97d3e2f02f1941f386a4d1f568ada7f3e9221",
+      "meshes": 1,
+      "triangles": 36,
+      "uvMeshes": 1
+    },
+    {
+      "file": "grass_leafsLarge.fbx",
+      "passed": true,
+      "sha256": "0c334249a7c8e543eb403c6abdb1c9caf054b04d44a640259d858cb8b3ac4f4d",
+      "meshes": 1,
+      "triangles": 144,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_grass.fbx",
+      "passed": true,
+      "sha256": "acd2c15d51451c77d82ce2a43028611e6749699a072238deecb3ab47fd0c86e1",
+      "meshes": 1,
+      "triangles": 2,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_pathBend.fbx",
+      "passed": true,
+      "sha256": "5e998da03c4e06271eb0589f444b0a0e4c7870798a793172c1331d451c1e0bf9",
+      "meshes": 1,
+      "triangles": 32,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_pathBendBank.fbx",
+      "passed": true,
+      "sha256": "09150a3ea4f14bd45bff92166dc641526eca631f4b3f3ec981b01da0f63d0439",
+      "meshes": 1,
+      "triangles": 38,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_pathCorner.fbx",
+      "passed": true,
+      "sha256": "545341d0c858f9aca2b323f54190a124db38a11fc40784b667458eb3f133dfd9",
+      "meshes": 1,
+      "triangles": 22,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_pathCornerSmall.fbx",
+      "passed": true,
+      "sha256": "e7c19bc96ff96a5e556477869c992546ebc220c9eee656be55e55193b5adbd71",
+      "meshes": 1,
+      "triangles": 24,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_pathCross.fbx",
+      "passed": true,
+      "sha256": "07566d0ec2717a05f742e7ae4f07820d58d4dea42871bdcd4c7cfa5bcfea2c14",
+      "meshes": 1,
+      "triangles": 74,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_pathEnd.fbx",
+      "passed": true,
+      "sha256": "75a7f2b073f8c11e0dbfb9f2de7ffb52a7dc6b0442cc7a207c12cea93ea221c8",
+      "meshes": 1,
+      "triangles": 52,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_pathEndClosed.fbx",
+      "passed": true,
+      "sha256": "d0a5854b87b80532dce8ac63ac71c70e6fce2c744d185aceb8bc751b10735d06",
+      "meshes": 1,
+      "triangles": 68,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_pathOpen.fbx",
+      "passed": true,
+      "sha256": "307981f80bda241f43629d362d33cf2d17c22cfeecd45b987cee14b1db0860d0",
+      "meshes": 1,
+      "triangles": 8,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_pathRocks.fbx",
+      "passed": true,
+      "sha256": "3f132a55793e05d3ba7f5a6ca01c8deeeb8de2711418826dcbdd8b8e290ec32b",
+      "meshes": 1,
+      "triangles": 102,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_pathSide.fbx",
+      "passed": true,
+      "sha256": "41b08ed25e4e0f86b71ac5a76a37f55bf638e85a401bd2e93440d7685937360c",
+      "meshes": 1,
+      "triangles": 34,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_pathSideOpen.fbx",
+      "passed": true,
+      "sha256": "10107140fd52e9c49cbddd97e7708082edfe541c6d00d6bbaa6b3eab12dcd1ff",
+      "meshes": 1,
+      "triangles": 40,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_pathSplit.fbx",
+      "passed": true,
+      "sha256": "cea7358bcca7ec149f9927bafe079117b30c600983327653b1b5ed5d7624cd56",
+      "meshes": 1,
+      "triangles": 68,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_pathStraight.fbx",
+      "passed": true,
+      "sha256": "2f7141f59f9bd4555091b98d70c3d1eb2f238f97a3c02d0864bdc83fcb852f95",
+      "meshes": 1,
+      "triangles": 62,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_pathTile.fbx",
+      "passed": true,
+      "sha256": "1eae5c41cea5fc899efd43190a522243f722ec50eaece66aca3b68027a320135",
+      "meshes": 1,
+      "triangles": 86,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_riverBend.fbx",
+      "passed": true,
+      "sha256": "24312749c1ece18caca92222e4cf639033c1bffe4a480fa21e9a21900d5ee4f0",
+      "meshes": 1,
+      "triangles": 54,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_riverBendBank.fbx",
+      "passed": true,
+      "sha256": "1bc3aa77684fcb9398de5755821bbb663a621ac0dd55d7822ac75a2407751b34",
+      "meshes": 1,
+      "triangles": 54,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_riverCorner.fbx",
+      "passed": true,
+      "sha256": "1bec9ea39fa431d81666e657538995c760813dadaa717373eac2620795e6ffd6",
+      "meshes": 1,
+      "triangles": 40,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_riverCornerSmall.fbx",
+      "passed": true,
+      "sha256": "d0ed728da4249bfd7533f921c7c93741e7693a36a6917ea132fcf9f8be6719c9",
+      "meshes": 1,
+      "triangles": 26,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_riverCross.fbx",
+      "passed": true,
+      "sha256": "efbc7fde2a888a8b412261b0d1349420f2b5b5b0d85fa9cc35fd495e03832f64",
+      "meshes": 1,
+      "triangles": 82,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_riverEnd.fbx",
+      "passed": true,
+      "sha256": "184c1c9876e37cc62a2dd81755589fe9f5adc0e5e909e6935f3a4dd43edcb0fd",
+      "meshes": 1,
+      "triangles": 52,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_riverEndClosed.fbx",
+      "passed": true,
+      "sha256": "6213b459d421a118d644dfc2cb3a906f71eddd0e625d961923589dd047c46dff",
+      "meshes": 1,
+      "triangles": 84,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_riverOpen.fbx",
+      "passed": true,
+      "sha256": "478936ea7316423407d77d9d17debdaad41d80a28a2b772a3c2f074e47e909da",
+      "meshes": 1,
+      "triangles": 8,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_riverRocks.fbx",
+      "passed": true,
+      "sha256": "23ab5199ea4a00eb8def265322aba0416c50dbe2bdeb92ded9b14f8aeda4ea5e",
+      "meshes": 1,
+      "triangles": 102,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_riverSide.fbx",
+      "passed": true,
+      "sha256": "b22bdd9f4b573d379fff084c98d6b8975217c1ab1e3d7d9d6867733885e17068",
+      "meshes": 1,
+      "triangles": 34,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_riverSideOpen.fbx",
+      "passed": true,
+      "sha256": "f80d13e22ab897d3d95e289ae6bca8a0ab213ed14160f030c4a3e7ca3df22151",
+      "meshes": 1,
+      "triangles": 44,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_riverSplit.fbx",
+      "passed": true,
+      "sha256": "c4f2207f989446449cc7360499874e4ea689c620add51c3781f4ebce2396a77f",
+      "meshes": 1,
+      "triangles": 72,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_riverStraight.fbx",
+      "passed": true,
+      "sha256": "34bd8872920663bb11cec6a8122f08f1dd3d74be3dcd4cea5038fc818b832eb1",
+      "meshes": 1,
+      "triangles": 62,
+      "uvMeshes": 1
+    },
+    {
+      "file": "ground_riverTile.fbx",
+      "passed": true,
+      "sha256": "16479ea573f3a9267b68240f2b5a40e4f84d08f4dc0f8ee993c4e2e3e8d8bda9",
+      "meshes": 1,
+      "triangles": 128,
+      "uvMeshes": 1
+    },
+    {
+      "file": "hanging_moss.fbx",
+      "passed": true,
+      "sha256": "723aa73021d6992c0b43aa84bbc9206f986179314f8c1670cc58f6652a666372",
+      "meshes": 1,
+      "triangles": 52,
+      "uvMeshes": 1
+    },
+    {
+      "file": "lily_large.fbx",
+      "passed": true,
+      "sha256": "4f9905dd3c4990ea43404e153ba125b4412dfcbf30aad42a03dc8806ea5ceffe",
+      "meshes": 1,
+      "triangles": 86,
+      "uvMeshes": 1
+    },
+    {
+      "file": "lily_small.fbx",
+      "passed": true,
+      "sha256": "89adcd61bfdc3d091aed6a71d1be100ec3800c4f2502d32b6ab01fdfb75c978a",
+      "meshes": 1,
+      "triangles": 52,
+      "uvMeshes": 1
+    },
+    {
+      "file": "log.fbx",
+      "passed": true,
+      "sha256": "73df7e8e211c75ae95b29a1215d7dfa69548fa6d713a269d47a68a6b6d59738f",
+      "meshes": 1,
+      "triangles": 200,
+      "uvMeshes": 1
+    },
+    {
+      "file": "log_large.fbx",
+      "passed": true,
+      "sha256": "a696fb90ad6ff71fd55dbd70d2ccc752dfe557f36ea552c9f3610f8c25a6d0a7",
+      "meshes": 1,
+      "triangles": 96,
+      "uvMeshes": 1
+    },
+    {
+      "file": "log_stack.fbx",
+      "passed": true,
+      "sha256": "686cc3d50cc7070fc251962f478231375d300e64c5d79bd0b466edff6b5cec5b",
+      "meshes": 1,
+      "triangles": 184,
+      "uvMeshes": 1
+    },
+    {
+      "file": "log_stackLarge.fbx",
+      "passed": true,
+      "sha256": "4ef63edb4fb2560fa9654e0907c0c0f80ba34720dbef6328303415c98929b986",
+      "meshes": 1,
+      "triangles": 310,
+      "uvMeshes": 1
+    },
+    {
+      "file": "mushroom_red.fbx",
+      "passed": true,
+      "sha256": "240bedc466c6238232553314c2b55ffbcde58d1ae8073a82d001d8ec3cf6cf82",
+      "meshes": 1,
+      "triangles": 48,
+      "uvMeshes": 1
+    },
+    {
+      "file": "mushroom_redGroup.fbx",
+      "passed": true,
+      "sha256": "db178c234cc60d7465c1697698ab55a8091a4ad4495c549590d96ddeb383598f",
+      "meshes": 1,
+      "triangles": 144,
+      "uvMeshes": 1
+    },
+    {
+      "file": "mushroom_redTall.fbx",
+      "passed": true,
+      "sha256": "60dfdd461c6d5f9b392370c4d9b1953dcffa600c71d60ed5fd413959ce37416b",
+      "meshes": 1,
+      "triangles": 48,
+      "uvMeshes": 1
+    },
+    {
+      "file": "mushroom_tan.fbx",
+      "passed": true,
+      "sha256": "c8c252d4155067fe1804e78f510aac07c140f71d26f3215d83ce6e858e44b29b",
+      "meshes": 1,
+      "triangles": 48,
+      "uvMeshes": 1
+    },
+    {
+      "file": "mushroom_tanGroup.fbx",
+      "passed": true,
+      "sha256": "6f133ed3f98968470b1ac7156fd7863c5b235129d72003f298bbcc371c9c6544",
+      "meshes": 1,
+      "triangles": 144,
+      "uvMeshes": 1
+    },
+    {
+      "file": "mushroom_tanTall.fbx",
+      "passed": true,
+      "sha256": "473337db41e467260887ca8dea4e2f96144a8e436795391099a4ced1385382ac",
+      "meshes": 1,
+      "triangles": 48,
+      "uvMeshes": 1
+    },
+    {
+      "file": "path_stone.fbx",
+      "passed": true,
+      "sha256": "15af9dfa330c924e8840c1c2ee2cc6aa3a734fc6d437b18c0367e2811e63f210",
+      "meshes": 1,
+      "triangles": 136,
+      "uvMeshes": 1
+    },
+    {
+      "file": "path_stoneCircle.fbx",
+      "passed": true,
+      "sha256": "823c1122aad67fb48fdf3434e51b82e610c5fad74e68b88d6733301301a541e5",
+      "meshes": 1,
+      "triangles": 164,
+      "uvMeshes": 1
+    },
+    {
+      "file": "path_stoneCorner.fbx",
+      "passed": true,
+      "sha256": "efa8e67f5f500934364c6f4a28b30b84b0077602a69b49d5c9725d880307553a",
+      "meshes": 1,
+      "triangles": 112,
+      "uvMeshes": 1
+    },
+    {
+      "file": "path_stoneEnd.fbx",
+      "passed": true,
+      "sha256": "c1e1eb35c23a432389ce430932d7c64cda94b02b1a2cafe0c77973aa67978aa4",
+      "meshes": 1,
+      "triangles": 92,
+      "uvMeshes": 1
+    },
+    {
+      "file": "path_wood.fbx",
+      "passed": true,
+      "sha256": "a7e634b3800e0c2676e0e282fb35eecd275d41811b97846810f2707f90fc84e6",
+      "meshes": 1,
+      "triangles": 60,
+      "uvMeshes": 1
+    },
+    {
+      "file": "path_woodCorner.fbx",
+      "passed": true,
+      "sha256": "8c07734726ea6c94cdbb6662d0efb5a508a5596828ddbb952020d4fcba6a94c5",
+      "meshes": 1,
+      "triangles": 60,
+      "uvMeshes": 1
+    },
+    {
+      "file": "path_woodEnd.fbx",
+      "passed": true,
+      "sha256": "da5a1c4009a412498bce98a62a28a40800595f3a87bae4e9b888620336ee2f61",
+      "meshes": 1,
+      "triangles": 36,
+      "uvMeshes": 1
+    },
+    {
+      "file": "plant_bush.fbx",
+      "passed": true,
+      "sha256": "ddedd161e7d9475efddee7fa511b283b6f36f4624b388194d45fbc2bdcba7a0a",
+      "meshes": 1,
+      "triangles": 32,
+      "uvMeshes": 1
+    },
+    {
+      "file": "plant_bushDetailed.fbx",
+      "passed": true,
+      "sha256": "dbf6bb7abdc22304a97c331c245d7bdbc8ae3977555229670c2f08a5eb67098f",
+      "meshes": 1,
+      "triangles": 104,
+      "uvMeshes": 1
+    },
+    {
+      "file": "plant_bushLarge.fbx",
+      "passed": true,
+      "sha256": "51860c0a7e4f438c83edc17845ed06ee4e5bde498a952f09db8c4dde889c51e5",
+      "meshes": 1,
+      "triangles": 60,
+      "uvMeshes": 1
+    },
+    {
+      "file": "plant_bushLargeTriangle.fbx",
+      "passed": true,
+      "sha256": "6ff79be3dea72b9b0ad20b8d56979cc024acd944b3373b4b80ca117eed7c7299",
+      "meshes": 1,
+      "triangles": 39,
+      "uvMeshes": 1
+    },
+    {
+      "file": "plant_bushSmall.fbx",
+      "passed": true,
+      "sha256": "9bd8dddbe7abed82a90c5033d372856d9b6dbffe71fde8f0c015afe50a1aa157",
+      "meshes": 1,
+      "triangles": 16,
+      "uvMeshes": 1
+    },
+    {
+      "file": "plant_bushTriangle.fbx",
+      "passed": true,
+      "sha256": "ed4537b51659fc48469743575d26d90a9a3171e2da69a69a642fcd2a06b94f9f",
+      "meshes": 1,
+      "triangles": 30,
+      "uvMeshes": 1
+    },
+    {
+      "file": "plant_flatShort.fbx",
+      "passed": true,
+      "sha256": "fda27850147a23e12b49715712fed1e6f31da6cedad12ff9880db2695a215708",
+      "meshes": 1,
+      "triangles": 44,
+      "uvMeshes": 1
+    },
+    {
+      "file": "plant_flatTall.fbx",
+      "passed": true,
+      "sha256": "3e073dbbf00b5836600327a7aaf88335de6d734df4094a7ed69256f59736603f",
+      "meshes": 1,
+      "triangles": 32,
+      "uvMeshes": 1
+    },
+    {
+      "file": "platform_beach.fbx",
+      "passed": true,
+      "sha256": "abb6ba166ef309eaddded0feed2fd1268d7c834d7b10c43fffbaa94b49180d29",
+      "meshes": 1,
+      "triangles": 192,
+      "uvMeshes": 1
+    },
+    {
+      "file": "platform_grass.fbx",
+      "passed": true,
+      "sha256": "5db854b38f357930177673ea98967e379081abdd98aff447a6f82b8808299dca",
+      "meshes": 1,
+      "triangles": 186,
+      "uvMeshes": 1
+    },
+    {
+      "file": "platform_stone.fbx",
+      "passed": true,
+      "sha256": "117e1d028786cbf6bb816d7d74ffb81cb8733d5a070dac84fd6fa14215f050b5",
+      "meshes": 1,
+      "triangles": 192,
+      "uvMeshes": 1
+    },
+    {
+      "file": "pot_large.fbx",
+      "passed": true,
+      "sha256": "ce9a852e311912a762551ab7474a7860e35f00d64c43392f4734bda59d578e6f",
+      "meshes": 1,
+      "triangles": 68,
+      "uvMeshes": 1
+    },
+    {
+      "file": "pot_small.fbx",
+      "passed": true,
+      "sha256": "e78026871bf5852b5cb8d23507eeb2e08c64d2952e4d6a9cd5bb71d190d8e078",
+      "meshes": 1,
+      "triangles": 72,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_largeA.fbx",
+      "passed": true,
+      "sha256": "92d499e82fcb27146ece915cea0ba09427553221124b63bf6193c5ece7dad3e5",
+      "meshes": 1,
+      "triangles": 80,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_largeB.fbx",
+      "passed": true,
+      "sha256": "02e34faf37469e9742060cdd720c6fd703d6f4a4f8631216975c0eaffe197784",
+      "meshes": 1,
+      "triangles": 85,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_largeC.fbx",
+      "passed": true,
+      "sha256": "fcfdb61e03aae4336bbd4ff021cde4c83403f8dd68646d4ed86f97fb87cca1ae",
+      "meshes": 1,
+      "triangles": 72,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_largeD.fbx",
+      "passed": true,
+      "sha256": "c4e2dd861304ce9cfcd5422e8b243abb1cdcd08d13eb8bc076f21c9b05c71506",
+      "meshes": 1,
+      "triangles": 80,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_largeE.fbx",
+      "passed": true,
+      "sha256": "99630c51d7ec5e2f9f575307b15a956bdca7df704beb864869717ed5d01ad8d9",
+      "meshes": 1,
+      "triangles": 64,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_largeF.fbx",
+      "passed": true,
+      "sha256": "7ad114ade6245e35a73ce196ca3559f8600861cdedfa2f5e9ada8c697f960ab5",
+      "meshes": 1,
+      "triangles": 73,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_smallA.fbx",
+      "passed": true,
+      "sha256": "2921b4e33d24ddd05f353dbc4aae172d76e7ae517f93f575b83834fd4de68442",
+      "meshes": 1,
+      "triangles": 16,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_smallB.fbx",
+      "passed": true,
+      "sha256": "d6a88d076441661df69add997ca59989b15023a7eb98e48c77a2e72ae2a29323",
+      "meshes": 1,
+      "triangles": 24,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_smallC.fbx",
+      "passed": true,
+      "sha256": "de1d8d6ff6d47545980d539fc7a7e33105c4c32a97c84e138175ac45ef4921a6",
+      "meshes": 1,
+      "triangles": 16,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_smallD.fbx",
+      "passed": true,
+      "sha256": "65508d3e84b5c2b92428d8c32d4abae2fc866fce5074d601268e4ca951db8661",
+      "meshes": 1,
+      "triangles": 32,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_smallE.fbx",
+      "passed": true,
+      "sha256": "b27776cfd27db193f7e7b8ac6df5af9a65dade8cced79cc1ce6ff2a8a2237180",
+      "meshes": 1,
+      "triangles": 64,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_smallF.fbx",
+      "passed": true,
+      "sha256": "c22cd3ed815b26bf4c814e868237e04eff9453f51de959df780a62b1fea7a4c3",
+      "meshes": 1,
+      "triangles": 60,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_smallFlatA.fbx",
+      "passed": true,
+      "sha256": "be2e2858d5c5300ef6b3f3261554d2021c3c023ad6bc0c8db3ce9b160651f40d",
+      "meshes": 1,
+      "triangles": 20,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_smallFlatB.fbx",
+      "passed": true,
+      "sha256": "b1cc35cdd81a345ef73e9226cd9e4cc041ec60b4803bad2970c53b91a24e9cc6",
+      "meshes": 1,
+      "triangles": 16,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_smallFlatC.fbx",
+      "passed": true,
+      "sha256": "ecef852ca33c0b360fb3cdeedee37a0d2e16d0cc8e3af222c94f2a83a8211bc0",
+      "meshes": 1,
+      "triangles": 40,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_smallG.fbx",
+      "passed": true,
+      "sha256": "9e63025e5a278031dcd73ccb1867ef5710e46e9b6c00acca81e9930b4c6f9344",
+      "meshes": 1,
+      "triangles": 32,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_smallH.fbx",
+      "passed": true,
+      "sha256": "3bf126df443a7199aa3b204b936dcc7917c8c59d36f1076ec1c31524089cf036",
+      "meshes": 1,
+      "triangles": 60,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_smallI.fbx",
+      "passed": true,
+      "sha256": "fecd3f158ebff091b904242671c2c1b050c14d4ce6ade6e3bc49b51fe57f5cf4",
+      "meshes": 1,
+      "triangles": 44,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_smallTopA.fbx",
+      "passed": true,
+      "sha256": "8f04481f7bd259a978f7c1338c2549f06bd4c0a2a453d501ca61c08aa12e93d7",
+      "meshes": 1,
+      "triangles": 52,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_smallTopB.fbx",
+      "passed": true,
+      "sha256": "a52779868ae1b18f1c15d177796873851da48a8e3a6b93390229802cff51c200",
+      "meshes": 1,
+      "triangles": 76,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_tallA.fbx",
+      "passed": true,
+      "sha256": "7b9a9aab017af1f2cfa8acff5c891e621821ae61ff17b85c90558fd7b9119048",
+      "meshes": 1,
+      "triangles": 136,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_tallB.fbx",
+      "passed": true,
+      "sha256": "2194ce4f4bca212b8ff72ff80bb0383f54295e089f04b905dce7060f5d5e3a00",
+      "meshes": 1,
+      "triangles": 172,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_tallC.fbx",
+      "passed": true,
+      "sha256": "5d7ab0aaa4cdf02e78de6ba9f3071e32cbac5395ffe07c871a9a4eb0f9918c9e",
+      "meshes": 1,
+      "triangles": 37,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_tallD.fbx",
+      "passed": true,
+      "sha256": "7fccb8ab029994c6f0ae6c1a845b7349e456ee6c71a240f14e204e4e3956d4ea",
+      "meshes": 1,
+      "triangles": 38,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_tallE.fbx",
+      "passed": true,
+      "sha256": "ce19a82ec20bc6f366f96c4417e70791b9f94aff85abd7fa7c26d1f78625603f",
+      "meshes": 1,
+      "triangles": 38,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_tallF.fbx",
+      "passed": true,
+      "sha256": "7dbe78738f8ccf37f481076097dbdd35cb607800b87f65042830ebecbfa512c2",
+      "meshes": 1,
+      "triangles": 46,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_tallG.fbx",
+      "passed": true,
+      "sha256": "0b78ec87ebadb3b20fbcc84920a0d454b2326d1a8624ce679bc861d5e882f74e",
+      "meshes": 1,
+      "triangles": 62,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_tallH.fbx",
+      "passed": true,
+      "sha256": "fdec9faf967fbed63fa588c7f6a302f80442e42cf7945192af63141ec81223a7",
+      "meshes": 1,
+      "triangles": 78,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_tallI.fbx",
+      "passed": true,
+      "sha256": "dea5de96be2a6f0655b5c2ad7f424aed20c9eb415016c84adde980804a81d99e",
+      "meshes": 1,
+      "triangles": 44,
+      "uvMeshes": 1
+    },
+    {
+      "file": "rock_tallJ.fbx",
+      "passed": true,
+      "sha256": "5bc1dbe5f28d035f0fec6d47c29213f18f040ca5365a9e8d543e3650e40a3c88",
+      "meshes": 1,
+      "triangles": 42,
+      "uvMeshes": 1
+    },
+    {
+      "file": "sign.fbx",
+      "passed": true,
+      "sha256": "7039767608f3847c584d21985da81ea0fc6910b62bf0b15a0a6299d670cc3ec8",
+      "meshes": 1,
+      "triangles": 44,
+      "uvMeshes": 1
+    },
+    {
+      "file": "statue_block.fbx",
+      "passed": true,
+      "sha256": "ef39576895bd52a29f6c8b290e27d6329222c8e0a8b11ee891dd3c98db9378de",
+      "meshes": 1,
+      "triangles": 140,
+      "uvMeshes": 1
+    },
+    {
+      "file": "statue_column.fbx",
+      "passed": true,
+      "sha256": "5a0de4f4b1a89e4ce5da91ee722a54d67a63e60304f08ca7beb70f9ca7b54f6d",
+      "meshes": 1,
+      "triangles": 122,
+      "uvMeshes": 1
+    },
+    {
+      "file": "statue_columnDamaged.fbx",
+      "passed": true,
+      "sha256": "96db23be02de61e205b51369c63c30c7a99f8e12ff0fb5b138b3a9ce3b99e2e1",
+      "meshes": 1,
+      "triangles": 108,
+      "uvMeshes": 1
+    },
+    {
+      "file": "statue_head.fbx",
+      "passed": true,
+      "sha256": "1aab6f21fbefb106d10452f8e88ae92cd56b9ac07684333130d1107d55b8de0e",
+      "meshes": 1,
+      "triangles": 196,
+      "uvMeshes": 1
+    },
+    {
+      "file": "statue_obelisk.fbx",
+      "passed": true,
+      "sha256": "86b25fabd164cfb6f2e95870b83b7fdff5319f3923963994c68bccc233d5b0da",
+      "meshes": 1,
+      "triangles": 38,
+      "uvMeshes": 1
+    },
+    {
+      "file": "statue_ring.fbx",
+      "passed": true,
+      "sha256": "0dabd4c72efe9f4990dd6c3ea192f18f80dbc46a77de562981bc093a1253d955",
+      "meshes": 1,
+      "triangles": 76,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_largeA.fbx",
+      "passed": true,
+      "sha256": "4a856f490878dcbf1957547ed20aa16e1186d5db1347183c2dd95c36e4b735f8",
+      "meshes": 1,
+      "triangles": 80,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_largeB.fbx",
+      "passed": true,
+      "sha256": "eae07eacbe5e6853d7d83ae088f06cfb43eea23a84e705ed65543dbd10717c22",
+      "meshes": 1,
+      "triangles": 85,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_largeC.fbx",
+      "passed": true,
+      "sha256": "01c0c2864b2d0464eb5b7f73c2b0018c3e0b91f15bf77d038b31ff57ed9396c4",
+      "meshes": 1,
+      "triangles": 72,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_largeD.fbx",
+      "passed": true,
+      "sha256": "b3b041a88e414e4afe7c21e58464b36a8400e2db75a86f4072ceed75cfbfd50d",
+      "meshes": 1,
+      "triangles": 80,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_largeE.fbx",
+      "passed": true,
+      "sha256": "8eaecaf41befc63719cee767830ca54912ba1c68654d5ae5a8bc5690369864e7",
+      "meshes": 1,
+      "triangles": 64,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_largeF.fbx",
+      "passed": true,
+      "sha256": "748f14847002d6840d54b21f0bd13610f640ed68c4e18bff1d0f5e0c1dfc3d3a",
+      "meshes": 1,
+      "triangles": 73,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_smallA.fbx",
+      "passed": true,
+      "sha256": "b18b48450127b897f40be6ab3316dfc302548385346a4d98eb3c7e0d3fe3af81",
+      "meshes": 1,
+      "triangles": 16,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_smallB.fbx",
+      "passed": true,
+      "sha256": "08ac04f3bfeac4757b6383b7b46ce9f04ad4c7813389c61600391d45a3539c0f",
+      "meshes": 1,
+      "triangles": 24,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_smallC.fbx",
+      "passed": true,
+      "sha256": "fd8584dd96ccdbb5299dfb000d6634c34ddf55493ac802a7add873138e3e27aa",
+      "meshes": 1,
+      "triangles": 16,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_smallD.fbx",
+      "passed": true,
+      "sha256": "7f57719ea2d98f7d171c21514d49fbc37f886bfde123afe99668c868ecf4310e",
+      "meshes": 1,
+      "triangles": 32,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_smallE.fbx",
+      "passed": true,
+      "sha256": "7838092c159f3cad2e5b1b0d5143dce57a306f8a298a73aa7ccf5664ef585650",
+      "meshes": 1,
+      "triangles": 64,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_smallF.fbx",
+      "passed": true,
+      "sha256": "82d92422ab52ceaea5ad6fba5828a02f4c7f106d6d33895d8e1f02f6799528bf",
+      "meshes": 1,
+      "triangles": 60,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_smallFlatA.fbx",
+      "passed": true,
+      "sha256": "cd09d0fe5167fa3910848e95fb0814b6d10d695b526ebe878eaf6d0913977ba3",
+      "meshes": 1,
+      "triangles": 20,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_smallFlatB.fbx",
+      "passed": true,
+      "sha256": "7f1cb03865806492deceb646d6e5365018092bb13060332fe67737026634332d",
+      "meshes": 1,
+      "triangles": 16,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_smallFlatC.fbx",
+      "passed": true,
+      "sha256": "538f6e25f8a69c288f8b2b300d616c9d28eacb5ccafc62b47e0fd6f5c63c0b63",
+      "meshes": 1,
+      "triangles": 40,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_smallG.fbx",
+      "passed": true,
+      "sha256": "e2dc6b1b61d2e6fcdb9407c89c2048fcd4cfe0eae367f3480f9595c7a1e2eac0",
+      "meshes": 1,
+      "triangles": 32,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_smallH.fbx",
+      "passed": true,
+      "sha256": "662564b7a1f6373710432027a7bddcff320e4b3827b97c9d41c62f430477f9a5",
+      "meshes": 1,
+      "triangles": 60,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_smallI.fbx",
+      "passed": true,
+      "sha256": "e91c0d46cda665add7656dfc8b5a809f78fd561dc7d73be3b2ba0813647d1dc4",
+      "meshes": 1,
+      "triangles": 44,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_smallTopA.fbx",
+      "passed": true,
+      "sha256": "1098e4f7d0f1ec70067083f9d2563cfa20495d3ab4ece3e1835085f836651903",
+      "meshes": 1,
+      "triangles": 52,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_smallTopB.fbx",
+      "passed": true,
+      "sha256": "92d21d25671b1bc92706fbaffca9e95e0ac2941a8b33bd89ef8c251023ef90cf",
+      "meshes": 1,
+      "triangles": 76,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_tallA.fbx",
+      "passed": true,
+      "sha256": "6896ea3af59a8020f6a2c6f83d62d35fd7401a8637f11503673bc73d2b4e1801",
+      "meshes": 1,
+      "triangles": 136,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_tallB.fbx",
+      "passed": true,
+      "sha256": "296f4eae012674140fd1649f371b33fdff3d9f7ac5856560d8aa0e62f9e5704e",
+      "meshes": 1,
+      "triangles": 172,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_tallC.fbx",
+      "passed": true,
+      "sha256": "c3b09712acabfc214352b71e550afaadaec36d08507a2bc5cd68090fb33339d6",
+      "meshes": 1,
+      "triangles": 37,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_tallD.fbx",
+      "passed": true,
+      "sha256": "3fa11b3898775b5303b623b333ab43abcfecde2d350fbd0f51d390a0209391ea",
+      "meshes": 1,
+      "triangles": 38,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_tallE.fbx",
+      "passed": true,
+      "sha256": "1d80abe8d5538533b1983037940cad2cdd75a9d83d28263dac018764416d7929",
+      "meshes": 1,
+      "triangles": 38,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_tallF.fbx",
+      "passed": true,
+      "sha256": "f165edcf155e105989aa05e0fdf3dd25177de8cac4385ddf46bcec9ecb40a743",
+      "meshes": 1,
+      "triangles": 46,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_tallG.fbx",
+      "passed": true,
+      "sha256": "0995f6487ad8ba8b15d1b4efb09302d6dbe942bdd9402640a8c08e18e223f173",
+      "meshes": 1,
+      "triangles": 62,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_tallH.fbx",
+      "passed": true,
+      "sha256": "2b1186a8d10690646cdb8c79ea228b16a370b3d2563fbfd8261d92c9efbd72e9",
+      "meshes": 1,
+      "triangles": 78,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_tallI.fbx",
+      "passed": true,
+      "sha256": "c58e77df0cf08c0b3ef201fd262deda86f83f8d8dc6fb58c6e826a8364ee3c79",
+      "meshes": 1,
+      "triangles": 44,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stone_tallJ.fbx",
+      "passed": true,
+      "sha256": "f04dd597b73a2c6192450e739e06f84831e3babd8e260260f751316a570a6e81",
+      "meshes": 1,
+      "triangles": 42,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stump_old.fbx",
+      "passed": true,
+      "sha256": "107ed187f9e87365fccd1e93ac14f10b0b354ebcbbab55a21b20f3263b698086",
+      "meshes": 1,
+      "triangles": 120,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stump_oldTall.fbx",
+      "passed": true,
+      "sha256": "ef5b8fd67bbf02f78e09c108fb919a77937e5d993190777ac69d0fe0f5738438",
+      "meshes": 1,
+      "triangles": 120,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stump_round.fbx",
+      "passed": true,
+      "sha256": "351e8a302f092c33952ff66681dcb3f4ea2e07c8b83810d5a845dcd61ef06517",
+      "meshes": 1,
+      "triangles": 56,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stump_roundDetailed.fbx",
+      "passed": true,
+      "sha256": "8a75c3c6e3c607178d16c12f04444d63be69a8c63ab7069acf8ba2ca02a9f89c",
+      "meshes": 1,
+      "triangles": 96,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stump_square.fbx",
+      "passed": true,
+      "sha256": "dd4010a0082c391eccfe7e080c8a1a6c96dc2a5e810f0499bb9d75f4b20854a5",
+      "meshes": 1,
+      "triangles": 44,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stump_squareDetailed.fbx",
+      "passed": true,
+      "sha256": "c14634dfde6e77da87c6444bee1e3d63d49ae5420d915d7871843aeab1f470e5",
+      "meshes": 1,
+      "triangles": 84,
+      "uvMeshes": 1
+    },
+    {
+      "file": "stump_squareDetailedWide.fbx",
+      "passed": true,
+      "sha256": "94ad78ca967d3abfaf52660d8d6c685e456caeb6d74a8bc261c05584993c9945",
+      "meshes": 1,
+      "triangles": 84,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tent_detailedClosed.fbx",
+      "passed": true,
+      "sha256": "fdf40c3c717fec50cd955b4b5f313c22cda6289142593d62b5d89810ebb1608a",
+      "meshes": 1,
+      "triangles": 228,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tent_detailedOpen.fbx",
+      "passed": true,
+      "sha256": "a332e6f96c066940a91dc8a67a136d429220ba1341c4a33a7c0cd3b807cf4874",
+      "meshes": 1,
+      "triangles": 232,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tent_smallClosed.fbx",
+      "passed": true,
+      "sha256": "16b3cf69c449bbc76c4d4dde1beaba883a20a4b905c9be8282414a52ef01f732",
+      "meshes": 1,
+      "triangles": 220,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tent_smallOpen.fbx",
+      "passed": true,
+      "sha256": "7a4052d64fcf892924c6c776f703b3ea68145884684369eebd0e5d7440aef1e0",
+      "meshes": 1,
+      "triangles": 224,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_blocks.fbx",
+      "passed": true,
+      "sha256": "efdf5bea42c60e36acd99271afbd0f18d9f7700f1fd96d6b32948d673a32e983",
+      "meshes": 1,
+      "triangles": 132,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_blocks_dark.fbx",
+      "passed": true,
+      "sha256": "de0b3e42a85311d2dbc3d7ba1d87660b77aba6f9b83f87e0f1ffad7009c33b2e",
+      "meshes": 1,
+      "triangles": 132,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_blocks_fall.fbx",
+      "passed": true,
+      "sha256": "2a97e1084e1be822e85435a27206178b436adb5810cfc53ab1d522af25571a67",
+      "meshes": 1,
+      "triangles": 264,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_cone.fbx",
+      "passed": true,
+      "sha256": "da12ecf951191df0727b53cc35898d622da4e68d252507793f4ac1399f2b40c4",
+      "meshes": 1,
+      "triangles": 132,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_cone_dark.fbx",
+      "passed": true,
+      "sha256": "74ab581267a3a1c5e2ebdbb01d8df21bee6a102b2b4c19471f083ddd47ba165f",
+      "meshes": 1,
+      "triangles": 264,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_cone_fall.fbx",
+      "passed": true,
+      "sha256": "0d8635f6991970ac7e4bda5d1900d746c6a43f2fe34824f51a6144238d608821",
+      "meshes": 1,
+      "triangles": 132,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_default.fbx",
+      "passed": true,
+      "sha256": "687a3f9905b8d832a130f19c62319d8f02d2caf49b74924ed3a87099c93f9566",
+      "meshes": 1,
+      "triangles": 114,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_default_dark.fbx",
+      "passed": true,
+      "sha256": "c2f2454d9f41ab66df2bcb7e6fe1d9b076b6d718e09875246af420535612c289",
+      "meshes": 1,
+      "triangles": 114,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_default_fall.fbx",
+      "passed": true,
+      "sha256": "8994d691436889b6fe70f0fbfb6a0c0527663fd7e0b636d2920c5b9bb53f5156",
+      "meshes": 1,
+      "triangles": 228,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_detailed.fbx",
+      "passed": true,
+      "sha256": "7b8c6ef1483129d741aadfdf1f72c3f38290fc84b065f6980711757061af4698",
+      "meshes": 1,
+      "triangles": 402,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_detailed_dark.fbx",
+      "passed": true,
+      "sha256": "5de4a69d49c0a1a96923f3ff12fd3f97f2124adb4837ce23e3d852dac1090d6e",
+      "meshes": 1,
+      "triangles": 402,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_detailed_fall.fbx",
+      "passed": true,
+      "sha256": "e431e0a32872f94c12d67721aabeea6c9c501d61bd6c438fcf7bee886a8127f4",
+      "meshes": 1,
+      "triangles": 402,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_fat.fbx",
+      "passed": true,
+      "sha256": "affab2cb7b3303ce69e7df48bf11489d25cd05c3b6e69079f197b4ad522319e1",
+      "meshes": 1,
+      "triangles": 50,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_fat_darkh.fbx",
+      "passed": true,
+      "sha256": "57fd8d929d193c4b402cfcf47767867895a30da0529c6e39b6de41f27a4bb48a",
+      "meshes": 1,
+      "triangles": 50,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_fat_fall.fbx",
+      "passed": true,
+      "sha256": "c65013764b6ee1889a59e6c33243b24ba61e1223f1b804a14753e3d09f8bbb09",
+      "meshes": 1,
+      "triangles": 50,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_oak.fbx",
+      "passed": true,
+      "sha256": "efa277f3467e6102cce7d35381a4e8256e2346f86c6ce83a0fd02f5586b7c9fe",
+      "meshes": 1,
+      "triangles": 196,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_oak_dark.fbx",
+      "passed": true,
+      "sha256": "ba7e38dceed1a424ba470e89964d26109801f5a17764e87b88127494a3d71145",
+      "meshes": 1,
+      "triangles": 196,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_oak_fall.fbx",
+      "passed": true,
+      "sha256": "e1e146b2c2973451b4499bef69e6f234cb9e4a610739781e29451feeba539e63",
+      "meshes": 1,
+      "triangles": 196,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_palm.fbx",
+      "passed": true,
+      "sha256": "431dde96a0d9e3fb32a8cbe8111f0f8c5e005250a33f436b084672473c98a09c",
+      "meshes": 1,
+      "triangles": 186,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_palmBend.fbx",
+      "passed": true,
+      "sha256": "7d649b3e7065f47d189d9290435e74027839c421bd78d8cbaff1291fed845a97",
+      "meshes": 1,
+      "triangles": 200,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_palmDetailedShort.fbx",
+      "passed": true,
+      "sha256": "051178230f116d4dbc1e9dcf64f443b585086dca074244336fd699466d4cf28f",
+      "meshes": 3,
+      "triangles": 336,
+      "uvMeshes": 3
+    },
+    {
+      "file": "tree_palmDetailedTall.fbx",
+      "passed": true,
+      "sha256": "28e70da0b473739ed3f25a08a9ca84f1173d5157a012be5aaeb5396035815884",
+      "meshes": 3,
+      "triangles": 336,
+      "uvMeshes": 3
+    },
+    {
+      "file": "tree_palmShort.fbx",
+      "passed": true,
+      "sha256": "9dccd0908f75db966b598cac80592db5b74310afb7cc17eaa1296feff59abec2",
+      "meshes": 1,
+      "triangles": 190,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_palmTall.fbx",
+      "passed": true,
+      "sha256": "b3418bfc933d245ee0bf68733c99c852b0fdde3f186393a9401a553236cf0442",
+      "meshes": 1,
+      "triangles": 190,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineDefaultA.fbx",
+      "passed": true,
+      "sha256": "bcdcfece5ddcfbe8bea634f532e87b436ba0be9fbac3e5867584e108b75bbfaf",
+      "meshes": 1,
+      "triangles": 230,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineDefaultB.fbx",
+      "passed": true,
+      "sha256": "8365a7a6d14002f862d675f93ef904700bd40e992b0f3b788efba9334f2938b3",
+      "meshes": 1,
+      "triangles": 246,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineGroundA.fbx",
+      "passed": true,
+      "sha256": "8d2d5b3c57862823e40cc6b72c966dbd97820ed49d48e79480968c7592f1c1ee",
+      "meshes": 1,
+      "triangles": 82,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineGroundB.fbx",
+      "passed": true,
+      "sha256": "4744b85ab53d9bab422436ef73c36ad083723dd587fc1b5c386f8ef8d8efd4b1",
+      "meshes": 1,
+      "triangles": 82,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineRoundA.fbx",
+      "passed": true,
+      "sha256": "f983e7273ca3c2db6cc7588d2fbbaa6e3a9eb60fa04e2901f74219863a79fb6b",
+      "meshes": 1,
+      "triangles": 204,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineRoundB.fbx",
+      "passed": true,
+      "sha256": "979d53d083d88a0e9c46ad1ad470bbe0b18c45bc7b7ba893015492bfec417aad",
+      "meshes": 1,
+      "triangles": 262,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineRoundC.fbx",
+      "passed": true,
+      "sha256": "b58e65128cfa5c25c2f2c26df084a2eb2db87bd206696b5536d6e71c20ef9655",
+      "meshes": 1,
+      "triangles": 206,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineRoundD.fbx",
+      "passed": true,
+      "sha256": "330c74a7ef25c43604dd085527ea5305ce3dc5ab8ccaf8f6c1384950e0700e25",
+      "meshes": 1,
+      "triangles": 170,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineRoundE.fbx",
+      "passed": true,
+      "sha256": "751375c0231c1a984ce3370c2c268fd665ad512729d628de86011f69a3fef789",
+      "meshes": 1,
+      "triangles": 198,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineRoundF.fbx",
+      "passed": true,
+      "sha256": "8a778e9ef5073fa55742270f74e094866254bf7789228136ff09bc62147481b1",
+      "meshes": 1,
+      "triangles": 214,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineSmallA.fbx",
+      "passed": true,
+      "sha256": "08cbc31610e9da5eb76d9c17e0c7877a21cc88b0f4fe122bb602937038a5c935",
+      "meshes": 1,
+      "triangles": 164,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineSmallB.fbx",
+      "passed": true,
+      "sha256": "a8edf33c210ffd24cb24cd5c9f4d9dcc34bba1c565356ef215ae132b32fba897",
+      "meshes": 1,
+      "triangles": 86,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineSmallC.fbx",
+      "passed": true,
+      "sha256": "e2ce32b5dd8d5ee781805a63ed858e7a4d61d78e0430f9f286bee31d1d933211",
+      "meshes": 1,
+      "triangles": 54,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineSmallD.fbx",
+      "passed": true,
+      "sha256": "3d3a92fed6e1100f3d9dc83542eefa7f73ef98dd4dc4edd746623b443847ecc9",
+      "meshes": 1,
+      "triangles": 54,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineTallA.fbx",
+      "passed": true,
+      "sha256": "46ba9b870e1845890d0c4d24422f0df12a25f5be6eae464b34a2c52993c17084",
+      "meshes": 1,
+      "triangles": 78,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineTallA_detailed.fbx",
+      "passed": true,
+      "sha256": "0db9fccc4a506fdf0ad583ef10430d8b8cba7244510afa098b2e7b8998b21c47",
+      "meshes": 1,
+      "triangles": 134,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineTallB.fbx",
+      "passed": true,
+      "sha256": "930a0a8e95c8f592b8fc2641bb5a19ba7aee67439ae30c6e01a78ec26b47651f",
+      "meshes": 1,
+      "triangles": 78,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineTallB_detailed.fbx",
+      "passed": true,
+      "sha256": "e54d17fbd54295ad673a39267e657db75a301615b3439c7193bd8977e900cf19",
+      "meshes": 1,
+      "triangles": 166,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineTallC.fbx",
+      "passed": true,
+      "sha256": "5d333c7a72ba088924044ad6c05c388a0a28ca63fa55973a49ca3c40ebc8e292",
+      "meshes": 1,
+      "triangles": 98,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineTallC_detailed.fbx",
+      "passed": true,
+      "sha256": "b3f163160138d9f5287b8d48c9f68df0758da1b045835119f9ea78e909941632",
+      "meshes": 1,
+      "triangles": 154,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineTallD.fbx",
+      "passed": true,
+      "sha256": "fa81a222cba95722ecc9b0e122cf95809271f03533e506799461026253dda122",
+      "meshes": 1,
+      "triangles": 98,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_pineTallD_detailed.fbx",
+      "passed": true,
+      "sha256": "f0aac277d252e83533abac4b0dcc45e86921634c258b33f68a29a486fc1f2a7f",
+      "meshes": 1,
+      "triangles": 170,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_plateau.fbx",
+      "passed": true,
+      "sha256": "396542188ddf7605997bd201e31c6b4ef2c3266b220e78007250dd7eb426a523",
+      "meshes": 1,
+      "triangles": 215,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_plateau_dark.fbx",
+      "passed": true,
+      "sha256": "f39dc4b84e3169f984f050bd10ae61b1af6d4111d9de2c6b5d463c2b30441845",
+      "meshes": 1,
+      "triangles": 215,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_plateau_fall.fbx",
+      "passed": true,
+      "sha256": "7a0390ddae13591268bfb930b2baf625f6d465308b962452b3a95f4354b14912",
+      "meshes": 1,
+      "triangles": 215,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_simple.fbx",
+      "passed": true,
+      "sha256": "f35d9a29062038402b6b437d2bbb59265eb4b44a0eaa59a42f791aa4dd8f6080",
+      "meshes": 1,
+      "triangles": 62,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_simple_dark.fbx",
+      "passed": true,
+      "sha256": "bc13192b911c46e9c05f8fcb7382f99b70a296e7e015d41a1305bcffe2557e1a",
+      "meshes": 1,
+      "triangles": 62,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_simple_fall.fbx",
+      "passed": true,
+      "sha256": "a595b5b5c606da9c6f5a5480ec9cec5569cd813a951864187d9b2fdbc95f2ee2",
+      "meshes": 1,
+      "triangles": 62,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_small.fbx",
+      "passed": true,
+      "sha256": "6a9bd07d31060bc8fff09ea14c630d416131ce33bca4a587497716ef18b4766c",
+      "meshes": 1,
+      "triangles": 62,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_small_dark.fbx",
+      "passed": true,
+      "sha256": "283804f02dcde4182b33db15c35dd60759c0d0ee9ce394098db9fe585cb8c543",
+      "meshes": 1,
+      "triangles": 124,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_small_fall.fbx",
+      "passed": true,
+      "sha256": "fd26695663db2dd52fb2160d0b85b9b3ee2e184adb3a24b1dfe832bcf37cfbf4",
+      "meshes": 1,
+      "triangles": 62,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_tall.fbx",
+      "passed": true,
+      "sha256": "2f87f39bc7976bb03fb1acd07a75b3a7e6e89a2d9618500a297110160bc1a399",
+      "meshes": 1,
+      "triangles": 72,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_tall_dark.fbx",
+      "passed": true,
+      "sha256": "80ac35c667f594d6325b828344ea580ef847ed88df9f6e85a326df63802a49ca",
+      "meshes": 1,
+      "triangles": 72,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_tall_fall.fbx",
+      "passed": true,
+      "sha256": "bab1cabe98801230dc7fea5045969f89b49af856d4e146f165498bc26947b17b",
+      "meshes": 1,
+      "triangles": 144,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_thin.fbx",
+      "passed": true,
+      "sha256": "e8faba407a3e04ac12faa099ccf11a3013dcdb4c4f614291886ed07f08602010",
+      "meshes": 1,
+      "triangles": 228,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_thin_dark.fbx",
+      "passed": true,
+      "sha256": "31fa8d4178ba5d6ea1b531caeba1c6e859ab28d50816903c63dc14c08e27899a",
+      "meshes": 1,
+      "triangles": 456,
+      "uvMeshes": 1
+    },
+    {
+      "file": "tree_thin_fall.fbx",
+      "passed": true,
+      "sha256": "37c1632ea0cf395c692a09af1bdf37ecffed01102519c77c67cdcceb85abc6f1",
+      "meshes": 1,
+      "triangles": 228,
+      "uvMeshes": 1
+    }
+  ]
+}

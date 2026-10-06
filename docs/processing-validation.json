@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04T20:05:12.697Z",
+  "build": "passed",
+  "typecheck": "passed",
+  "unitTests": {
+    "uniquePassed": 97,
+    "processingPassed": 25,
+    "existingRegressionPassed": 72,
+    "skippedPressureTest": 1,
+    "finalTargetedPassed": 44,
+    "finalTargetedCommand": "pnpm test tests/processing.test.ts tests/generation.test.ts"
+  },
+  "desktopTests": {
+    "sourcePassed": 9,
+    "packagedPassed": 9,
+    "target": "Windows x64",
+    "processingFlow": "generation candidate -> crop -> mask -> AI edit -> compare -> derived accept -> project -> export -> history reuse -> continue from artifact",
+    "finalProcessingRetest": "passed on rebuilt packaged executable"
+  },
+  "recovery": {
+    "remoteTaskIdResume": "passed, no new submission",
+    "savedDownloadResume": "passed, no new generation",
+    "ambiguousSubmission": "interrupted, no automatic replay",
+    "partialBatchRetry": "failed items only",
+    "restoreAndRebuild": "unfinished records require inspection",
+    "idempotentStartAndAccept": "passed"
+  },
+  "liveCodex": {
+    "cli": "0.160.0",
+    "appServer": "passed",
+    "transport": "app-server stdio",
+    "analysisRounds": 2,
+    "fallback": "passed",
+    "fallbackTransport": "exec json fallback",
+    "report": "processing-codex-qa.json",
+    "fallbackReport": "processing-codex-fallback-qa.json",
+    "assistantDoesNotExecuteBeforeStart": true
+  },
+  "openai": {
+    "mockEditIntegration": "passed",
+    "liveProcessing": "not tested; credentials required"
+  },
+  "runninghub": {
+    "mockRecovery": "passed",
+    "liveProcessing": "not tested; key and authorized workflow required"
+  },
+  "package": {
+    "executable": "release/processing-client/win-unpacked/素材工坊.exe",
+    "executableSHA256": "3554cefdef6816406c2e595a61c07aa52bc2fb2f640611885c85a2b6036ce829",
+    "asarSHA256": "5261d1d998c1a1f9d4086de295b84fb7828db65d4987292cc79ccd71bf38200f",
+    "licensing": {
+      "reactImageCrop": "11.1.2, ISC, bundled original license",
+      "sharp": "0.35.5, Apache-2.0",
+      "libvips": "LGPL-3.0-or-later"
+    }
+  },
+  "screenshot": "screenshots/image-processing-workbench.png",
+  "limitations": [
+    "Static raster images only; select one page/frame",
+    "No local AI model installation, layers, node editor or video processing",
+    "Real OpenAI and RunningHub processing not verified",
+    "Windows portable build verified; installer and other platforms not tested"
+  ]
+}

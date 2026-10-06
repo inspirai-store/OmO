@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": [
+    "32 component families; no Electron IPC required",
+    "Controlled fields, clear search, select and range keyboard input",
+    "Tabs activate with arrows and Home/End",
+    "Menu keyboard navigation skips disabled items and restores focus",
+    "Tooltip describes its interactive trigger",
+    "Native dialog traps focus, closes with Escape and restores trigger",
+    "32 families / 101 states; disabled/loading actions do not dispatch",
+    "Palette and compact density apply across all components",
+    "Composition demos search, select, download and bind textures",
+    "Palette changes preserve controlled field values",
+    "Button motion preserves hit bounds and dispatches immediately by mouse and keyboard",
+    "Rapid selection and replay retain the latest state without moving layout",
+    "Portaled menu inherits all palettes and densities; closing then reopening cancels its exit",
+    "Native dialog can reopen during exit and restores focus after its final close",
+    "Reduced motion uses only opacity <=80ms; static mode has no active animations",
+    "Motion laboratory has six demos and fits both requested viewports",
+    "1050×700 / 1510×950 layouts and floating menus stay inside viewport",
+    "Reduced motion disables continuous animation; no remote dependencies",
+    "PNG export alpha, exact dimensions and source index coverage",
+    "Delivered preview opens directly offline without Electron",
+    "Original Electron app and #thumbnail entry smoke"
+  ],
+  "externalRequests": [],
+  "errors": []
+}
