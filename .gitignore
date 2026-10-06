@@ -1,0 +1,40 @@
+node_modules/
+out/
+release/
+.data/
+test-results/
+playwright-report/
+coverage/
+*.log
+*.tsbuildinfo
+examples/**/.godot/
+src/renderer/public/decoders/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.p12
+*.key
+
+# Generated documentation and sample-library deliveries (regenerable)
+docs/*.zip
+docs/ui-kit/preview/
+docs/ui-kit/controls/
+docs/ui-kit/artwork/
+examples/**/assets/workshop/
+
+# Private cross-project experiments and their reports
+docs/qa/
+docs/family-validation.json
+docs/同类素材验收.md
+docs/*codex*qa*.json
+scripts/zizhen-family.mjs
+scripts/review-family-game.mjs
+scripts/review-family-prepared.mjs
+scripts/record-family-validation.mjs
+scripts/inspect-family-candidates.mjs
+scripts/family-progress.mjs
+scripts/qa-family-output.mjs

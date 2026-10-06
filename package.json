@@ -1,0 +1,135 @@
+{
+  "name": "game-asset-workshop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "素材工坊 OmO — 本地游戏素材管理、制作与 Godot 交付工作台",
+  "main": "out/main/index.cjs",
+  "author": "OmO contributors",
+  "license": "MIT",
+  "homepage": "https://github.com/inspirai-store/OmO#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inspirai-store/OmO.git"
+  },
+  "bugs": {
+    "url": "https://github.com/inspirai-store/OmO/issues"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=24.19.0"
+  },
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "pnpm typecheck && electron-vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/test.mjs",
+    "test:e2e": "playwright test",
+    "ui:dev": "vite --config ui-kit.vite.config.ts --open /ui-kit.html",
+    "ui:export": "pnpm build && node scripts/export-ui-kit.mjs",
+    "ui:test": "pnpm build && node scripts/qa-ui-kit.mjs",
+    "package": "pnpm build && electron-builder --dir",
+    "dist": "pnpm build && electron-builder",
+    "samples": "pnpm build && node scripts/run-service.mjs seed",
+    "benchmark": "node scripts/benchmark.mjs",
+    "demos": "node scripts/run-service.mjs demos",
+    "recover": "node scripts/rebuild.mjs",
+    "postinstall": "node scripts/copy-decoders.mjs",
+    "client:check": "pnpm build && node scripts/qa-client-style.mjs",
+    "package:client": "pnpm build && electron-builder --dir --config.directories.output=release/p5s-client",
+    "package:generation": "pnpm build && electron-builder --dir --config.directories.output=release/generation-client",
+    "package:processing": "pnpm build && electron-builder --dir --config.directories.output=release/processing-client",
+    "package:organize": "pnpm build && electron-builder --dir --config.directories.output=release/processing-organize-client",
+    "package:families": "pnpm build && electron-builder --dir --config.directories.output=release/family-client",
+    "skins:check": "pnpm build && node scripts/qa-skins.mjs",
+    "skins:export": "pnpm build && node scripts/export-skins.mjs",
+    "package:skins": "pnpm build && electron-builder --dir --config.directories.output=release/skins-client"
+  },
+  "dependencies": {
+    "@tanstack/react-virtual": "3.14.13",
+    "ag-psd": "31.0.2",
+    "better-sqlite3": "12.4.1",
+    "bmp-js": "0.1.0",
+    "lucide-react": "1.49.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-image-crop": "11.1.2",
+    "sharp": "0.35.5",
+    "three": "0.186.1",
+    "yauzl": "3.4.0",
+    "yazl": "3.3.1",
+    "zod": "4.6.5",
+    "zustand": "5.0.15"
+  },
+  "build": {
+    "npmRebuild": false,
+    "appId": "dev.assetworkshop.desktop",
+    "productName": "素材工坊",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "out/**/*",
+      "package.json"
+    ],
+    "asarUnpack": [
+      "**/*.node"
+    ],
+    "extraResources": [
+      {
+        "from": "resources",
+        "to": "resources"
+      }
+    ],
+    "win": {
+      "icon": "resources/icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "signExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "mac": {
+      "icon": "resources/icon.png",
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "category": "public.app-category.developer-tools"
+    },
+    "linux": {
+      "icon": "resources/icon.png",
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Development"
+    }
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/better-sqlite3": "9.6.0",
+    "@types/bmp-js": "0.1.2",
+    "@types/node": "26.6.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.186.0",
+    "@types/yauzl": "3.4.0",
+    "@types/yazl": "3.3.1",
+    "@vitejs/plugin-react": "6.1.1",
+    "electron": "44.5.1",
+    "electron-builder": "26.15.3",
+    "electron-vite": "5.0.0",
+    "prettier": "3.9.9",
+    "typescript": "7.0.2",
+    "vite": "8.3.2",
+    "vitest": "5.0.3"
+  }
+}
