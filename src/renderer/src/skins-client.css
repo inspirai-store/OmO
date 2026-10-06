@@ -1,0 +1,446 @@
+@scope (.client-theme[data-skin]) to (.aw-ui[data-skin]) {
+  :scope {
+    --bg: var(--skin-canvas);
+    --panel: var(--skin-surface);
+    --border: var(--skin-border);
+    --muted: var(--skin-muted);
+    --gold: var(--aw-accent);
+    --green: var(--skin-success);
+    color: var(--skin-text);
+  }
+  :scope p {
+    color: var(--skin-muted);
+  }
+  :scope small {
+    color: var(--skin-muted);
+  }
+  :scope:not([data-skin="comic"]).app-shell {
+    background: var(--skin-canvas);
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .sidebar,
+      .topbar,
+      .inspector,
+      .material-panel,
+      .variant-strip,
+      .material-actions,
+      .inspector-top,
+      .inspector-tabs,
+      .filter-bar,
+      .browser-toolbar,
+      .library-footer,
+      .selection-bar
+    ) {
+    background: var(--skin-surface);
+    color: var(--skin-text);
+    border-color: var(--skin-border);
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .full-page,
+      .asset-scroll,
+      .inspector-content,
+      .material-viewport,
+      .library-heading,
+      .page-heading,
+      .dashboard .page-heading,
+      .source-banner
+    ) {
+    background: var(--skin-canvas);
+    color: var(--skin-text);
+    border-color: var(--skin-border);
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .sidebar::before,
+      .library-heading::before,
+      .dashboard .page-heading::before,
+      .source-orbit,
+      .provider-marks
+    ) {
+    display: none;
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .brand,
+      .sidebar-label,
+      .sidebar-bottom,
+      .sidebar-secondary,
+      .inspector-actions,
+      .modal-actions,
+      .source-card footer,
+      .panel-title
+    ) {
+    border-color: var(--skin-border);
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .brand small,
+      .sidebar-label,
+      .sidebar nav > .client-nav small,
+      .properties dt,
+      .asset-caption small,
+      .asset-caption > span,
+      .job-title > span,
+      .inspector-heading p,
+      .page-heading p,
+      .library-heading p,
+      .source-banner p,
+      .source-banner span,
+      .aw-eyebrow,
+      .gen-panel-heading > small,
+      .family-hint,
+      .muted
+    ) {
+    color: var(--skin-muted);
+  }
+  :scope:not([data-skin="comic"])
+    :is(.brand-mark, .source-category, .source-index, .project-art > span) {
+    transform: none;
+  }
+  :scope[data-skin="fresh"] .brand-mark {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background: var(--aw-accent);
+    display: grid;
+    place-items: center;
+  }
+  :scope[data-skin="paper"] .brand-mark {
+    width: 44px;
+    height: 44px;
+    border: 1px solid var(--skin-border);
+    background: var(--skin-raised);
+    display: grid;
+    place-items: center;
+    transform: rotate(-3deg);
+  }
+  :scope:not([data-skin="comic"]) .brand-mark img {
+    width: 36px;
+    height: 36px;
+  }
+  :scope:not([data-skin="comic"]) .sidebar nav > .client-nav {
+    color: var(--skin-text);
+  }
+  :scope:not([data-skin="comic"])
+    .sidebar
+    nav
+    > .client-nav:is(.active, :hover, :focus-visible) {
+    color: var(--skin-onAccent);
+  }
+  :scope:not([data-skin="comic"])
+    .sidebar
+    nav
+    > .client-nav:is(.active, :hover, :focus-visible)
+    small {
+    color: var(--skin-onAccent);
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .asset-card,
+      .group-card,
+      .project-tile,
+      .intro-card,
+      .settings-section,
+      .job-card,
+      .source-card,
+      .gen-panel,
+      .family-panel,
+      .summary-cards > div,
+      .texture-slot,
+      .texture-picker-grid > button,
+      .processing-save-summary,
+      .processing-save-bulk,
+      .processing-save-complete
+    ) {
+    background: var(--skin-surface);
+    color: var(--skin-text);
+    border: 1px solid var(--skin-border);
+    border-radius: var(--skin-radius);
+    box-shadow: var(--skin-plate-shadow);
+  }
+  :scope:not([data-skin="comic"])
+    :is(.asset-card::after, .group-card::after, .project-art::after) {
+    display: none;
+  }
+  :scope:not([data-skin="comic"]) :is(.asset-card, .group-card).selected {
+    border-color: var(--aw-accent);
+    box-shadow: 0 0 0 1px var(--aw-accent);
+  }
+  :scope:not([data-skin="comic"]) .group-card.partial {
+    border-color: var(--skin-cyan);
+    border-style: dashed;
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .asset-caption strong,
+      .project-tile h3,
+      .properties dd,
+      .slot-name,
+      .inspector-heading h2,
+      .section-heading h2,
+      .job-title,
+      .source-card h3
+    ) {
+    color: var(--skin-text);
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .asset-caption,
+      .group-labels,
+      .source-category,
+      .tag-list > span,
+      .format-badge,
+      .pill,
+      .source-index,
+      .global-search,
+      .dropdown-menu,
+      .context-menu
+    ) {
+    background: var(--skin-raised);
+    color: var(--skin-text);
+    border-color: var(--skin-border);
+    clip-path: none;
+    border-radius: var(--skin-radius);
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .context-menu button,
+      .dropdown-menu .aw-button,
+      .context-menu button:not(.aw-button)
+    ) {
+    color: var(--skin-text);
+  }
+  :scope:not([data-skin="comic"])
+    :is(.context-menu button, .context-menu button:not(.aw-button)):is(
+      :hover,
+      :focus-visible
+    ) {
+    background: var(--aw-accent);
+    color: var(--skin-onAccent);
+  }
+  :scope:not([data-skin="comic"]) .context-menu .danger {
+    color: var(--skin-error);
+  }
+  :scope:not([data-skin="comic"])
+    :is(.aw-section-title h1, .aw-section-title h2, .aw-section-title h3) {
+    color: var(--skin-onAccent);
+    font-style: normal;
+  }
+  :scope:not([data-skin="comic"])
+    :is(.source-banner h2, .dashboard .page-heading h1) {
+    color: var(--skin-text);
+    text-shadow: none;
+  }
+  :scope:not([data-skin="comic"])
+    :is(
+      .stats-grid .aw-stat-label,
+      .stats-grid .aw-stat-icon,
+      .stats-grid .aw-stat strong
+    ) {
+    color: var(--skin-text);
+  }
+  :scope:not([data-skin="comic"]) .stats-grid > .aw-stat:nth-child(2n) {
+    transform: none;
+    background: var(--skin-surface);
+  }
+  :scope:not([data-skin="comic"])
+    :is(.license-banner, .warning, .success-note) {
+    background: var(--skin-raised);
+    color: var(--skin-text);
+    border-color: var(--skin-border);
+  }
+  :scope:not([data-skin="comic"]) .texture-pick {
+    color: var(--skin-violet);
+    background: var(--skin-raised);
+    border-color: var(--skin-border);
+  }
+  :scope:not([data-skin="comic"]) .job-card.completed {
+    border-color: var(--skin-success);
+  }
+  :scope:not([data-skin="comic"]) .job-card.failed {
+    border-color: var(--skin-error);
+  }
+  :scope:not([data-skin="comic"]) .job-icon {
+    background: var(--skin-raised);
+    color: var(--aw-accent);
+  }
+  :scope:not([data-skin="comic"]) .progress-track {
+    background: var(--skin-raised);
+  }
+  :scope:not([data-skin="comic"]) .drop-overlay {
+    background: color-mix(in srgb, var(--skin-surface) 94%, transparent);
+    color: var(--skin-text);
+  }
+  :scope:not([data-skin="comic"]) .aw-dialog-box {
+    animation-name: aw-skin-enter;
+  }
+  :scope:not([data-skin="comic"]) .aw-reveal-content {
+    animation-name: aw-skin-enter;
+  }
+  :scope:not([data-skin="comic"]) ::-webkit-scrollbar-thumb {
+    background: var(--skin-border);
+    border-color: var(--skin-surface);
+    border-radius: 4px;
+  }
+}
+.skin-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.skin-actions,
+.skin-preview-controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 14px 0;
+}
+.skin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin: 18px 0;
+}
+.skin-card {
+  border: 2px solid var(--skin-border);
+  background: var(--skin-surface);
+  padding: 12px;
+  min-width: 0;
+}
+.skin-card[data-active="true"] {
+  border-color: var(--aw-accent);
+}
+.skin-card h3 {
+  margin: 12px 0 4px;
+}
+.skin-card p {
+  margin: 4px 0;
+  font-size: 12px;
+}
+.skin-preview {
+  min-width: 0;
+  display: grid;
+  gap: 10px;
+  background: var(--skin-canvas);
+  color: var(--skin-text);
+  border: 1px solid var(--skin-border);
+}
+.skin-preview .aw-section-title {
+  margin-bottom: 4px;
+}
+.skin-preview-controls {
+  margin: 8px 0;
+}
+.skin-card .skin-preview-controls {
+  gap: 8px;
+}
+.skin-card .aw-section-title h2 {
+  font-size: 20px;
+}
+.skin-card .aw-button {
+  font-size: 11px;
+}
+.skin-wizard {
+  display: grid;
+  grid-template-columns: minmax(350px, 1fr) minmax(260px, 0.8fr);
+  gap: 22px;
+}
+.skin-wizard-fields {
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+}
+.skin-wizard .skin-preview {
+  position: sticky;
+  top: 0;
+  align-self: start;
+}
+.skin-wizard-preview {
+  align-self: start;
+  position: sticky;
+  top: 0;
+  min-width: 0;
+  display: grid;
+  gap: 16px;
+}
+.skin-wizard-preview .skin-preview {
+  position: static;
+}
+.skin-slot-preview {
+  padding: 16px;
+  border: 1px solid var(--skin-border);
+  min-width: 0;
+  background: var(--skin-surface);
+}
+.skin-slot-preview h3 {
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+.skin-slot-list {
+  display: grid;
+  gap: 12px;
+  max-height: 320px;
+  overflow: auto;
+  padding: 4px;
+}
+.skin-binding-row {
+  border: 1px solid var(--skin-border);
+  padding: 12px;
+  display: grid;
+  gap: 10px;
+}
+.skin-binding-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.skin-insets {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+.skin-insets input {
+  width: 100%;
+  min-width: 0;
+}
+.skin-error {
+  color: var(--skin-error);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.skin-resource-list {
+  display: grid;
+  gap: 8px;
+  max-height: 220px;
+  overflow: auto;
+}
+.skin-resource-list button {
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+.skin-detail {
+  padding: 12px;
+  display: grid;
+  gap: 12px;
+  overflow: auto;
+}
+.skin-detail .skin-preview {
+  padding: 12px;
+}
+@media (max-width: 1100px) {
+  .skin-wizard {
+    grid-template-columns: 1fr;
+  }
+  .skin-wizard .skin-preview {
+    position: static;
+  }
+  .skin-wizard-preview {
+    position: static;
+  }
+}
